@@ -1,0 +1,25 @@
+A 39-year-old Korean male come to our hospital complaining of cough, myalgia, and fever that had lasted for 5 days.
+He was a company worker and denied any previous medical histories.
+He was a current smoker and drank alcohol about once a month.
+His vital signs were: blood pressure, 100/60 mmHg, heart rate, 100/min, respiratory rate, 25 breaths/min, and body temperature, 39 °C.
+On the physical examination, decreased breathing sound was noted in the right lower lung.
+Laboratory tests revealed a c-reactive protein (CRP) level of 119 mg/dL, a total bilirubin level of 1.8 mg/dL, and alanine transaminase and aspartate transaminase levels of 250 and 172 IU/L, respectively.
+His platelet count was 98,000/mm3, while his white cell count was 8150/mm3 (neutrophil: 85%).
+In the arterial blood gas analysis checked in room air, pH, PaCO2, PaO2, bicarbonate, and oxygen saturation levels were 7.50, 34 mmHg, 67 mmHg, 26.5 mmol/L, and 95%, respectively.
+A test for the human immunodeficiency virus was negative.
+Mycoplasma and Chlamydia antibodies were negative.
+Streptococcal and Legionella urinary antigens were negative.
+Anti-nuclear and anti-neutrophilic cytoplasmic antibodies were also negative.
+A chest X-ray showed consolidation in the right mid to lower lung fields.
+Chest computed tomography showed consolidation with surrounding ground glass opacity in the right middle lobe with a small amount of pleural effusion in the right hemithorax (Fig.1).
+Abdominal sonography revealed no abnormal finding in the hepatobiliary system.
+We began to administer 4 L/min of oxygen nasally and empirical antibiotics with third generation cephalosporin and macrolide following a diagnosis of community-acquired pneumonia.
+On the second day in the hospital, the patient’s fever was sustained and he complained of dyspnea.
+His hypoxemia was aggravated such that he required 7 L/min of oxygen via a simple mask and the consolidation and pleural effusion had markedly progressed (Fig.2a).
+We performed bronchoscopy and thoracentesis.
+Multiplex real-time reverse transcriptase polymerase chain reaction (RT-PCR) for respiratory viruses using bronchoalveolar lavage fluid was positive for human adenovirus while other microbiological studies were negative.
+Pleural fluid was lymphocyte-dominant exudate and was also positive for human adenovirus.
+Under the diagnosis of adenovirus pneumonia, we started antiviral therapy with oral ribavirin 400 mg q 12 h while maintaining antibiotics.
+On hospital day 4, his fever had subsided and symptoms were much improved.
+The transaminase levels, CRP and platelet counts gradually normalized (Fig.3).
+A follow-up chest X-ray was clear (Fig.2b) and he was discharged in hospital day 13 without any complications.

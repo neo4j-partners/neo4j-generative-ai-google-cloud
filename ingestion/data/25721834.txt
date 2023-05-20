@@ -1,0 +1,35 @@
+An 8-year-old boy was referred for evaluation of fatigue.
+He was born at term weighing 4 kg to non-consanguineous parents and attained normal early developmental milestones.
+Height and weight were on the 10th and 50th centiles, respectively.
+Preliminary examination was remarkable only for hepatomegaly extending 3.5 cm below the right costal margin.
+Initial laboratory evaluation revealed normochromic normocytic anaemia (haemoglobin 7.8 g/dL (11.5–16), mean corpuscular volume (MCV) 85.8 fL (75–87) and mean corpuscular haemoglobin (MCH) 25.4 pg (25–35)) with marked anisocytosis (red-cell distribution width (RDW) 29% (11–14.5)).
+Hypochromia and teardrops were evident on a blood film.
+Leucopoenia was also a feature (white cell count 2.9×109/L (4.5–13.5), neutrophils 1.7×109/L (2–7.5) and lymphocytes 0.8×109/L (1.5–4)).
+A bone marrow aspirate and biopsy revealed a hypercellular marrow with erythroid hyperplasia.
+An iron stain revealed that approximately 50% of erythroblasts were ringed sideroblasts.
+Marrow cytogenetics were normal including fluorescence in situ hybridisation studies of chromosomes 5q, 7 and 8 and flow cytometry did not detect a blast population.
+Serum copper and lead were normal, as were blood smears on the proband’s parents and sister.
+Analysis of several genes responsible for hereditary SA (ALAS2, ABC7, FECH and PUS1) revealed no reported pathogenic variants.
+Fasting lactate was elevated at 3.8 mmol/L.
+Neurological examination identified upper motor neuron signs in the lower limbs bilaterally; however, cerebellar signs were negative.
+MRI of the brain demonstrated volume loss with slight prominence of the cerebellar folia.
+Urine organic acids revealed elevated 3-methylglutaconate and 3-methylglutarate.
+The lactate:pyruvate ratio was elevated (30:1).
+Muscle biopsy revealed a structurally normal muscle and biochemical assay of respiratory chain components resulted in a diagnosis of partial complex IV deficiency.
+He subsequently commenced a high-fat diet and coenzyme Q with a resultant improvement in energy.
+Analysis of mtDNA in leucocytes and muscle utilising PCR did not reveal a deletion.
+Carnitine, vitamin A, thiamine, pyridoxine, folate and uridine were supplemented without improvement in his anaemia.
+Haemoglobin levels fell to 4.4 g/dL, leading to occasional and then regular three-weekly red cell transfusions.
+With repeated transfusions, ferritin rose to 1700 µg/L, necessitating iron chelation.
+Peak growth hormone and cortisol to insulin-induced hypoglycaemia were 30.9 mU/L (normal >20) and 447 nmol/L (normal >500), respectively, at age 13 years.
+Thyroid function was normal.
+Repeat peak cortisol was 384 nmol/L following adrenocorticotropic hormone (ACTH) stimulation.
+Plasma renin activity was elevated to 15 ng/mL/h, and adrenal androgens were below the lower limit of assay detection.
+A urinary steroid profile was qualitatively normal, as was an abdominal ultrasound.
+Hydrocortisone 5 mg twice daily and fludrocortisone 100 µg daily were initiated.
+Adrenal autoantibodies to 21-hydroxylase were negative and very-long-chain fatty acids were normal.
+The patient has recently developed a renal tubular Fanconi syndrome including glycosuria, hypokalaemia, hypophosphataemia with low maximal tubular reabsorption of phosphate and a generalised aminoaciduria.
+In addition, he was incidentally noted to have hyperglycaemia during an admission for percutaneous endoscopic gastrostomy insertion.
+Glycated haemoglobin was elevated to 62 mmol/mol (7.8%) despite rapid red cell turnover.
+Pancreatic autoantibodies were negative (glutamic acid decarboxylase, anti-insulin, anti-islet antigen 2 and pancreatic islet cell antibodies).
+He is maintained on twice daily insulin detemir with satisfactory glycaemic control with fructosamine 161 µmol/L (205–285).

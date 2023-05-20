@@ -1,0 +1,11 @@
+The patient is a 57-year-old woman who had noted a rapidly enlarging mass on the left side of her neck in 2010.
+She underwent a total thyroidectomy and central neck dissection, which revealed a 3.8-cm anaplastic thyroid cancer arising in a background of an oncocytic variant of poorly differentiated thyroid cancer (Fig.1A, and Fig.S1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org).
+Resection margins were positive, and 3 of 12 lymph nodes were involved.
+At 3 weeks after surgery, the serum thyroglobulin level was 17.2 ng per milliliter, with undetectable thyroglobulin antibodies.
+The patient received concurrent radiation therapy and weekly carboplatin and paclitaxel chemotherapy.
+The serum thyroglobulin level at 4 weeks after the completion of chemotherapy and radiation therapy was 12.0 ng per milliliter.
+Restaging scans obtained 3 months later revealed a new, right-sided hilar mass (Fig.1C), and the patient enrolled in a phase 2 clinical trial of everolimus, which was administered at a dose of 10 mg daily.
+Within 6 months, follow-up scans showed that the lesion had greatly diminished in size (from 3.0 by 2.6 cm to 1.1 by 0.8 cm) (Fig.1D).
+After 18 months of a sustained response to everolimus, scans revealed progressive disease (Fig.1E).
+The patient underwent a mediastinoscopy with removal of an enlarged lymph node, which contained metastatic anaplastic thyroid cancer (Fig.1B, and Fig.S1 in Supplementary Appendix 1).
+Whole-exome sequencing was performed on biopsy samples of the pretreatment and resistant tumors as well as on a blood sample.

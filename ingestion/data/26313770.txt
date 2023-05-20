@@ -1,0 +1,29 @@
+This is a 53-year-old male patient who went to our hospital with chief complaint of massive gum bleeding for 1 day.
+The patient had a history of chronic hepatitis C.
+PEG-IFN-α-2a (180 μg) plus ribavirin (1200 mg/day) were prescribed to the patient since March 17, 2014.
+He denied any autoimmune conditions before treatment.
+The baseline virological data revealed high virus load (HCV RNA 2.1 × 106 IU/mL) with genotype 1b.
+Rapid virological response was not achieved at the fourth week (HCV RNA: 2.12 × 106 IU/mL).
+Partial early virological response (HCV RNA: 103 IU/mL at week 12) and delayed virological response (HCV RNA: <15 IU/mL at Week 24) were noted.
+However, fatigue, anemia, and depression syndrome were progressed at 30th week.
+The patient requested to stop treatment at Week 36.
+The viral load at the end-of-treatment (EOT) was undetectable.
+The platelet count at EOT was 92 × 103 cells/μL and elevated to 159 × 103 cells/μL 1 week later.
+Two weeks following EOT, the patient developed massive gum bleeding.
+The physical examination showed the multiple petechiae on the extremities.
+There is no sign of intracerebral hemorrhage, gastrointestinal bleeding, or other internal bleeding.
+The initial platelet count was 4 × 103cells/μL.
+Coagulation profile showed normal prothrombin time, activated partial thromboplastin time, fibrinogen, d-dimer, and fibrin degradation product.
+Peripheral blood smear showed neither fragmented red blood cells, helmet cells nor abnormal platelet aggregation.
+Concomitant autoimmune connective tissue diseases such as systemic lupus erythematosus or cryoglobulinemia were excluded due to negative anti-nuclear antibody and cryoglobulin except for positive anti-cardiolipin IgG (116 GPL, normal range <20 GPL) and anti-phospholipid IgG (165 U, normal range <15 U).
+Anti-phospholipid syndrome was excluded due to no previous thromboembolic events, according to 2006 Sapporo criteria.12 Bone marrow biopsy was also performed, which revealed hypocellular marrow with even cellular distribution and without evidence of lymphoid neoplasia.
+The potential drugs that may cause platelet lysis were ruled out.
+Blood transfusion of platelet was performed, but poor response with rapid decline of platelet count in the next day of transfusion.
+A diagnosis of immune thrombocytopenic purpura was made.
+We started intravenous methylprednisolone therapy (40 mg, 3 times daily) on November 27 combined with platelet transfusion treatments.
+It still showed no significant improvement.
+Azathioprine (100 mg, oral, once daily) was added since December 3.
+Hydroxychloroquine (400 mg, oral, once daily) was also prescribed due to positive anti-phospholipid antibodies.
+Platelet count gradually increased to 93 × 103 cells/μL 17 days after admission, so methylprednisolone was changed to oral form and slowly tapered off.
+On December 15, the patient was discharged due to stable condition with platelet counts elevating to 117 × 103 cells/μL (Figure ​1).
+Followed laboratory data after 5 months revealed sustained virologic response, platelet count above 150 × 103 cells/μL, and decreased anti-cardiolipin IgG (30.5GPL) and anti-phospholipid IgG (73.21 U) levels.

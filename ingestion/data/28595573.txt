@@ -1,0 +1,31 @@
+The proband (II-2 in Fig.2) is a 45-year old woman, who first presented to our university hospital at the age of 35 and was referred to us because of her pregnancy.
+She has congenital deafness, first experienced syncope at the age of 3, and was diagnosed with epilepsy.
+She was treated with anti-epilepsy medications; however, she subsequently experienced several instances of syncope.
+At the age of 13, she had a syncope event, and was suspected of having JLNS because of her congenital deafness and prolonged QT interval.
+Her syncope was diagnosed as an arrhythmic episode when she was aware of tachycardia and as epilepsy when she was not.
+She also had a subarachnoid hemorrhage at the age of 29.
+When she first presented at our hospital, she was not taking beta-blockers, because of a history of asthma, but was taking mexiletine in addition to phenytoin.
+Her QTc was found to be prolonged (584 ms) at presentation and administration of atenolol was initiated.
+She delivered her baby (III-1 in Fig.2) through Caesarean operation at our hospital at the age of 35.
+At 37, she delivered her second baby (III-2 in Fig.2) through Caesarean operation at our hospital.
+Despite administration of beta-blockers, her QTc remained prolonged (600 msec at the age of 37, 780 msec at 44) (Figs.2 and ​3a), which is not unexpected because treatment with beta-blockers in LQTS1 is not expected to overtly reduce QTc [18].
+However, she continued to experience occasional syncope and finally underwent an implantable cardioverter defibrillator (ICD) operation at 38 years of age.
+Subsequently, she is in a stable clinical condition.
+Because the proband was suspected of JLNS and both infants had a measured QTc of 500 ms or greater within 1 month after birth, beta blockers were initiated and both children remain in stable condition at ages 10 and 8 (Figs.2 and 3b, c).
+QTc of the son (III-1 in Fig.2) was measured as 500 ms one month after birth, while the QTc of his sister (III-2) was 530 ms at birth.
+The father (I-1) and mother (I-2) of the proband were first cousins.
+There is no history of sudden unexplained syncope or death of children or adults in the immediate family members, despite the prolonged QTc of the children.
+Clinical evaluation and consultation of the proband and her family members were performed at Chiba University Hospital.
+Clinical phenotypes were deduced from the clinical history, physical examinations, and ECG.
+Blood samples were collected from the proband and her family members following genetic counseling, and written informed consent was obtained prior to sample collection.
+Genomic DNA was isolated from peripheral blood lymphocytes according to established protocols at our laboratory [19].
+Entire coding exons, including the intronic boundaries of the genes, of KCNQ1 (NCBI ref: NM_000218) and other LQT causative genes (KCNH2, SCN5A, KCNE1, KCNE2, KCNJ2, SCN4B, KCNJ5) were amplified by polymerase chain reaction (PCR), according to established protocols in our laboratory.
+Briefly, 30–100 ng of genomic DNA was subjected to PCR amplification with DNA polymerase (PrimeSTAR GXL DNA Polymerase; Takara Bio Inc., Kusatsu, Japan) and primer sets.
+The amplicons were subjected to conventional sequencing with Sanger sequencers (Applied Biosystems 3730/3130 DNA analyzers; Thermo Fisher Scientific, Waltham, MA, USA).
+The sequence data were processed with Gene Codes Sequencher Software (Takara Bio Inc.) and mapped to the human genome sequence (build GRCh37/hg19).
+Genetic analysis was performed to screen all coding exons and the exon–intron boundaries of the KCNQ1 gene (NCBI ref: NM_000218.2, NP_000209.2) with concurrent screening of other LQT causative genes (KCNH2, SCN5A, KCNE1, KCNE2, KCNJ2, SCN4B, KCNJ5).
+We detected a novel homozygous nonsense variant, NM_000218.2:c.115G > T (p.Glu39X, in exon 1a), in the KCNQ1 gene of the proband, as well as a homozygous common variant (NM_000218.2:c.1343C > G, p.Pro448Arg) (Additional file 1: Table S1).
+Genetic screening of her mother (I-2) and children (III-1 and III-2) revealed that they were heterozygous for the nonsense variant (Fig.2).
+Her husband (II-3) was also screened and found to be heterozygous for the common variant (NM_000218.2:c.1343C > G, p.Pro448Arg).
+The proband is a child from a first-cousin marriage, and we have concluded the homozygous nonsense variant in the proband is the cause of her JLNS1.
+The proband was negative for pathogenic variants in other LQT causative genes, including the KCNE1 gene (Additional file 1: Table S1).

@@ -1,0 +1,28 @@
+A 3-month-old infant from the UAE with a genetically-confirmed diagnosis of Jarcho-Levin syndrome and dependent on mechanical ventilation since birth was admitted to our centre for the implantation of VEPTRs.
+We received an intubated patient, mechanically ventilated in a volume-controlled mode, with a 0.30–0.45 fraction of inspired oxygen (FiO2) (peak inspiratory pressures (PIP) of 23–45 cm H2O, positive end-expiratory pressure (PEEP) of 7 cm H2O, backup respiratory rate (RR) of 34).
+A chest X-ray of the thorax was performed on admission (figure 1A), and a month after the first surgery (figure 1B), showing improvement of the bilateral posterior atelectasis in the base of the lungs.
+Owing to the difficulty of progressing in the weaning process from mechanical ventilation after the VEPTRs were implanted to expand the thorax, a bronchoscopy was performed, showing bronchomalacia predominantly in both upper lobar bronchi.
+As prolonged mechanical ventilation was expected, a tracheostomy was previously performed.
+After an initial CT scan (figure 2A), a follow-up CT scan (figure 2B) a month after the surgery showed a resolution of the posterior-basal atelectasis, coinciding with a decrease of FiO2 to 0.21.
+Postoperatively, the patient was on the Servo-i ventilator in a volume-controlled mode and needed variable PIPs between 25 and 45 cm H2O and PEEP values of 7–11 cm H2O.
+During the attempts to wean the patient off the ventilator in the following months, he was unable to activate the inspiratory flow trigger and required significant sedoanalgesia to adapt to the ventilator due to repeated episodes of desaturation, on some occasions with bradycardia, associated to bronchial collapse.
+He continued to have asynchrony which required boluses of sedation in addition to existing medications.
+He initially received fentanyl and midazolam through a continuous infusion pump with progressive increase in the doses as well as continuous cisatracurium as a muscular relaxant to adapt to mechanical ventilation (figure 3).
+As clinical stabilisation was achieved, the muscular relaxant was withdrawn and a progressive decrease of sedation was initiated along with a change in the drug regimen.
+During this period, the patient developed an ocular flutter which was attributed to a pharmacological cause after neurological alterations were ruled out with normal EEG, ophthalmoscopy, metabolic workup and cranial MRI.
+At 5 months of age, the NAVA mode started to improve the patient's adaptation to the ventilator through the use of a neural trigger.
+The NAVA catheter additionally costs around €200 per catheter; according to the manufacturer it should be changed every 5 days.
+It was required for 7 months; nevertheless the catheters were changed every 15 days without observing a deterioration of the Edi signal.
+According to the literature, Jarcho-Levin syndrome does not appear with mental retardation and life expectancy is pretty long, so ethically, we considered that this patient should have an opportunity to overcome his thoracic insufficiency if it were technically possible.
+Tachypnoea was initially observed with a RR of 55 without other signs of increase in his work of breathing and his RR eventually returned to normal for his age (40) over the next few days.
+The synchrony achieved with the ventilator allowed a progressive decrease of the sedoanalgesia he received until it was completely withdrawn in 10 days; and the need for extra boluses of sedation was reduced to zero.
+Concurrently to the reduction of sedation, his ocular flutter disappeared and he showed significant progress in his psychomotor development.
+The settings used were: NAVA level of 1 cm H2O/µV, PEEP 11 cm H2O, Edi trigger 0.5 µV.
+The patient had tidal volumes (Vt) of 6–7 mL/kg (figure 3).
+After 10 days on the NAVA mode, he did not require any type of sedation and the sporadic episodes of bronchial collapse were resolved with a quick increase of PEEP to 20 cm H2O or manual ventilation with the self-inflating bag.
+Once he was stabilised on the NAVA mode, his PIPs oscillated between 15 and 45 cm H2O with a NAVA level of 0.4 and Edi peaks between 15 and 100 µV.
+A posterior pulmonary CT scan performed 2 months after the first surgery, 1 month after starting NAVA and prior to the first thoracic expansion, showed a significant reduction in the posterobasal atelectases previously observed (figure 2B).
+When he turned 1 year old, after several attempts with different devices Trilogy 100 (Philips), Astral 150 (ResMed), the patient finally tolerated mechanical ventilation with a home ventilator (Monnal T-50, Air Liquide) in a volume assisted/controlled mode with the following settings: Vt 80 mL (9 mL/kg), PEEP 10 cm H2O, flow trigger 0.5 L/min.
+His PIPs were around 30 cm H2O.
+He did not tolerate a decrease of PEEP below 9 cm H2O or short disconnections from the ventilator.
+Currently, the patient is 19 months old, is able to walk and his neurodevelopment seems to be normal.

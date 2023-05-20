@@ -1,0 +1,32 @@
+A 76-year-old Japanese man had experienced a decreased appetite, nausea, and abdominal distension since late February 2011.
+The patient passed loose, soft stools that were not watery once daily.
+The results of blood tests performed by the primary care physician (PCP) between April and June were all normal, but upper and lower gastrointestinal endoscopy showed atrophic gastritis.
+Therefore, we assessed the patient for Helicobacter pylori antibodies and performed the rapid urease test and a histopathological evaluation, all of which were negative.
+In June, the patient received medication from a mental health clinic, but because the symptoms did not improve and his body weight further decreased by 23 kg, he stopped the medication; he was referred to our department in November.
+The patient had been suffering from hypertension since his 30s.
+Amlodipine (5 mg/day) administration was initiated in 2005, and olmesartan from May 2008; the patient is currently receiving 30 mg/day of olmesartan.
+He denied the use of any other new medications or nonsteroidal anti-inflammatory drugs.
+He had no history of smoking or alcohol consumption.
+Physical examination showed that the patient had a height of 165 cm, a body weight of 47 kg, and body mass index of 17 kg/m2.
+His body temperature was 36.3℃; pulse rate, 101/min; blood pressure, 101/81 mmHg; respiratory rate, 12 breaths/min; and saturation from pulse oximetry (SpO2) was 98%.
+The patient had no heart murmur, third heart sound or jugular venous distension.
+The patient had bilateral pitting edema on his lower legs and presented with unilateral gaze-evoked nystagmus as well as a mildly reduced tactile sensation and thermal nociception in the toes and dorsal regions of both feet.
+Moreover, the finger-to-nose test results and tandem gait were poor, and his patellar and Achilles tendon reflexes had disappeared.
+Confabulation was observed in the patient, and the revised Hasegawa Dementia Scale (HDS-R) score was 17/30 (cut-off point: 20).
+The hematologic findings were as follows: white blood cell count, 6,200 /μL; hemoglobin level, 12.5 g/dL; mean corpuscular volume, 88.4; platelet count, 230,000 /μL; sodium level, 136 mEq/L; potassium level, 3.8 mEq/L; chlorine level, 103 mEq/L; iron level, 57 μg/dL (reference value: 64-187 μg/dL); ferritin level, 366 ng/mL (reference value: 50-200 ng/mL); B-type natriuretic peptide (BNP) level, 125.3 pg/mL (reference value: -18.4 pg/mL); and vitamin B1 level, 8 ng/mL (reference value: 24-66 ng/mL).
+An electrocardiogram was normal and chest X-rays showed a normal cardiothoracic ratio (40.8%) without either pulmonary congestion or pleural effusion.
+Cranial fluid-attenuated inversion recovery-magnetic resonance imaging findings revealed periaqueductal hyperintensities (Fig.1); therefore, Wernicke encephalopathy was diagnosed.
+Moreover, as sinus tachycardia and a tendency towards hypotension were noted, no clear symptoms of heart failure or dehydration were observed; it was thus inferred that the vitamin B1 deficiency had likely played a role in both of the conditions.
+The antihypertensive agents were discontinued, and 10 days after the intravenous administration of vitamin B1, the patient's loss of appetite, nausea, and gait disturbance disappeared, and his body weight increased by 3 kg.
+Nystagmus was ameliorated on physical examination, but the patient still had confabulations, and the HDS-R score and absence of deep tendon reflexes did not improve.
+Since the gastrointestinal symptoms were ameliorated and his blood pressure increased to 160/90 mmHg, the PCP resumed the administration of olmesartan on late December, 2011.
+One week later, the patient complained of recurrent decreased appetite and nausea.
+After experiencing diarrhea (five bowel movements during a 2-day period), he passed soft stools once daily, and his body weight decreased to 47 kg so he came to our hospital again 3 weeks after the resumption of olmesartan for treatment.
+His vital signs were as follows: body temperature, 35.1℃; pulse rate, 93/min; and blood pressure, 132/75 mmHg.
+The neurologic findings showed no worsening of his symptoms.
+The laboratory findings were as follows: sodium level, 139 mEq/L; potassium level, 2.9 mEq/L; and chlorine level, 116 mEq/L.
+Hyperchloremia was noted, and the serum sodium level minus chloride level (139-116) was 23 mEq/L; additionally, the arterial blood gas findings were as follows: pH, 7.25; PCO2, 25 mmHg, and HCO3, 11 mmol/L.
+The urinalysis findings were as follows: sodium level, 15 mEq/L; potassium level, 13 mEq/L; chlorine level, 100 mEq/L; and urine anion gap, -72 mEq/L, and there was no apparent increase in bowel movements; however, this seemed to be due to the absence of HCO3- from the gastrointestinal tract (6).
+Plain abdominal radiography and abdominal computed tomography findings revealed the continuous dilation of the entire intestinal tract (Fig.2); therefore, the patient was diagnosed with intestinal pseudo-obstruction.
+After discontinuing olmesartan, the nausea and body weight decreases were promptly ameliorated.
+Duodenal biopsy findings after discontinuing olmesartan showed that the inflammation observed before discontinuation as well as the fold structure had both clearly ameliorated (Fig.3).

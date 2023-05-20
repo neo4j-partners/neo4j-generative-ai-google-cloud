@@ -1,0 +1,35 @@
+On December 28, 2014, a 70-year-old man complaining of abdominal pain, dizziness, and nausea was referred to the Hebei General Hospital, Hebei, China.
+Gastroscopy showed irregular hemorrhagic ulcerative lesions extending from the gastric body to the lesser curvature and pyloric stenosis of the stomach.
+Gastric biopsy revealed adenocarcinoma.
+On January 7, 2015, palliative gastrectomy plus Roux-en-Y near esophagojejunostomy were performed.
+Diffuse enlarged para-aortic and anterior superior pancreatic lymph nodes, as well as lymph nodes around the common hepatic artery, could not be resected.
+Postoperative pathology demonstrated moderately differentiated gastric adenocarcinoma (Fig.1A).
+Immunohistochemistry showed the following: human epidermal growth factor receptor 2 (HER-2) (+), vascular endothelial growth factor (VEGF) (+), CD31 (+), CD105 (+) (Fig.1B–E), triple positive (TP) (+), glutathione S-transferase π (GST-π) (+++), topoisomerase enzyme II α (TOPOII α), P53 (–), and Ki-67 (70%).
+The diagnosis was stage IV gastric adenocarcinoma with multiple lymphnodes metastases (T4N2M1).
+The patient was administered 1 cycle of chemotherapy with oxaliplatin and S-1; however, the treatment was terminated, as the patient could not tolerate the associated gastrointestinal disturbances.
+On February 2, 2015, adjuvant radiotherapy was administered.
+Before radiotherapy, positron-emission tomography computed tomography (PET-CT) showed extensive distant metastasis (left supraclavicular and mediastinal lymph nodes, and lymph nodes throughout the abdominal cavity).
+The patient's Eastern Cooperative Oncology Group (ECOG) performance status was 2, and his body mass index (BMI) was 19; therefore, he was considered to be at risk of malnutrition.
+Oral apatinib 850 mg once a day combined with and following radiotherapy was prescribed.
+Informed consent was obtained from the patient prior to treatment.
+In an attempt to improve tolerance to treatment, palliative intensity modulated radiation therapy (IMRT) was used.
+The patient received a dose of 64 Gy in 30 fractions to the mediastinum and doses of 52 Gy in 26 fractions to the other abdominal metastatic lesions (n = 5).
+The left supraclavicular lymph node was treated with apatinib alone (Figs.2 and 3A–C).
+A PET-CT scan performed 2 weeks after radiotherapy showed an 80% reduction in the maximum standardized uptake value (SUVmax) of 2-deoxy-2-[[18]F]fluoro-d-glucose (FDG).
+FDG uptake was higher in the left supraclavicular lymph node compared to the metastatic regions treated with concurrent apatinib and radiation therapy.
+According to Response Evaluation Criteria in Solid Tumors (RECIST), the clinical effect was partial response (Fig.2).
+The patient received further radiotherapy (66 Gy in 28 fractions) to the left supraclavicular lymph node due to residual metastasis.
+Tumor markers and biochemical analyses were evaluated every 2 months.
+Two months after therapy, chest, and abdominal CT scans indicated stable disease; anemia and gastrointestinal symptoms had improved, ECOG performance status was 0, and BMI was 22.
+Hematologic toxicity, hypertension, renal dysfunction, proteinuria, and hand–foot syndrome were not observed during apatinib therapy.
+In September 2015, a follow-up examination showed increased carbohydrate antigen (CA) 125 and ferritin; however, gastroscopy and abdominal CT revealed no abnormalities.
+In November 2015, the patient had difficulty swallowing and experienced intermittent hematochezia.
+Apatinib was terminated due to gastrointestinal bleeding.
+Gastroscopy revealed anastomotic stenosis due to gastric cancer and intragastric hemorrhage (Fig.3D–F).
+The patient and his family refused chemoradiotherapy.
+Symptomatic treatment with a hemostatic drug and best supportive care were prescribed.
+After 1 week of therapy, hemorrhaging was resolved.
+One month later, the patient again experienced intermittent hematochezia.
+On December 20, 2015, PET-CT demonstrated extensive metastasis.
+The patient and his family requested best supportive care.
+On April 16, 2016, the patient died due to pulmonary infection.

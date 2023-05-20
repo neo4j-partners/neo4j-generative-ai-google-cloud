@@ -1,0 +1,37 @@
+A 76-year-old woman presented to our hospital with complaints of epigastralgia since a day prior to admission.
+Laboratory data on admission revealed an elevation of aminotransferase, alanine aminotransferase, ɤ-guanosine triphosphate, and alkaline phosphatase.
+Serum total bilirubin and tumor markers, carcinoembryonic antigen (CEA), carbohydrate antigen 19-9 (CA19-9), SPan-1, and neuron-specific enolase (NSE), were all within normal ranges.
+Abdominal computed tomography (CT) and magnetic resonance cholangiopancreatography (MRCP) showed a mass in an enlarged gallbladder and bulky hepatic lymph nodes surrounding the hepatic hilum (Fig.1a, ​b).
+There were also no apparent lesions in upper and lower gastrointestinal endoscopy.
+Endoscopic ultrasound-guided fine-needle aspiration (EUS-FNA) was performed to obtain tissue from the hilar lymph node.
+Immunohistochemical staining of the specimen identified diffuse positivity for keratin, CD56, and synaptophysin in the tumor cells, which is consistent with NEC.
+An endoscopic naso-gallbladder drainage (ENGBD) catheter was placed, and the bile cytology revealed class V malignant cells.
+Therefore, positron emission tomography/computed tomography (PET/CT) examination was performed to evaluate other primary or metastatic lesions.
+It revealed that no other accumulated lesions were identified, and the accumulation of 18F fluorodeoxyglucose (FDG) was in the gallbladder (SUVmax 7.8) and lymph nodes (SUVmax 13.4) (Fig.1c, d).
+On the basis of these findings, the most likely diagnosis was a gallbladder NEC that was confined to the regional hepatic hilar lymph nodes metastasis.
+Finally, we decided to perform surgical resection prior to chemotherapy because of concerns about complications developing from mechanical obstruction of the hepatic hilum by the enlarged lymph node.
+She underwent cholecystectomy, hepatic hilar lymphadenectomy, extrahepatic biliary duct resection, and hepaticojejunostomy.
+The bulky lymph nodes were totally resected as “en bloc”.
+There were no apparent residual lesions surgically.
+The postoperative course was uneventful and she was discharged on the tenth day after surgery.
+Macroscopically, the tumor was 58 × 42 mm in size and was located in the fundus, which contained a yellowish gallstone (Fig.2a).
+A portion of the hepatic hilar lymph nodes (71 × 37 mm) was also excised separately (Fig.2b).
+Microscopic examination of the gallbladder revealed a moderate to well differentiated tubular adenocarcinoma infiltrating from the mucosa to the muscular layer, but not the serosal surface, without any NEC components (Fig.2c, ​d).
+The tumor cells in the gallbladder are slightly positive for synaptophysin and CD56, but negative for chromogranin A (Fig.2e–g).
+The resection margin from the liver bed was negative for tumor cells.
+The epithelium around the carcinoma showed intestinal metaplasia with the goblet cells (Fig.4a), which area was stained by alcian blue (Fig.4b).
+On the other hand, the hepatic hilar lymph nodes were composed of small round tumor cells with hyperchromatic nuclei and scant cytoplasm (Fig.3a).
+Some of the tumor cells were large and had vesicular nuclei.
+The tumor cells were arranged in sheets, cords, or in a trabecular or rosette fashion and were interspersed with focal necrosis.
+They were immunohistochemically positive for CD56, synaptophysin, and chromogranin A (Fig.3b–3d).
+The mitotic count was 24 per 10 high-power microscopic fields, and the Ki-67 proliferation index was 70–80%, consistent with NEC.
+The surgical dissection margin of the hepatic lymph nodes was microscopically cauterized within the tumor cells.
+There was no invasion to the extrahepatic biliary duct.
+As the result of thorough pathological re-evaluation by total segmentation, a negligible area of adenocarcinoma was detected in the lymph nodes (Fig.3e, ​f).
+The adenocarcinoma component and the intestinal metaplastic epithelium in the gallbladder were both positive for CDX2 (Fig.4a), but the neuroendocrine component in hilar lymph nodes was negative for CDX2 (Fig.4b).
+Postoperatively, the patient received three cycles of carboplatin (area under the curve of 5 on day 1 repeated every 21 days) and etoposide (80 mg/m2 on days 1 through 3 repeated every 21 days).
+During the first course, grade 4 neutropenia occurred and it was managed with prophylactic fluoroquinolones.
+After 4 months, multiple recurrences in the para-aortic lymph nodes were detected, which was pathologically demonstrated via EUS-FNA to be NEC.
+The patient underwent second-line chemotherapy with amrubicin (24 mg/m2 on days 1 through 3 repeated every 21 days).
+Grade 4 neutropenia and anemia developed during the courses, and she needed to receive pegylated granulocyte colony-stimulating factor and red blood cell transfusion.
+However, she died of progressive disease 8 months after surgery.

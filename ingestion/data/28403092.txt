@@ -1,0 +1,49 @@
+A 61-year-old Chinese woman complained of dizziness for 3 weeks and was admitted to our hospital after a bifrontal mass was found radiologically.
+Other than dizziness, the patient presented no signs or symptoms that are commonly associated with neurological disease, such as headache, vomiting, sensory disturbances, altered consciousness, or seizures.
+Except for a 20-year history of hypertension, which was properly controlled with angiotensin-converting enzyme inhibitors, the patient was otherwise healthy.
+No special circumstances were identified regarding her personal or family history, and the patient was found to be normal upon neurological examination.
+Plain and contrast-enhanced magnetic resonance imaging (MRI) of the head showed a space-occupying lesion in the bifrontal lobe, mainly on the right side, clinging to the sagittal sinus and the cerebral falx.
+The 5.7 × 5.0 × 5.0 cm dural-based mass growing across the sagittal midline revealed isointensity on the T1-weighted image and a slight hyperintensity on the T2-weighted image and was homogenously enhanced with a characteristic “dural-tail” sign (Fig.1).
+Diagnosis of a parasagittal-parafalcine meningioma was made, and a craniotomic meningioma resection was chosen as treatment.
+The blood cell examination; coagulation function, liver and renal function tests; urinalysis; chest x-rays and electrocardiogram were normal.
+The albumin was 36 g/L, the total bilirubin (TBil) was 12.2 μmol/L, and the direct bilirubin (DBil) was 4.1 μmol/L.
+Alanine transaminase (ALT) was 17 U/L, and the international normalized ratio (INR) for coagulation values was 1.02.
+Because of the patient's advanced age and history of hypertension, we performed an echocardiograph and a blood gas analysis and tested her creatine kinase levels and pulmonary functions.
+The results revealed no surgical contraindications.
+Written consent was obtained from the patient.
+Five hundred milligrams of VPA twice per day was initiated 3 days before the operation.
+The patient tolerated the administration well.
+A craniotomy was then performed with a radical tumor resection (Simpson II).
+The tumor was pink and solid and had a moderate blood supply, and its texture was medium.
+Thirty minutes before the end of surgery, 800 mg of VPA was administered by intravenous infusion.
+After the operation, the patient regained consciousness within 30 minutes and scored 15 on the Glasgow coma scale (GCS).
+Two hours later as she was being transported back to her ward, the patient underwent UGH.
+The vomitus (approximately 50 mL) was composed of coffee-colored blood.
+Excluding the possible etiology of endotracheal intubation damage, we diagnosed the patient as experiencing acute erosive-hemorrhagic gastritis, a reaction to the craniotomy injury.
+The patient was given omeprazole to inhibit gastric acid secretion, and the hematemesis ceased.
+The patient was administered VPA (1200 mg, intravenously) during the first 2 postoperative days.
+Because of her stomach and intestine functional recovery, the VPA dosage was changed to 500 mg via oral administration twice a day.
+A brain MRI was performed on postoperative day 3, and it revealed that the tumor was radically removed and the operative field was clean (Fig.2A and B).
+A subsequent paraffin histological examination confirmed the diagnosis of meningioma.
+At 3 am on postoperative day 4, the patient was suddenly found in a deep coma.
+Her pupils were dilated to 3.0 mm and round, and the light reflex was sensitive.
+The neurological examination was unremarkable, and her vital signs were stable; however, her mental state gradually changed to a deep coma (GCS = 8), which we believed was caused by intracranial lesions.
+A computerized tomography (CT) scan of the brain was immediately performed; however, it failed to reveal any abnormalities, such as severe brain swelling, intracranial hemorrhage, or cerebral infarction (Fig.2C).
+Because a possible cerebral infarction could not be excluded within 24 hours, glucocorticoid, mannitol, and a vasodilator were used.
+The patient's routine laboratory results for blood cell, liver, and renal functions were in relatively normal ranges.
+The albumin was 33 g/L, the TBil was 13.3 μmol/L, and the DBil was 4.5 μmol/L.
+ALT was 12 U/L, and the INR for coagulation values was 1.01.
+Because of her history of UGH, we checked her blood ammonia levels and performed a fecal occult blood test and blood gas analysis.
+Her blood ammonia was elevated (181.6 μmol/L; normal range is 11–32 μmol/L), whereas the fecal occult blood test was positive.
+Thus, considering her history and elevated blood ammonia, she was diagnosed with UGH-induced hepatic encephalopathy, and the oral administration of VPA was changed to intravenous administration to prevent seizures.
+Lactulose, vitamin B, and L-arginine were administered, clysis with vinegar was performed, and the patient was fasted.
+The patient's blood ammonia level fluctuated (144.8–207.7 μmol/L), and she remained unconscious during the following 3 days.
+Because of the unremarkable progress in the patient's mental state and blood ammonia level, we held a multidisciplinary conference to discuss diagnosis and treatment, initially considering hemodialysis or peritoneal dialysis.
+After the multidisciplinary discussion, a suspected diagnosis of VHE was finally made, even though the blood VPA level was within the normal range.
+We decided to stop VPA administration before performing any dialysis and administered levetiracetam instead of VPA.
+The patient's blood VPA and ammonia levels were then routinely monitored.
+The patient's mental state began to improve from the first 24 hours of VPA discontinuation, and she achieved complete consciousness within 48 hours (GCS = 15).
+The ammonia levels in her blood decreased dramatically and returned to normal within 4 days (Fig.3).
+On postoperative day 15 (8 days after the discontinuation of VPA), the patient was discharged with no complications.
+The follow-up interviews in postoperative month 5 witnessed her full consciousness and non-recurrence of the primary tumor (Fig.2D).
+The patient's GCS score was 15, and she reported enjoying a satisfying quality of postoperative life.

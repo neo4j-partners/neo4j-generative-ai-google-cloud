@@ -1,0 +1,35 @@
+A 36-year-old female presented at the emergency department with aggravating right upper abdominal pain for 2 hours.
+The patient was diagnosed hepatitis B virus (HBV) carrier for several years and non-alcoholics.
+No other specific personal and familial medical history was noted.
+Initial blood pressure was 100/60 mmHg, pulse rate 70/min, respiration rate 20/min, body temperature 37.5℃.
+The laboratory findings were white blood cell 12,000/mm3 (poly: 70%), hemoglobin 12.8 g/dL, platelet 198,000/mm3, prothrombin time 14.3 seconds, international normalized ratio 1.11, aspartate aminotransferase 22 IU/L, alanine aminotransferase 12 IU/L, total bilirubin 0.5 mg/dL, alkaline phosphatase 134 IU/L, lactate dehydrogenase 295 IU/L, gamma-glutamyl transpeptidase 26 IU/L, protein/albumin 6.4/4.0 g/dL, uric acid 5.0 mg/dL, blood urea nitrogen/creatinine 16.6/0.7 mg/dL.
+And serum viral markers were HBsAg (+), anti-HBs (-), anti-HBc (+), HBeAg (-), anti-HBe (+), HBV-DNA <20 IU/mL, anti-HCV (-) and anti-HIV (-).
+The patient's serum α-fetoprotein (AFP) was 676.5 ng/mL and carbohydrate antigen 19-9 (CA19-9) <0.6 U/mL.
+She took an abdominal CT scan, which showed a 9 cm sized necrotic mass with internal hemorrhage at the right hepatic lobe and ruptured to peritoneum (Fig.1A), so an emergency hepatic central bisectionectomy was done (Fig.2A).
+The initial histological diagnosis was cHCC-CC with spindle cell metaplasia of cholangiocarcinoma element (Fig.2B).
+The serum AFP was decreased to 7.67 ng/mL at time of discharge.
+Regarding as cHCC-CC, postoperative adjuvant chemotherapy with tegafur/uracil (UFT) was administrated for 3 months.
+3 months later, follow-up abdominal CT scanning showed previously unseen a 5.5 cm sized left subphrenic mass with mild enhancement in delayed image (Fig.3A, B) and AFP was increased to 312.06 ng/mL.
+She underwent laparoscopic splenectomy with mass excision.
+On histologic examination, mesenchymal elements consisted of a proliferation of primitive-appearing mesenchymal spindle-shaped cells, intimately admixed with the epithelial elements in a highly cellular pattern.
+Cytoplasm was more abundant than that of mature fibroblasts, and the nucleus was elongated and plump.
+These cells blended progressively with areas of less intense cellular mesenchymal proliferation, and with relatively acellular, fibrous septa.
+Osteoid was present either within the primitive mesenchyme, near the fibrous septa or pseudocapsule, or admixed within the epithelial elements.
+Osteoid foci contained cells morphologically identical to osteoblasts (Fig.4A).
+The immunohistochemistry stains showed expression of hepatocyte, β-HCG, AFP, vimentin, CK7, CK19, CD56 and β-catenin and negativity for CEA.(Fig.4B, C, D, E, F, G).
+Metastatic hepatoblastoma was confirmed by histologic examination with immunohistochemistry stains, so immunohistochemistrically re-examination of previous surgical specimens was also confirmed as hepatoblastoma.
+Follow-up abdominal CT scan performed 1 month after reoperation showed a newly onset 1.7 cm sized subtle enhancing soft tissue mass in splenic bed, and positron emission tomography (PET) showed multiple FDG uptake(max SUV > 3.80) in left upper and lower quadrant area of abdomen, paralumbar area including right subphrenic area (Fig.5A, B, C).
+Follow-up AFP was 162.69 ng/mL.
+Systemic chemotherapy started with cisplatin (60 mg/m2), 5-fluorourasil (5-FU) (600 mg/m2), vincristine (1.5 mg/m2) and total 3 cycles of chemotherapy were done every 4 week.
+Entecavir 0.5 mg was also started for chemoprophylaxis of CHB.
+After the 3rd chemotherapy cycle, follow-up abdominal CT and PET scan showed progression of multiple intraperitoneal metastasis with large amount of intraperitoneal fluid (Fig.6A, B) and follow-up AFP was further increased to 254 ng/mL.
+So chemotherapy regimen was changed to carboplatin (350 mg/m2) with doxorubicin (30 mg/m2) every 3 weeks.
+The patient experienced neutropenia after the new regimen, but recovered shortly after treatment with granulocyte colony-stimulating factor (G-CSF).
+After second carboplatin with doxorubicin chemotherapy, follow-up AFP was increased 1510.19 ng/mL, but abdominal CT scan showed that amount of ascites was decreased (Fig.7).
+Because of radiologic improvements, third and fourth chemotherapy were performed.
+After 4th chemotherapy, follow-up abdominal CT revealed progression of multiple intraperitoneal metastatic masses, newly developed hepatic metastasis and large amount of intraperitoneal fluid (Fig.8).
+A diagnostic paracentesis was performed and showed white blood cell 310/mm3 (poly 20%, lymph 80%), protein 3.6 g/dL and albumin 2.3 g/dL on ascitic fluid analysis.
+The serum albumin was 3.1 g/dL and serum-ascites albumin gradient (SAAG) was 0.8 g/dL.
+The AFB stain and culture were all negative in ascitic fluid.
+The AFP was 6881.93 ng/mL on serum.
+Regarded as peritoneal carcinomatosis, the patient underwent conservative treatments including the use of repeated therapeutic paracentesis for 1 month before death.

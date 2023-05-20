@@ -1,0 +1,26 @@
+A 52-year-old man with a 30-year history of smoking presented with an abnormal nodule measuring 0.8 × 1.5 cm in the left upper lung lobe imaged through chest computed tomography (CT) scanning in March 2012 in a community hospital.
+He had previously been well without any additional relevant or abnormal symptoms.
+Physical examination suggested no significant abnormalities.
+Laboratory findings were within normal range, except for a carcinoembryonic antigen (CEA) level of 30.25 ng/mL (normal range, 0–5 ng/mL) found in the serum.
+Subsequently, a positron emission tomography (PET)/CT scan showed a lung lesion with a standardized uptake value of 7.94, which was highly suspected to be a malignant tumor (Fig.1).
+Subsequently, he underwent left upper lung lobectomy and lymph node dissection.
+Postoperative pathological examination revealed an adenocarcinoma (ADC) (Fig.2A).
+Immunohistochemistry (IHC) staining results were positive for CK7, TTF-1, p63, and NapsinA and negative for CK 5/6, Syn, cgA, and Ki-67 (20%–30%).
+The clinical stage was classified as IA2 (pT1bN0M0).
+Because the tumor was still in an early stage, the patient did not receive adjuvant treatment but continued to be monitored through regular hospital visits every 3 months.
+The patient's condition had been stable until the onset of left chest pain in April 2015.
+The patient was transferred to our hospital (a tertiary care hospital) for further treatment.
+Physical examination suggested a significant tender point in the left chest wall.
+Laboratory findings showed only a single parameter outside the normal range: the cytokeratin19 fragment antigen 21–1 (CYFRA21–1) level was 17.45 ng/mL in the serum (normal range = 0–3.3 ng/mL).
+CT and PET/CT scans highlighted the serious involvement of left pleura, showing bilateral lung lesions (Fig.3A and E).
+At that point, the clinical stage was upgraded to IVB.
+After the CT-guided left pleura puncture, pathological IHC analysis showed positive staining for p63, p40, CK 7, and CK 5/6, while TTF-1 and NapsinA staining were absent, supporting a diagnosis of squamous cell carcinoma (SCC) (Fig.2B).
+Meanwhile, molecular evaluation confirmed an L858R mutation in exon 21 and a T790M mutation in exon 20 (Fig.4B and C).
+Considering the pathology of the SCC was quite distinct compared with that of the originally resected NSCLC specimen, we retrospectively reassessed the surgery specimen to verify our primary diagnosis.
+The morphologic and IHC results were in complete agreement with the initial diagnoses, but an L858R mutation was identified using the newly added molecular evaluation (Fig.4A).
+To relieve the acute pain in the left pleura as quickly as possible, palliative three-dimensional conformal radiotherapy (3D-CRT) for the chest lesion was delivered at a total dose of 42 Gy/14 fractions (f), once daily and 5f/week (Fig.5).
+The volume over radiation dose 5 Gy (V5) values of the left, right, and total lungs were 20%, 0%, and 7.8%, respectively; the volume over radiation dose 20 Gy (V20) values were 10%, 0%, and 5%, respectively; the mean lung dose (MLD) was 5 Gy.
+Meanwhile, considering the MST pathology was that of SCC, the patient received GP chemotherapy (cisplatin 75 mg/m2 d1, gemcitabine 1250 mg/m2 d1, d8, for 21 days as a cycle) for 4 cycles, and the patient achieved partial remission (PR) after 2 cycles, followed by stable disease (SD) after 4 cycles (Fig.3[B3[B and F] and [C and G]) according to response evaluation criteria in solid tumors (RECIST) 1.1.
+Then, gefitinib (150 mg qd) was used as maintenance treatment from November 2015 onward.
+During the treatment, Ibandronate sodium was given monthly for skeletal-related events.
+The patient is currently under surveillance with SD (Fig.3D and H) and with PS scores of 0.

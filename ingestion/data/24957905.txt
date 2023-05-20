@@ -1,0 +1,24 @@
+A 56-year-old African American man who initially presented with diarrhea, weight loss and painless jaundice, was subsequently found to have adenocarcinoma of the head of pancreas.
+An initial workup revealed localized cancer with no evidence of distant metastases.
+He then underwent pancreaticoduodenectomy with complete surgical resection of a 5cm moderately differentiated pancreatic adenocarcinoma.
+Although our patient underwent complete surgical resection, a pathological examination revealed a neoplastic invasion of the resected adjacent organs, and one out of the seven resected lymph nodes contained cancer (T3N1M0).
+At that point, the oncology department recommended to proceed with adjuvant chemotherapy with gemcitabine (1000mg/m2 IV on days 1, 8, 15 on a 28-day cycle for six cycles) to try to reduce the likelihood of recurrence.
+However, after completing two cycles (a total of six doses) of chemotherapy, he presented to the emergency department with worsening exertional dyspnea, three-pillow orthopnea, paroxysmal nocturnal dyspnea and fatigue.
+His physical examination revealed an elevated jugular venous pressure (JVP) (10cm above the sternal angle), bibasilar rales and +2 pitting edema of both lower extremities.
+Cardiac auscultation revealed a gallop rhythm with an S3 and a grade 3 holosystolic murmur over precordium.
+A chest X-ray showed cardiomegaly with mild to moderate-sized right-sided pleural effusion.
+It was thought that his presentation was consistent with fluid overload secondary to congestive heart failure (CHF) and he was started on intravenous (IV) furosemide with partial improvement in his symptoms.
+The next day, a two-dimensional echocardiography (2D Echo) was performed, which showed left ventricular ejection fraction (LVEF) of 15 to 20 percent with global hypokinesia along with moderate mitral regurgitation.
+Given the findings of 2D Echo and the absence of significant risk factors for coronary artery disease (CAD) and ischemic cardiomyopathy (CMP), it was concluded that our patient’s CMP was related to the recent use of gemcitabine.
+Our patient was then started on carvedilol and an angiotensin-converting enzyme inhibitor in addition to diuretics and he was discharged from the hospital two days later in a euvolemic state.
+At that point, the cardiology department recommended stopping further chemotherapy with gemcitabine.
+The oncology department advised further testing to rule out ischemia as a cause of CMP as, in their opinion, chemotherapy with gemcitabine was the only option to reduce the risk of recurrence in this patient.
+Two weeks later, our patient underwent myocardial perfusion imaging (MPI), which showed a fixed small- to moderate-sized inferior wall defect without any evidence of active ischemia.
+The ejection fraction (EF) on MPI was calculated to be around 17 to 20 percent with severe global hypokinesia.
+Our patient was continued on standard heart failure therapy with one more admission to the hospital for CHF exacerbation about two months later.
+He responded well to IV furosemide and adjustment of heart failure therapy.
+A 2D Echo was repeated a few months later and it showed improvement in systolic function with an LVEF of 40 percent.
+Due to his poor functional status and underlying CMP, further gemcitabine chemotherapy was stopped.
+Later, our patient developed a recurrence of his pancreatic cancer; he refused further chemotherapy and decided to proceed with palliative care.
+Although the exact etiology of our patient’s dilated cardiomyopathy remains unclear, gemcitabine remains the most likely culprit.
+The temporal relationship of his symptoms to the initiation of gemcitabine chemotherapy; the lack of risk factors for ischemic CMP and prior history of CAD, finding of global hypokinesia on 2D Echo, absence of ischemia on MPI; and improvement in his systolic function after discontinuation of gemcitabine were all consistent with gemcitabine-induced cardiomyopathy.

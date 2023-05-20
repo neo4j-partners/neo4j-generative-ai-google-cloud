@@ -1,0 +1,14 @@
+A 44-year-old Chinese man with a 7 pack-year smoking history was referred to Shanghai Pulmonary Hospital in February 2013 for a left upper lobe lung mass with multiple bilateral intrapulmonary metastases, left pleural effusion, and 2R/4R/10L/11L lymphadenopathy.
+Pleural fluid cytology revealed adenocarcinoma and Scorpion Amplification Refractory Mutation system (AmoyDx Co., Xiamen, China).
+showed no detectable epidermal growth factor receptor mutation.
+He commenced chemotherapy with gemcitabine and cisplatin.
+However, after a single cycle, his symptoms worsened and imaging confirmed progressive disease.
+A second opinion was requested from the University of Colorado and a computed tomography–guided biopsy of the left upper lobe lesion was performed to permit additional molecular testing.
+In the interim, the patient commenced pemetrexed and nedaplatin.
+Unfortunately, after two cycles his shortness of breath worsened, with evidence of further progression on his scans (Fig.1A).
+Molecular testing on his repeat biopsy specimen revealed no mutations by SNaPshot multiplex PCR testing (Life Technologies, Carlsbad, CA).
+However, although technically negative, the ALK break-apart FISH test showed an atypical negative pattern.
+Specifically, 68% of cells demonstrated single copies of the 5′ ALK signal and numerous cells with doublets of the 5′ ALK signal combined with one 3′ ALK signal (Fig.2A).
+Subsequently, confirmatory diagnostic assays demonstrated ALK protein expression by IHC using the D5F3 antibody (Cell Signaling Technology Inc., Danvers, MA; H score = 150; Fig.2B) and the presence of an echinoderm microtubule-associated protein-like 4 (EML4)-ALK transcript (E13; A20) by RT-PCR (Fig.2C).
+The patient then received crizotinib (250 mg twice daily) as third-line therapy in May 2013 with an impressive symptomatic improvement and CT response after 1 month of therapy (Fig.1B).
+He remains on treatment with crizotinib with no evidence of progression as of September 2013.

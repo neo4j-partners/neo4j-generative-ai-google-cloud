@@ -1,0 +1,20 @@
+A 25-year-old female patient had noticed left-sided visual loss and amenorrhea 2 years prior to being seen, with right hemiparesis developing 6 months beforehand.
+Aggravated symptoms (drooping at corner of right lip and bilateral temporal hemianopia) finally prompted hospitalization.
+At that time, a massive (>5 cm) tumor of intra- and suprasellar location, excluding mesencephalon backward, was seen on computerized tomography (CT) of the head (Fig.1a).
+Further testing revealed an exceedingly high-serum level of prolactin (PRL) (4408 ng/ml), whereas levels of all other pituitary hormones were within reference ranges (growth hormone (GH), 0.50 ng/ml; luteinizing hormone (LH), 2.60 mIU/ml; follicle-stimulating hormone (FSH), 4.57 mIU/ml; adrenocorticotropic hormone (ACTH), 37.4 pg/ml; thyroid-stimulating hormone (TSH), 2.68 μIU/ml).
+T1-weighted magnetic resonance (MR) imaging with contrast (gadolinium) showed homogeneous tumor enhancement, but adjacent tissue was not edematous in T2-weighted views.
+The mass did not regress, despite a 4-week course of the dopamine analog, cabergoline (1 mg/week), and serum PRL level (2207 ng/ml) remained elevated.
+Relative to status at admission, the right lateral ventricle also had enlarged somewhat, due to obstruction at foramen of Monro (Fig.1b).
+In light of this intransigence, surgical debulking of tumor was elected first, through craniotomy and then via transsphenoidal approach.
+The hardened elastic quality of the tumor and its strong attachments to neighboring structures prevented complete removal, but related mass effect was significantly reduced and serum PRL level declined (to 250 ng/ml) in steps at each procedural stage.
+But the normalization of PRL level had not been achieved with the administration of cabergoline increased up to 0.5 mg/day.
+The residual tumor showed no evidence of regrowth or distant metastasis 1 year after surgery.
+Histopathologically, hematoxylin and eosin (H&E)-stained sections of specimens from the first and second surgical procedures similarly were composed of polygonal and spindle cells with round, oval, or elongated nuclei and eosinophilic cytoplasm (Fig.2a–c).
+The cells formed irregular nests or short fascicles, accompanied by frequent hyaline changes in vessel walls and vacuolation (Fig.2d).
+Some nuclear pleomorphism was prominent; on the other hand, neither a high mitotic rate nor necrosis was evident (Fig.2b, c).
+Conspicuous fibrous change of tumor stroma was noted focally as well (Fig.3a).
+The chromophobic nature of tumor cells was confirmed by Pearse’s Periodic Acid Schiff (PAS) stain (Fig.3b).
+Immunostains showed strong diffuse positivity for PRL (Fig.3c), chromogranin-A, and synaptophysin.
+No other hormones (GH, TSH, ACTH, LH, FSH) were expressed by tumor cells, and the other markers, including S-100 protein (Fig.3d), glial fibrillary acidic protein (GFAP), epithelial membrane antigen (EMA), cytokeratin AE1/AE3 (CK AE1/AE3), vimentin, p53, and bcl-2, were also negative by immunostaining.
+Ki-67 labeling index was approximately 2 %.
+A final diagnosis of PRL-producing pituitary adenoma was reached after considering the immunohistochemical profile, suprasellar location, and prolactin production of the tumor, as well as the absence of metastatic foci and invasion into surrounding tissue.

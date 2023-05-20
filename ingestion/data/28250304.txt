@@ -1,0 +1,28 @@
+A 44-year-old man had been diagnosed with LCNEC of the thymus with bone metastasis at a different hospital 3 years previously.
+The serum levels of ACTH and cortisol were elevated, but brain magnetic resonance imaging revealed that his pituitary gland was normal.
+However, immunohistochemical staining of the thymic tumor tissue revealed partial anti-ACTH antibody positivity.
+The tumor was therefore determined to be ectopically producing ACTH.
+The patient underwent chemotherapy with cisplatin and irinotecan, but the continuation of chemotherapy was problematic due to a lack of tolerance.
+Treatment for hypertension and diabetes caused by the ectopic ACTH syndrome was initiated, as was treatment with zoledronic acid for bone metastasis.
+The patient was referred to the Endocrine Center at our hospital after 3 months due to a sensation of weakness and the worsening of his hyperglycemia.
+A physical examination revealed hypertension, a subcutaneous mass that was palpable in the anterior chest, and redness and swelling of the left lower leg without fever, respiratory symptoms, hypoxemia, or abnormal chest sounds.
+The oxygen saturation by pulse oximeter in room air and was 97% and his respiratory rate was 13 breaths per minute.
+Among the laboratory findings, the white blood cell and neutrophil counts, and blood sugar, triglyceride, and low-density lipoprotein cholesterol levels were found to be elevated, and the patient's potassium level was decreased to 2.8 mEq/L.
+The patient's lactate dehydrogenase (468 IU/L), beta-D glucan (370.8 pg/mL), ACTH (354.1 pg/mL), and cortisol (49.1 μg/dL) levels were also elevated.
+The patient's serum was negative for aspergillus, candida, and cryptococcus antigens; a cytomegalovirus pp65 antigenemia test also yielded a negative result.
+These data suggested that the increased production of ACTH by the tumor, along with the progression of the disease, had promoted the elevation of the patient's serum levels of ACTH and cortisol.
+Computed tomography (CT) revealed the progression of the disease in the both thymic and metastatic bone lesions, along with the multiple ground-glass opacities in both lungs (Fig.1, ​2).
+The patient underwent bronchoalveolar lavage (BAL) in the right B5 segment with 150 mL saline, and 62.7% of the BAL fluid was recovered.
+The cell count in the BAL fluid was 0.61×105 per mL, and the cell differentiation in the BAL fluid was 17.0% macrophages, 81.0% lymphocytes, and 2.0% neutrophils, with a CD 4/8 ratio of 0.57.
+Gram, Ziehl-Neelsen, and Grocott staining were all negative.
+A polymerase chain reaction revealed that the patient's BAL fluid was positive for Pneumocystis jirovecii.
+PCP was diagnosed based on the above results.
+The patient was treated with sulfamethoxazole/trimethoprim (12 g/day) for 3 weeks.
+Anti-cortisol therapy with metyrapone was also initiated at the same time with a small dose to slowly correct the hypercortisolemia.
+Intensive insulin therapy, potassium supplementation were initiated, while cefazolin was administered to treat cellulitis of the left lower leg.
+The patient's PCP fully improved without the exacerbation of his respiratory status.
+Thereafter, we continued to administer sulfamethoxazole/trimethoprim at a prophylactic dose.
+The metyrapone dosage was gradually increased from 250 mg/day, and the blood cortisol value was observed to decline slowly (Fig.3).
+In order to prevent hypocortisolemia, the patient was temporarily treated with hydrocortisone.
+After an improvement of his left lower leg cellulitis, PCP, and hyperglycemia, the patient underwent laminectomy and radiation therapy for spinal cord compression, which had been caused by a metastatic spinal tumor.
+Octreotide therapy was initiated, and he was discharged on the 68th day of hospitalization.

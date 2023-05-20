@@ -1,0 +1,13 @@
+A 56-year-old man presented with a 2-year history of dysphagia.
+He was diagnosed with a middle thoracic oesophageal squamous cell carcinoma by both a gastroscopy and a biopsy.
+A chest computed tomography (CT) scan showed an enlarged azygos vein (a diameter of 2.5 cm) that was a continuation of the IVC (Fig.1a, b).
+A CT scan of the abdomen showed a defect in the suprarenal segment of the inferior vena cava and direct drainage of the hepatic vein into the right atrium.
+After consultation with the thoracic surgery department clinicians and the anaesthesiology department, we decided to perform a McKeown oesophagectomy.
+The patient was anaesthetised with a double-lumen tube and underwent a standard posterolateral thoracotomy by traditional open surgery.
+We first performed the jugular and femoral vein percutaneous puncture to create a veno-venous bypass and then connected the pressure sensor system to the monitor.
+The monitor displayed the real-time pressure value of the jugular vein and the femoral vein.
+Macroscopically, the diameter of the azygos arch was approximately 2.5 cm (Fig.1c), and the superior edge of the tumour adhered tightly to the arch of the azygos vein.
+When the arch of the azygos vein was pulled with a rubber hose to dissociate it from the carcinoma, the monitor showed that the femoral vein pressure increased to 52 mmH2O; the pressure returned to a normal value when we opened the bypass between the femoral vein and the jugular vein (Fig.2).
+The surgery was performed smoothly, without injury to the azygos vein, and the postoperative recovery was uneventful.
+The pathology of the resected specimen showed a poorly differentiated squamous cell carcinoma and no evidence of malignancy in 15 of the lymph nodes.
+After 5 months of follow-up, the patient was asymptomatic, with no evidence of recurrent disease either clinically or on CT.

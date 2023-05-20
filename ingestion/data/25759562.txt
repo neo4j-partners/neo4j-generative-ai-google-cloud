@@ -1,0 +1,21 @@
+A 65-year-old woman presented with a complaint of right upper quadrant pain.
+Three years prior, the patient was incidentally diagnosed with idiopathic BCS during health checkup; Doppler ultrasound (US) examination showed obstruction of the middle and left hepatic veins, and investigations for underlying thrombophilia were unremarkable.
+She was treated with warfarin to maintain an international normalized ratio between 2 and 3, but discontinued after at least 1 year due to non-compliance; the patient did not consult with any doctors for 2 years.
+She has remained asymptomatic for the past 3 years until recently she started experiencing steadily worsening, intermittent pain in the right upper quadrant of her abdomen, with no associated or alleviating factors.
+Physical examination was only notable for mild right upper quadrant tenderness.
+Laboratory tests revealed mildly elevated bilirubin (2.2 mg/dL) and albumin deficit (2.38 g/dL).
+Her Child-Pugh (CP) score was 8, Model for End-Stage Liver Disease (MELD) score was 11, Rotterdam score was 0.15, and BCS-TIPS prognostic index (BCS-TIPS PI) score was 6.3.
+A contrast-enhanced computed tomography (CT) scan showed non-visualized middle and left hepatic veins, hepatomegaly with hypertrophy of the caudate lobe, splenomegaly, hepatic venous collaterals, and a saccular aneurysm located at the extrahepatic portal vein main branch measuring 3.2 cm in height and 2.5 cm × 2.4 cm in diameter (Figure ​1A).
+The aneurysm was thought to be associated with BCS as there was no preceding history of trauma and it had not been present on Doppler US examination performed 3 years previously.
+Although the patient had no ascites or variceal bleeding, the decision was made to create a TIPS to relieve hepatic venous outflow obstruction because of increasing pain and concern for complications due to aneurysm size; direct approach to the aneurysm was not considered due to risk of associated complications in the setting of portal hypertension, and stent-grafting was not considered due to concerns about patency in the settings of hepatic venous outflow obstruction and underlying thrombophilia.
+After informed consent was obtained, the patient was brought to the interventional radiology suite.
+The procedure was performed with the patient under conscious sedation.
+Portal vein access was obtained via the right hepatic vein under fluoroscopy, and portography showed a saccular aneurysm located at the main portal vein, extensive intrahepatic portal vein thrombosis, and small splenorenal varices (Figure ​2A).
+A 10-mm diameter expanded polytetrafluoroethylene (ePTFE) covered stent-graft (Fluency Plus; Bard Peripheral Vascular, Tempe, Arizona, United States) was deployed across the liver parenchymal tract; deploying the stent-graft into the main portal vein trunk to cover the aneurysm neck was not considered because it would obstruct blood flow to the portal vein branches.
+Completion portography showed a widely patent shunt and markedly decreased aneurysm filling (Figure 2B).
+The portosystemic pressure gradient (PPG) was decreased from 19 mmHg to 8 mmHg.
+The patient recovered uneventfully and had complete resolution of her abdominal pain in 2 d.
+She was discharged on long-term warfarin and remained asymptomatic after 1 year of follow-up.
+Most recent laboratory tests revealed normal liver function, and Doppler US examination performed at 1, 3, 6, and 12 mo postprocedure confirmed a patent shunt.
+Her CP score was 5, MELD score was 8, Rotterdam score was 0.12, and TIPS-BCS PI score was 6.1.
+CT scans showed that the aneurysm had decreased in size to 2.4 cm in height and 2.0 cm × 1.9 cm in diameter at 3 mo after TIPS (Figure 1B), and had further decreased to 1.9 cm in height and 1.6 cm × 1.5 cm in diameter at 1 year (Figure ​1C).

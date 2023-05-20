@@ -1,0 +1,23 @@
+A 42 year-old man with chronic lymphocytic leukemia underwent allogeneic bone marrow transplant in September 2013.
+The graft was mismatched at a single human leukocyte antigen allele (DQB1), and was T-cell depleted using in vivo alemtuzumab.
+He engrafted on day 12 after transplant.
+Aside from persistent lymphopenia and diarrhea from norovirus infection, his posttransplant course was unremarkable until mid-October when he developed tinnitus and rapidly progressive sensorineural deafness, resulting in subtotal hearing loss bilaterally (>95 dB) over 2–3 weeks.
+Brain magnetic resonance imaging (MRI) was unremarkable, as was cerebrospinal fluid (CSF) analysis (4 leukocytes/µL with 50% neutrophils and 50% lymphocytes, 6 red blood cells/µL, glucose 2.4 mmol/L [normal range, 2.2–4.7 mmol/L], protein 61 mg/dL [normal range, 15–45 mg/L], absence of oligoclonal bands).
+Viral polymerase chain reaction (PCR) testing of CSF was negative for enterovirus and herpesvirus infection.
+The patient was treated empirically with high-dose valacyclovir, broad-spectrum antibiotics, and 2 g/kg intravenous immunoglobulin (IVIG).
+Despite these interventions, he developed new symptoms of central dyspnea, postural hypotension, nausea, and gradually worsening balance.
+Repeat neurological assessment confirmed persistent vestibulocochlear dysfunction 6 weeks after symptom onset.
+By mid-December, the patient had become increasingly withdrawn, irritable, and intermittently agitated.
+He remained lymphopenic (lymphocytes 0.54 × 106/μL [normal range, 1.2–3.6 × 106/μL]).
+MRI scans of the brain were unremarkable, as was serum testing for antineuronal antibodies; an electroencephalogram revealed only diffuse encephalopathy.
+Given continued suspicion for a viral etiology, the patient was treated with high-dose glucocorticoids and again with IVIG.
+He began refusing fluids, food, and medication, and was detained under the UK Mental Health Act.
+Repeat MRI scanning showed interval development of new, nonenhancing signal abnormalities in both thalami and midbrain with cranial nerve involvement but no meningeal enhancement (Figure ​1A).
+Near the end of December, a frontal lobe biopsy was performed.
+Histology revealed reactive gliosis and diffuse infiltration with CD3+/8+ lymphocytes (Figure 1B).
+Extensive microbiological testing of the biopsy tissue for an infectious etiology was negative (Supplementary Table 1).
+Given the absence of a diagnosis and the patient's progressive neurological deterioration, CSF and brain biopsy tissue were analyzed in January 2014 by metagenomic next-generation sequencing (NGS) [2].
+NGS analysis of the brain biopsy, genome assembly, and in situ hybridization revealed findings of neuroinvasive astrovirus (AstV) infection.
+Despite lack of approved therapies, the patient was treated with ribavirin and IVIG.
+However, he did not respond to these interventions, and remained in a minimally conscious state following withdrawal of sedation in March 2014.
+He eventually died at the end of May, 4 months after the NGS diagnosis and approximately 7.5 months after onset of symptoms.

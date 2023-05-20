@@ -1,0 +1,29 @@
+A 54-year-old Asian man with IgA nephropathy underwent living-donor kidney transplantation 14 years previously.
+His medical condition had been almost stable for 14 years.
+He developed multifocal salmon-pink skin discoloration, and swelling and spontaneous pain in the left knee and leg.
+The symptoms had gradually expanded across the right forearm and outside of the right thigh.
+He was admitted to our hospital for the evaluation of fever (39 °C) and multifocal cellulitis (Fig.1).
+Two months before admission, he had developed chronic diarrhea.
+His serum creatinine level was stabilized at 1.7 mg/dL with maintenance immunosuppressive therapy comprising tacrolimus (3 mg/day), mycophenolate mofetil (1500 mg/day), and prednisone (4 mg every other day).
+The tacrolimus trough concentration was 6.3 ng/mL.
+The patient had been a dog breeder for 12 years.
+On admission, his white blood cell count was 12,400/μL and his C-reactive protein level was 3.9 mg/dL.
+The patient was initially treated with ampicillin/sulbactam (9 g/day intravenously).
+Two days after the initiation of this therapy, he was afebrile.
+Four days later, an automated blood culture (Bactec FX®; Becton–Dickinson and Company, Sparks, MD, USA) showed positivity for gram-negative spiral bacilli.
+A colony obtained from the patient’s blood culture was analyzed by MALDI-TOF MS (Biotyper ver. 3.0®; Bruker Corporation, Germany).
+The identification score was 2.064 (>2.0), indicating accurate identification of H. cinaedi (Fig.2).
+Additional evaluation of the patient’s blood specifically for H.
+cinaedi by means of gyrase subunit B (gyrB)-targeted PCR assays (using the forward primer AGGGATTCCACAAAGTGAGC and the reverse primer TCTTGTCCTGTGCGTTCATC to amplify the region of the gyrB gene) yielded positive results.
+We performed gyrB-targeted PCR using a single colony isolated from a blood culture.
+We used distilled water (DNA- and DNase-free water) as a negative control to prevent contamination of gyrB-targeted PCR (Fig.3).
+In addition, we performed 16S rRNA gene sequencing of this strain, and the results were > 99% consistent with the existing sequence (Fig.4).
+Given these results, we diagnosed the patient with H.
+cinaedi bacteremia with cellulitis.
+We examined the genomic heat shock protein (HSP) 60 sequence of the blood culture isolate, which resulted in identification of cluster B H. cinaedi.
+A blood culture obtained at 11 days was positive for H.
+cinaedi, but a culture obtained at 15 days was negative.
+The patient’s cellulitis gradually resolved.
+The patient continued antibiotic treatment for a total of 6 weeks (ampicillin-sulbactam in a drip for 2 weeks and oral levofloxacin for 4 weeks), and he had no recurrence 6 months after this therapy.
+His stool culture was negative, although it was taken after treatment.
+We did not apply enteric bacteria elimination in this case.

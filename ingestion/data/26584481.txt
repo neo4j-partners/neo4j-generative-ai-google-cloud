@@ -1,0 +1,18 @@
+We present the case of a 22-year-old woman who was diagnosed in childhood with type IIb VHL, with known multiple retinal angiomas, pancreatic cysts, and spinal and cerebellar hemangioblastomas.
+She was admitted to our hospital complaining of progressive dyspnea and palpitations.
+On examination, her blood pressure was 159/119 mm Hg and her pulse was 123 bpm.
+Physical examination revealed a systolic murmur at the mitral focus with irradiation to the axilla and pulmonary rales.
+Electrocardiography revealed no remarkable findings, except for sinus tachycardia.
+Laboratory tests showed an elevated N-terminal pro-brain natriuretic peptide and chest X-ray showed signs of pulmonary interstitial edema.
+The patient was admitted to the Department of Cardiology with the diagnosis of acute decompensated heart failure.
+Transthoracic echocardiography showed a dilated left ventricle with severely depressed ejection fraction due to generalized hypokinesia and a mild mitral regurgitation (fig.1a).
+During admission, the patient had several episodes of paroxysmal dyspnea despite treatment with β-blockers and diuretics.
+Due to the clinical suspicion of adrenal gland disease, 24-hour urinary catecholamine and metanephrine tests were requested.
+Cardiac MRI was performed in order to complete the cardiomyopathy study, and confirmed the echocardiographic findings as well as revealed an incidental finding of a great left renal mass.
+The 24-hour urine laboratory tests showed markedly elevated levels of norepinephrine, total catecholamines, normetanephrine and metanephrine with normal epinephrine values: 24-hour norepinephrine 468 μg (normal range: 23-105), 24-hour epinephrine 13 μg (normal range: 4-20), 24-hour total catecholamines 658 μg (normal range: 217-575), 24-hour normetanephrine 2,988 μg (normal range: 105-354), 24-hour total metanephrine 3,013 μg (normal range: 0-1,000).
+Therefore, an abdominal MRI was performed, which showed the presence of two cystic masses (fig.2) located at the left hypochondrium.
+Surgical resection of both masses was performed (after α-blockade with phenoxybenzamine and β-blockade with propranolol) through a laparoscopic approach, confirming the diagnosis of pheochromocytoma and clear cell renal carcinoma on histology.
+During follow-up, blood pressure and heart rate values normalized (124/77 mm Hg, 78 bpm), 24-hour urinary catecholamine values returned to normal range (norepinephrine 69 μg/24 h, total catecholamine 221 μg/24 h, normetanephrine 202 μg/24 h and total metanephrine 259 μg/24 h) and the patient had no new episodes of palpitations or dyspnea.
+Six months after surgical resection, echocardiography was repeated and showed a left ventricle with normal diameters and preserved ejection fraction (fig.1b).
+Genetic analysis revealed a germline mutation (exon 3 deletion) of the VHL tumor suppressor gene on the short arm of chromosome 3.
+As the patient had no family history of VHL, it was concluded that it was a de novo mutation.

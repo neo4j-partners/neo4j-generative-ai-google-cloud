@@ -1,0 +1,31 @@
+A 14-month-old boy was referred to our hospital from another hospital because of dilated and hypertrophied left ventricle (LV), neutropenia, and developmental delay on 27 October 2011.
+He was born at full term, with a body weight of 3.2 kg.
+Sixteen days after birth, he was hospitalized owing to persistent irritability.
+A chest radiograph showed cardiomegaly, and an echocardiogram revealed decreased LV contractility (ejection fraction: 24%).
+Under the impression of myocarditis, he had been managed for 1 yr before presentation in our hospital.
+Moreover, the patient showed feeding difficulty and developmental delay from birth.
+Before referral, he had been admitted to other hospitals 7 times because of infection episodes.
+He was taking furosemide, spironolactone, enalapril, and carvedilol before referral.
+When he was referred to our hospital at 14 months old, his body weight was 6 kg (less than 3rd percentile) and his height was 71 cm (less than 3rd percentile).
+His overall motor development was delayed, and he could not sit alone.
+He could say "mama" and "papa." The recorded blood pressure and heart rate were 94/30 mmHg and 132 beats per minute, respectively.
+On physical examination, no definite heart murmur was audible and the liver was not palpable.
+He also showed persistent neutropenia, which started during his stay in the previous hospital.
+His WBC and neutrophil counts were 8,800/µL and only 2% (176/µL), respectively.
+The B-natriuretic peptide level was 1,045 pg/mL.
+A chest radiograph showed mild cardiomegaly (cardiothoracic ratio: 62.8%; Fig.1A), and an electrocardiogram showed a low QRS voltage at the limb leads.
+An echocardiogram revealed a dilated and hypertrophied globular LV with a hypertrophied papillary muscle and hyper-trabeculation, which did not meet the criteria of LV non-compaction.
+The other echocardiographic parameters were as follows: LV internal diameter at diastole, 37.7 mm (Z = 10.2); ejection fraction, 36.6%; and LV mass index, 75.6 g (Z = 6.3; Fig.1B).
+To rule out the systemic cause of the dilated and hypertrophied LV, we performed a thoraco-abdominal computed tomographic (CT) angiography with contrast dye.
+The CT findings showed no abnormality in the kidney and other organs and vessels.
+However, after undergoing CT angiography, the patient showed abrupt high-grade spiking fever (Fig.2) and developed secretory diarrhea (800 cc per day) associated with metabolic acidosis.
+At this time, his WBC and neutrophil counts decreased to 3,290/µL and 1% (33/µL), respectively.
+The B-natriuretic peptide level was greater than 4,901 pg/mL.
+He did not show associated respiratory symptoms.
+The results of the respiratory and gastrointestinal viral studies were negative, and the blood and stool cultures were negative for pathogens.
+The C-reactive protein level was 7.08 mg/dL.
+Despite supportive care including intravenous fluid resuscitation and empirical antibiotics, the patient's condition worsened, with aggravated metabolic acidosis and respiratory difficulty, requiring transfer to the intensive care unit (ICU).
+Just before the ICU transfer, the serum pH was 6.881; bicarbonate level, 7.8 mmol/L; and total CO2 was 41.4 mm Hg.
+Although the patient had been treated with intensive ventilator care, several inotropic agents, and other supportive care measures, he eventually died from the aggravated metabolic acidosis and acutely decompensated heart failure 7 days after the ICU care.
+During the stay in ICU, we performed genetic analysis for Barth syndrome from the evidence of displayed cardiomyopathy, neutropenia, and developmental delay.
+The gene sequence analysis revealed that his TAZ gene harbored a novel hemizygous frameshift mutation, c.227delC (p.Pro76LeufsX7), which he inherited from his mother (Fig.3).

@@ -1,0 +1,14 @@
+The patient was a 3-year-old girl with the following features of VACTERL association: absent C1 vertebra, supernumerary lumbar vertebrae, hypoplastic sacrum/coccyx, fatty filum terminale with tethered spinal cord, and three fused ribs; an anorectal malformation including a cloaca consisting of a common urogenital sinus and a duplex vagina with midline septum; type C TE fistula; right renal agenesis with moderate left hydronephrosis and vesicoureteral reflux.
+She had no cardiac or limb malformations, and no other major organ anomalies.
+Both she and her father were additionally clinically diagnosed with hypermobile type Ehlers–Danlos syndrome, but family history was otherwise noncontributory.
+The diagnosis of hypermobile type Ehlers–Danlos was based on the patient’s hypermobility (9/9 on the Beighton hypermobility scale), very soft, fragile skin with unusual scarring, and poor skin healing.
+Skin biopsy was not performed, but testing on peripheral blood did not reveal mutations associated with other forms of Ehlers–Danlos syndrome.
+Microarray analysis initially showed a maternally-inherited deletion at 4q35.1 detected with one clone and confirmed by FISH (RP11-173M11).
+Subsequent performance of an 180K custom oligonucleotide microarray (Baylor College of Medicine Medical Genetics Laboratories) refined the deleted region deletion to a maximum size of 1.37 Mb, with karyotype revised to 46,XX,arr cgh 4q35.1q35.2 (187,321-768-188,694-589) 3 1.
+Genes in the deleted region, which contains a number of much smaller copy number variations (CNVs) identified in normal controls, include CYP4V2, KLKB2, F11, MTRNR1A, and FAT1, none of which can be clearly related to her phenotype, especially as her mother, from whom the deletion was inherited, is unaffected.
+Evidence for mitochondrial dysfunction began at 13 months of age with progressive muscle weakness, autonomic dysregulation, hypoglycemic episodes, exocrine pancreatic dysfunction, and decline of gastrointestinal function, eventually leading to total parenteral nutrition dependency due to visceral hyperalgesia, dysmotility, and malabsorption.
+Muscle biopsy showed a mild increase in fiber size variability but no other findings consistent with mitochondrial disease, including via electron microscopy.
+However, analysis of electron transport chain (ETC) activity showed normal activity of complexes I, II, and III, but complex IV, or cytochrome c oxidase, activity was 45.4 lmol/min/g weight, well below the control range (148.9 +/− 67.2 lmol/min/g weight).
+Repeat ETC analysis in isolated mitochondria confirmed a profound and reproducible complex IV deficiency.
+Citrate synthase activity and content in both ETC analyses were normal, confirming good sample quality and normal mitochondrial content.
+Whole mitochondrial genome sequencing, and sequencing of DNA Polymerase Gamma 1 and 2 (POLG1 and POLG2) and Thymidine Phosphorylase did not reveal abnormalities.

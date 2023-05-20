@@ -1,0 +1,41 @@
+The institutional review board (Chengdu Military General Hospital) approved this work and waived the need for informed consent.
+In 2013, a 66-year-old farmer with a history of ventricular tachycardia (VT) and hypertension presented to the Emergency Department with continuous palpitation, chest tightness, profuse sweating and nausea with no obvious predisposing causes.
+The patient experienced a sudden drop in blood pressure and acute confusion.
+After an immediate electrical conversion, his consciousness was gradually restored, and symptoms relieved.
+Then, this patient was transferred to the Department of Cardiology for further evaluations and treatments.
+The patient's blood pressure was 105/75 mm Hg upon admission, with a heart rate of 75 beats/min, body temperature of 36.6°C and respiration rate of 18 times/min.
+The heart border extended to the left, with the apical impulse located in the left 5th intercostal space, 1.0 cm lateral to the midclavicular line.
+The patient had a history of hypertension over 30 years without regular antihypertensive medication.
+The highest blood pressure was 170/110 mm Hg.
+There was no family history of early coronary artery disease or sudden cardiac death.
+He did not smoke cigarettes or use illicit drugs, and rarely consumed alcohol.
+He also reported no known contacts with sick persons and no recent travel.
+Twelve-lead surface electrocardiogram (ECG) of VT indicated that the origin of VT was at the boundary between right ventricular outflow tract (RVOT) and tricuspid valve.
+When VT increased to 150 beats/min or higher, no epsilon waves were found in the precordial leads (Figure1A and B).
+In contrast, when VT decreased to 120 beats/min or lower, epsilon waves appeared in leads V1–V2 (Figure1C).
+Notably, the epsilon waves preceded QRS waves in leads V1–V2, while endocardiac tracing confirmed that the corresponding local potential originating from RVOT appeared prior to the ventricular rhythm (Figure ​(Figure1D).1D).
+Sinus ECG in the year of 2013 suggested a slight left deviation of electric axis, with a heart rate of 87 beats/min and flat T waves in lead II.
+T wave inversions were found in leads III, avF and V1–V3, meanwhile epsilon waves were found following QRS complex in leads V1–V3 (Figure ​(Figure2B).2B).
+When the lead avR was amplified, epsilon waves were also found behind QRS waves (Figure ​2C).
+Atrial premature beats appeared occasionally.
+Moreover, ventricular premature beats were also found to originate from the right ventricular apex, with epsilon waves appearing behind QRS waves (Figure ​(Figure2B).2B).
+In contrast, sinus ECG obtained in the year of 1999 revealed similar left deviation of electric axis, flat T waves and T wave inversions, but absence of epsilon waves (Figure ​(Figure2A).2A).
+Data from biochemical assays were as follows: cardiac troponin I level was 0.714 μg/L (normal range, 0–0.06 μg/L), serum B-type natriuretic peptide level was 466.530 pg/mL (normal range, 0–100 pg/mL), serum d-dimer level was 8.14 mg/L (normal range, 0–0.55 mg/L), blood urea level was 11.69 mmol/L (normal range, 2.90–7.20 mmol/L), serum creatinine level was 144.00 μmol/L (normal range, 44–133 μmol/L), serum uric acid level was 611.40 μmol/L (normal range, 100–432 μmol/L), and endogenous creatinine clearing value was 57.90 mL/min (normal range, >80 mL/min).
+Echo data revealed remarkably enlarged right atrium and right ventricle, and widened ROVT.
+Uncoordinated motions of the left and right ventricular walls were also detected.
+Moreover, we also found aortic valve degradation with slight regurgitation, slight mitral regurgitation, and moderate to severe tricuspid regurgitation.
+The left ventricular diastolic function was reduced to 55% (Figure ​3A and B).
+The coronary angiogram revealed no vascular stenosis (Figure ​3C–E).
+Based on the above-mentioned examinations, this patient met at least 2 major criteria, the bilateral ventricular dilation and the existence of epsilon waves, providing diagnostic support for ARVC.
+A diet with low salt and low fat was suggested.
+The patient was also treated with metoprolol succinate sustained-release tablets (23.75 mg daily, p.o.), amiodarone (200 mg daily, p.o.), furosemide (20 mg daily, i.v.), and compound α-ketoacid tablets (2.52 g daily, p.o.).
+Moreover, VTs with different morphologies and cycle lengths were found during radiofrequency ablation (Figure 4).
+The substrate voltage mapping revealed that the anterior wall of RVOT was wrapped by circular scar (Figure 5A).
+Considering the association of VT with scar areas, substrate ablation was chosen for this patient.
+The residual potentials in the scar areas were searched, and then linear and focal ablations were performed (Figure ​5B).
+Neither programmed stimulation nor induced stimulation could induce VT after the procedure was completed, indicating the success of operation.
+The ECG after radiofrequency ablation showed sinus rhythm, with a heart rate of 61 beats/min, T wave inversions in leads III and avF, and epsilon waves and T wave inversions in leads V1–V3 (Figure 2D).
+This patient was discharged from hospital on day 9 with a regimen of metoprolol succinate sustained-release tablets (23.75 mg daily, p.o.), amiodarone hydrochloride tablets (200 mg daily, p.o.), spironolactone tablets (40 mg daily, p.o.), and fosinopril sodium tablets (10 mg daily, p.o.).
+The patient was followed up 3 months after discharge.
+He had no recurrent palpitation, chest tightness, profuse sweating or nausea.
+Although ARVC was the main diagnosis at the time of this patient's initial presentation, it is essential in such cases to perform a reassessment for the presence of structural heart disease, which can evolve over time.

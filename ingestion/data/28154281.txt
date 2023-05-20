@@ -1,0 +1,25 @@
+A 23-year-old man with a history of severe aplastic anemia (SAA) underwent bone marrow transplantation from his HLA-haploidentical mother in January 2014.
+The conditioning regimens consisted of busulphan cyclophosphamide and antithymocyte globulin (BUCY+ATG) (10).
+Cyclosporine A (CsA) and short-term methotrexate (MTX) plus mycophenolate mofetil (MMF) were used as prophylaxis against graft-versus-host disease (GVHD) (11).
+Standard measures were adopted for the prevention of infectious complications, which included fluconazole for antifungal prophylaxis and acyclovir to prevent herpes-related infections.
+A hemogram revealed the reconstruction of granulocytes (ANC>0.5×109/L) on day +12 post-transplantation.
+The patient developed grade II acute GVHD of the skin on day +42 post-transplantation.
+This was treated by treatment with a standard-dose of methyl-prednisolone, which achieved a complete response (CR).
+The patient's chronic GVHD (cGVHD) of the skin gradually progressed from day +100 post-transplantation and he was treated with prednisolone and CsA.
+On day 120 post-transplantation, he complained of a cough and antibiotics were administered.
+A blood analysis revealed the following: WBC, 2.34×109/L; ANC, 1.72×109/L; hemoglobin, 85 g/L; and platelets, 72×109/L.
+Although both a chest computed tomography (CT) scan and tests for pathogens via routine culturing, including blood tests for Beta-D glucan (G-test) and Galactomannan (GM-test) were all negative, the patient's cough did not respond to antibiotics and we empirically initiated treatment with voriconazole (6 mg/kg/12h for the first day, followed by 4 mg/kg/12h).
+Liver toxicity occurred during voriconazole treatment, thus the anti-fungal regimen was changed to micafungin (100 mg/d).
+However, the persistent cough did not improve and hoarseness developed after two weeks of treatment - ulcers were then observed in the throat by laryngoscopy (Fig.1a).
+The patient developed severe dyspnea in the following week when anti-infection and topical treatments were applied.
+Fiberoptic bronchoscopy revealed an irregular, nodular material with white moss, which nearly obstructed the bronchus; however, chest CT imaging was negative (Fig.1b and c).
+The histopathological examination of biopsy specimens revealed an Aspergillus species (Fig.1d).
+The patient was diagnosed with pseudomembranous Aspergillus tracheobronchitis type ITBA based on the results of bronchoscopy and a pathological examination (12).
+The antibiotic and micafungin treatments were ceased and liposomal amphotericin B (liposomal AmB) was administered daily at a target dose of 3 mg/kg.
+The patient's serum creatinine level rose from 60.4 μmol/L to 168 μmol/L during the first 7 days of liposomal AmB treatment.
+Due to progressive renal dysfunction, the anti-fungal regimen was switched to a combination of posaconazole (400 mg/12 h) and caspofungin [50 mg, daily (70 mg for the first dose)].
+The combination therapy continued for 2 weeks, until the previous nodules in the throat completely disappeared under bronchoscopy (Fig.2a); however, a repeat chest CT scan showed progression (Fig.2b).
+The symptom of dyspnea gradually progressed, thus fiberoptic bronchoscopy was performed to remove the obstructive material from the patient's airways once a week for two weeks.
+All of the symptoms were relieved and the final chest CT scan showed negative results before the discontinuation of anti-fungal therapy, and all of the tests were negative for Aspergillus.
+Posaconazole was administered as a secondary prophylactic treatment and the patient was discharged from hospital.
+The patient is still being followed and remains free of any recurrence of invasive fungal infection.

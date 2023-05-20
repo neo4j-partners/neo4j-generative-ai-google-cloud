@@ -1,0 +1,32 @@
+A 54-year-old patient was admitted for fever, diarrhea, and acute renal failure.
+He had no significant medical history, did not take any medication, and had not traveled recently.
+He had no relevant familial history.
+Fifteen days before his admission, he developed fever, fluctuant rash, diarrhea, and pain in the joints.
+On admission, blood pressure was 140/70 mm Hg, temperature 39°C.
+Physical examination showed severe edema involving both lower and upper limbs, as well as ascites and pleural effusion.
+Cervical and axillar infracentimetric lymphadenopathies were present, together with hepatosplenomegaly, confirmed by computed tomography (CT) scan.
+Bilateral arthritis of the ankles resolved spontaneously.
+Blood analysis revealed (Table ​(Table1):1): leukocytosis, normal hemoglobin and platelet levels with no biologic sign of hemolysis, elevated C-reactive protein, low albumin, elevated serum creatinin, mild proteinuria and no hematuria.
+Despite intravenous rehydration using saline and albumin, renal function worsened and the patient required dialysis.
+While diagnostic investigations were performed, hemiplegia occurred: brain MRI showed multifocal ischemic lesions.
+Echographic and rythmologic studies ruled out any cardiologic cause for the stroke.
+A renal biopsy was performed (Fig.1A and B).
+Periodic acid–Schiff (PAS) staining showed endotheliosis in all glomeruli (Fig.1A, arrows), associated with mesangiolysis and double contours on silver staining (Fig.1B, arrows), and no arteriolar thrombus.
+A moderate CD20+ B lymphocyte infiltrate was present in the interstitium, with a peritubularcapillaritis.
+Immunofluorescence study did not show any deposit.
+Lymph node biopsy (Fig.2A and B) showed abnormal follicles with hyalinization of germinal center, and an onion-skin aspect of the mantle zone.
+Clinical presentation and lymph node histology were consistent with hyaline-vascular multicentric Castleman disease (MCD).
+HIV and HHV-8 serology, as well as HHV-8 lymph node tissue staining, were negative.
+Serum vascular endothelium growth factor (VEGF) was highly elevated.
+There was no biologic manifestation of thrombotic microangiopathy (TMA), but the renal biopsy and brain MRI were consistent with glomerular and neurologic TMA lesions.
+No other apparent cause of thrombotic microvascular involvement was noted.
+Notably, there was no evidence for infection with shiga toxin-producing germs, ADAMTS-13 activity was decreased up to 14% but remained above 5%, and the alternative complement pathway was normal.
+Plasma exchange was initiated due to the kidney histological lesions and the multifocal ischemic brain lesions.
+It was discontinued after 1 month after the onset of the disease, since the patient's condition remained stable.
+Furthermore, chemotherapy including 6 courses of rituximab (375 mg/m2), cyclophosphamide (750 mg/m2), and dexamethasone (40 mg/day from day 1 to day 4) was started together with plasma exchanges (chemotherapy was performed immediately after plasma exchanges).
+Courses were performed every 3 weeks.
+Clinical manifestations of vascular leak syndrome regressed, renal function normalized, and serum VEGF level decreased to 825 pg/mL after 1 course of chemotherapy.
+The patient was discharged 43 days after admission.
+No neurological event occurred after initiating the treatment.
+Thoraco-abdominal CT scan was performed after 6 courses of chemotherapy, showing a normal liver and spleen size and no lymph node enlargement.
+One year after the diagnosis, remission of MCD is persistent and plasma creatinine is 86 μmol/L, with no proteinuria.

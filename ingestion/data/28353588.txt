@@ -1,0 +1,41 @@
+A 75-year-old man was referred to our hospital for the evaluation of dysphagia for 9 months.
+He had associated symptoms of nausea and vomiting but denied hematemesis, hematochezia, lethargy, and dyspnea.
+He was an active smoker and consumed alcohol for 30 years.
+Physical examination revealed no peripheral lymphadenopathy, thyromegaly, ascites, or mass in the abdomen.
+Laboratory data were normal: HBs-Ag negative, HIV negative, and syphilis negative.
+Test for serum antibody against Helicobacter pylori was negative.
+Chest computed tomography (CT) was notable for a huge well-circumscribed and homogeneous cylindrical mesenchymal neoplasm measuring 15.5×5.9×4.0 cm in lower and middle esophagus with mild contrast enhancement (Fig.1A).
+CT revealed no abnormalities in the lungs, heart, ribs, or mediastinum.
+Endoscopic examination showed a submucosal lesion in the esophagus starting at 20 cm from the incisor teeth extending up to the cardia (Fig.1B).
+Endoscopic ultrasonography (EUS) revealed hypoechoic lesion with a clear boundary located in the 4th layer.
+The mass appeared as a benign tumor and was preoperatively diagnosed as esophageal leiomyoma based on chest CT, endoscopic examination, and EUS findings.
+Endoscopic mucosal resection or endoscopic submucosal resection was not possible because of large size.
+Hence, surgical resection was planned and informed written consent was taken.
+The patient underwent thoracoscopic-assisted resection of the mass with gastroesophageal anastomosis, thoracic duct ligation, and jejunostomy.
+Postoperative course was uneventful.
+Grossly, a spindle shaped lump measuring 14 × 3.5 × 2.5 cm, was observed in the resected esophagus, which grew into the esophageal lumen and blocked most of lumen.
+This lump located in the submucosa was covered with intact mucosa, without erosion, ulcer, and hemorrhage.
+Its cut surface was homogenously white to grayish-white in color.
+Histological examination using hematoxylin and eosin staining revealed that tumor was covered with intact squamous epithelium, arising from the submucosal layer and expanding in to the muscular layer.
+The tumor was composed of many nodules of varying sizes separated by collagen fibers.
+Numerous cytoplasm-rich cells were observed in the collagenous septations with invasive growth pattern (Fig.2A–C).
+The nodules were mainly composed of small to mid-sized centrocyte-like or monocyte-like cells arranged in diffuse pattern.
+These atypical lymphocytes possessed clear boundary, pale cytoplasm, irregular nucleus, and occasional nucleolus (Fig.2D).
+Mitosis was rare.
+No lymphoepithelial lesion was recognized in the lesion.
+On immunohistochemical staining, epithelium was diffusely positive for cytokeratin (Fig.3A), and the tumor cells were diffusely positive for cluster of differentiation (CD)20, paired box 5 (Fig.3B), and B-cell lymphoma (Bcl)-2 (Fig.3D).
+Small deposits of tumor cells, which were distributed mainly in the collagen fibers, were positive for multiple myeloma oncogene 1, CD138, and CD43.
+Several tumor cells were also positive for CD30.
+Small lymphocytes were positive for CD3 and CD5.
+Follicular dendritic cells were positive for CD21 and CD23 (Fig.3C).
+All cells were negative for CyclinD1, CD10, Bcl-6, and B lymphocyte specific activation of OCT binding protein 1.
+These follicular dendritic cells were arranged in nodules in which the tumor cells were relatively evenly distributed.
+This pattern was suggestive of follicular colonizations seen in MALT lymphoma.
+In this case, gene rearragements and clonality analysis of immunoglobulin heavy chain gene, kappa light chain gene, and lambda light chain gene was performed using the IdentiCloneTM IGH/IGK/IGL Gene Clonality Assay (InVivoScribe Technologies, CA).
+On monoclonal gene rearrangement, 1 band appeared within 150 to 175 base pairs (bp) in heavy chain gene, 2 discrete bands within 225 to 250 bp in kappa light chain gene, and 1 band within 125 to 150 bp in lambda light chain gene (Fig.4).
+In addition, no Epstein–Barr virus was observed in this lymphoma on in situ hybridization using the EB virus-encoded small RNA (Fig.3E, F).
+Based on the clinical data, pathological, immunohistochemical, and gene rearragements analysis, final diagnosis of primary esophageal MALT lymphoma was made.
+After the surgical resection, no additional therapy in the form of chemotherapy or radiotherapy was administered.
+Over the 8 months of follow-up, no evidence of recurrence or metastases was found on CT and the patient has been asymptomatic.
+Ethical approval for this study was obtained from Medical Ethics Committee of the Third Affiliated Hospital, the Third Military Medical University.
+Written informed consent was obtained from the patient for the publication of this case report and the accompanying images.

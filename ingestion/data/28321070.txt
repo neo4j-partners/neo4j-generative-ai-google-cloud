@@ -1,0 +1,22 @@
+An 84-year-old woman presented to a local clinic with dyspnea on exertion and left back pain persisting for a month.
+She was admitted to our hospital because of left pleural effusion on a chest X-ray.
+She suffered hypertension and dyslipidemia but had no history of pleural tuberculosis or chronic pyothorax, nor a smoking history or dust exposure.
+On examination, her vital signs and oxygen saturation were normal (SpO2: 96% ambient air).
+A chest examination revealed a mass on the left side of her back with pain and decreased breathing sounds in the left lower-lung field.
+The rest of the examination findings were normal.
+Laboratory tests revealed elevated levels of C reactive protein, lactate dehydrogenase (LDH), and soluble interleukin-2 receptor (sIL-2R) (Table 1).
+A chest X-ray (Fig.1) showed left pleural effusion with mediastinal shift.
+On the first hospital day, an intercostal drainage tube was inserted, and after drainage, chest computed tomography (CT) (Fig.2) revealed an irregular pleural mass invading her left chest wall with rib destruction and pleural effusion.
+The mass was adjacent to the posterior mediastinum, but the lateral side of the mass was thick and invading the chest wall, so we diagnosed this mass as a chest wall tumor.
+The pleural fluid was serous and not purulent.
+A fluid analysis showed it to be exudative, and 81% of the white blood cells were lymphocytes.
+The fluid culture was negative, and cytology did not show any evidence of malignancy (Table 1).
+CT-guided needle biopsy was performed.
+The histopathology results supported a diagnosis of diffuse large B-cell lymphoma (DLBCL) that was positive for CD10 and CD20 but negative for CD3 and CD5 (Fig.3).
+18-fluorodeoxyglucose positron emission tomography/computed tomography (FDG-PET/CT) revealed high FDG uptake in the left chest wall mass without any other uptake (Fig.4A and B), so we diagnosed her with primary malignant lymphoma originating from the chest wall.
+We reconfirmed her medical history, and she never had either tuberculous pleurisy or pyothorax.
+Her performance status (PS) was 3 because of her back pain and fatigue.
+Owing to her bad PS and age, it was difficult to perform an operation or administer combination chemotherapy with Rituximab, so low-dose oral etoposide (50 mg/day d1-14, q28) was administered.
+Her pleural effusion disappeared within two weeks, her back pain disappeared, and her PS improved to 1 within a month.
+Chest CT performed four months later showed complete response (Fig.4C and D).
+She continued oral chemotherapy and maintained a good PS for one year after the diagnosis.

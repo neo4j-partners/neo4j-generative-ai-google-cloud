@@ -1,0 +1,27 @@
+A 66-year-old Caucasian woman with a history of hypertension was admitted to our hospital with a recent diagnosis of Burkitt lymphoma.
+Her lactate dehydrogenase level was high and the diameter of her mediastinal mass was more than 10cm.
+Her physical examination was normal, and basal electrocardiography (ECG) showed sinus rhythm with a heart rate of 72 beats/minute.
+Two-dimensional transthoracic echocardiography (TTE; Siemens, Acuson Sequoia, C512) revealed normal biventricular functions with an LV ejection fraction (LVEF) of 60%, mild mitral and tricuspid regurgitation, and moderate pericardial effusion.
+A risk assessment of the patient put her into a high-risk category and she underwent rituximab-hyperfractionated-cyclophosphamide-vincristine-doxorubicin-dexamethasone (R-Hyper-CVAD) chemotherapy protocol.
+Her laboratory values are summarized in Table 1.
+She received high-dose cyclophosphamide 300mg/m2 twice daily for 3 days, doxorubicin 25mg/m2/day for 2 days, rituximab 375mg/m2/day for 1 day, dexamethasone 40mg/day for 4 days, and vincristine 2mg/day for 2 days.
+The total treatment dose of cyclophosphamide and doxorubicin received was 1800mg/m2 and 50mg/m2, respectively.
+She was given allopurinol 300mg/day perorally, sodium bicarbonate (8.4%, 10 flacon/day) infusion for 24 hours before chemotherapy, and mesna 600mg/m2/day for 2 days as prophylaxis against tumor lysis syndrome and hemorrhagic cystitis, respectively.
+She also received granisetron 2mg/day and lansoprazole 30mg/day as antiemetogenic and gastric prophylaxis, respectively.
+The patient developed dyspnea on the seventh day of therapy.
+A physical examination revealed blood pressure of 100/60mmHg and a heart rate of 110 beats/minute.
+On chest auscultation, no inspiratory sounds were heard at lower zones and inspiratory crackles were heard at middle zones.
+Neither cardiac murmurs nor S3 were heard.
+An ECG showed low voltage in the limb and precordial leads.
+TTE showed diffusely increased myocardial echogenicity, mild pericardial effusion, and generally impaired biventricular systolic functions with an LVEF 31% and right ventricular mid-apical akinesis.
+Manifest pleural effusion was also detected.
+Drug-induced cardiotoxicity (myocarditis) was suspected.
+Furosemide and ramipril were started.
+The beta-blocker therapy the patient was already taking for hypertension was continued.
+After 12 days, TTE showed an LVEF of 37% and normal right ventricular functions.
+Her dyspnea decreased and she was discharged on day 20.
+After 1 month, TTE showed normal biventricular functions with an LVEF of 60%.
+After the first course of the R-Hyper-CVAD chemotherapy protocol, she underwent a high-dose methotrexate and cytarabine cycle.
+She had severe neutropenia and pneumonia.
+She had no cardiac failure symptoms during this chemotherapy course, but she declined another course of chemotherapy.
+She is still in remission despite the abbreviated course of chemotherapy.

@@ -1,0 +1,31 @@
+A 46-year-old woman with a history of Graves' disease (GD) was transferred to our emergency department on suspicion of DKA.
+She had noticed polydipsia, polyuria, and fatigue approximately four months prior to admission.
+She had also been suffering from a 1-month complaint of appetite loss, approximately 7 kg weight loss, fatigue, nausea, and sweating.
+Her medical history included GD, diagnosed at 42 years of age and managed with methimazole.
+However, she had poor compliance with anti-thyroid drugs.
+She denied a family history of thyroid diseases or diabetes.
+Three days before admission, she was also diagnosed with influenza A at a nearby hospital, and oseltamivir phosphate was prescribed.
+At the emergency department, she presented with drowsiness and a body temperature of 37.0℃, blood pressure of 90/60 mmHg, heart rate of 200 bpm, respiratory rate of 32 breaths/min, oxygen saturation of 99% in 5 L nasal air, and a Glasgow coma scale (GCS) score of 14.
+Her clinical examination revealed a diffuse goiter with bilateral exophthalmoses.
+Her lungs were clear when auscultated.
+Her abdomen was soft and non-tender.
+Her skin was warm and wet.
+She had no lower extremity edema.
+The electrocardiogram showed marked tachycardia with atrial fibrillation, and a chest radiograph was normal.
+The laboratory data are shown in Table 1.
+Her initial laboratory data demonstrated marked metabolic acidosis, an increased plasma glucose level of 472 mg/dL, an increased HbA1c level of 13.7%, an increased free triiodothyronine level of 6.440 pg/mL, and a free thyroxine level of 2.830 ng/dL, with a suppressed thyrotropin (TSH) level of 0.005 μIU/mL.
+She scored 55 on the diagnostic criteria of Burch & Wartofsky for thyroid storm, and the diagnostic criteria of the Japan Thyroid Association for thyroid storm were also satisfied, since she had thyrotoxicosis, symptoms involving the central nervous system, tachycardia, and gastrointestinal symptoms (4).
+Accordingly, she was diagnosed with DKA and thyroid storm and admitted to the medical intensive care unit for further monitoring and treatment.
+The clinical course is shown in Figure.
+She was treated with an intravenous insulin drip and aggressive intravenous fluid therapy.
+The thyroid storm with GD was treated with intravenous hydrocortisone 100 mg every 8 hours, oral potassium iodine 50 mg every 6 hours, and oral methimazole 20 mg every 6 hours.
+Since she had a history of asthma, landiolol hydrochloride, a short-acting beta-adrenoceptor blocker, was used at 4-12 μg/kg/min to control her heart rate.
+By Day 3, her tachycardia had resolved, and landiolol hydrochloride was discontinued.
+On Day 6, the white blood cell count had decreased to 2,800 cells/mm3 [neutrophils, 44.2% (1,238 cells/mm3)].
+Methimazole was discontinued because methimazole-induced neutropenia was suspected.
+The patient was referred to an endocrine surgeon, and thyroidectomy was performed on Day 32.
+She was discharged from the hospital on Day 37 and maintained on multiple daily insulin infusion and levothyroxine sodium hydrate.
+Further immunological investigation revealed elevated levels of anti-glutamic acid decarboxylase (GAD) antibody, anti-insulinoma antigen 2 (IA-2) antibody, and insulin autoantibody, consistent with T1D.
+The intravenous glucagon stimulation test was performed with blood samples for glucose and C-peptide taken at baseline and 6 minutes.
+Her plasma glucose levels were 139 and 152 mg/dL at baseline and 6 minutes, respectively.
+The corresponding serum C-peptide levels were 0.8 and 1.3 ng/mL at baseline and 6 minutes, respectively.

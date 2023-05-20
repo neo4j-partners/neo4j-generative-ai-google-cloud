@@ -1,0 +1,22 @@
+A 65-year-old man with a 45-year history of cigarette smoking visited our hospital for the diagnosis of an abnormal chest shadow on X-ray.
+He did not have any remarkable medical history and had not been prescribed anticoagulants or antiplatelet agents.
+A computed tomography (CT) scan revealed a huge mass in the left upper lobe (maximum size: 11.0 cm in diameter) that subsequently expanded to the left hilum and mediastinum, as well as an intrapulmonary metastasis located in the left lower lobe, pleural effusion on the left side, and multiple liver tumors ranging from 0.5 to 4.7 cm in diameter (Fig.1).
+Of note, some of the liver metastases were located subcapsularly, and the liver surface was irregularly distorted.
+The laboratory findings were as follows: white blood cell count 11,900/mm3, hemoglobin 14.8 g/dL, platelet count 214,000/mm3, aspartate transaminase 31 IU/L, alanine transaminase 19 IU/L, and lactate dehydrogenase (LDH) 749 IU/L.
+No coagulation abnormalities were found.
+A subsequent histological examination of a tumor specimen obtained by bronchoscopy confirmed the diagnosis of small cell carcinoma.
+On considering the clinical diagnosis, performance status, and age of the patient, we decided on a regimen of antitumor chemotherapy consisting of cisplatin (60 mg/m2 body surface area on Day 1) and etoposide (100 mg/m2 body surface area on Days 1-3).
+On a day after 2 weeks from the initial CT scan, he started his first chemotherapy session.
+On Day 3 after initiating chemotherapy, he complained of abdominal discomfort, and his vital signs showed tachycardia (120 beats per minute) and hypotension (85/55 mmHg).
+A hematological examination showed severe anemia (hemoglobin 6.7 g/dL) that had dramatically dropped from 14.8 g/dL over 10 days.
+We attempted to identify the bleeding site on gastrointestinal endoscopy, to no avail, but a CT scan revealed the rapid enlargement of a liver tumor in the left lobe, which contained partial high-density areas on the plain scan, and also a novel finding of ascites showing higher density than usual, all suggesting a ruptured liver metastasis and associated hemorrhagic ascites (Fig.2).
+A subsequent contrast-enhanced CT image was negative for extravasation.
+He underwent angiography for the left and right hepatic arteries, but we only observed obscure tumor vessels in the left hepatic lobe without extravasation (Fig.3A).
+We suspected this might be due to the hypovascularity of the metastatic tumors and inactive bleeding at the time.
+Although the benefit of therapeutic embolization of the hepatic artery was uncertain based on the findings on angiography, we performed transcatheter arterial embolization (TAE) of the left main hepatic artery using gelform particles to prevent future re-bleeding.
+Post-embolization angiography revealed a slowed blood flow in the left hepatic artery, and the peripheral vessels were weakly visualized (Fig.3B).
+After the embolization concomitant with supportive therapies, including RBC transfusions of 6 U in total, the clinical course of the patient stabilized.
+His blood pressure remained around 120/70 mmHg, tachycardia disappeared, and the anemia was improved after transfusion and did not progress again.
+Liver dysfunction did not appear.
+A month after the embolization, he was in relatively good health and re-started his antitumor chemotherapy, which he continued (first-line regimen) for six courses.
+A good partial response was gained after chemotherapy for both the lung and liver lesions.

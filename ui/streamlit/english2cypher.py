@@ -1,6 +1,7 @@
 import os
 from retry import retry
 from timeit import default_timer as timer
+import streamlit as st
 
 from vertex_chat import VertexLLM
 from langchain import LLMChain
@@ -80,9 +81,10 @@ def generate_cypher(messages):
     start = timer()
     try:
         chat = VertexLLM(model_name='text-bison@001',
+                            tuned_model_name=st.secrets["TUNED_CYPHER_MODEL"],
                             max_output_tokens=1024,
                             temperature=0,
-                            top_p=0.8,
+                            top_p=0.95,
                             top_k=40,
                             # allow_reuse=True,
                             verbose=True)
@@ -101,10 +103,18 @@ def generate_cypher(messages):
         # If the model apologized, remove the first line
         elif "apologi" in response:
             response = " ".join(response.split("\n")[1:])
-        elif "Answer:" in response:
+        if "Answer:" in response:
             response = response.split("Answer:\n")[1].strip()
+        if "answer:" in response:
+            response = response.split("answer:")[1].strip()
+        if "A: " in response:
+            response = response.split("A: ")[1].strip()
+        if "AI: " in response:
+            response = response.split("AI: ")[1].strip()
+        if "Reason:" in response:
+            response = response.split("Reason:\n")[0].strip()
         # Sometime the model adds quotes around Cypher when it wants to explain stuff
-        elif "`" in response:
+        if "`" in response:
             response = response.split("```")[1].strip("`")
         # print(response)
         return response

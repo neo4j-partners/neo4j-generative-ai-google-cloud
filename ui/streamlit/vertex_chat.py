@@ -37,6 +37,7 @@ class _VertexCommon(BaseModel):
     """
     client: Any = None #: :meta private:
     model_name: str = "text-bison@001"
+    tuned_model_name: str = ''
     """Model name to use."""
 
     temperature: float = 0.2
@@ -77,6 +78,7 @@ class _VertexCommon(BaseModel):
 
 class VertexLLM(_VertexCommon, LLM):
     model_name: str = "text-bison@001"
+    tuned_model_name: str = ''
 
     @root_validator()
     def validate_environment(cls, values: Dict) -> Dict:
@@ -90,6 +92,8 @@ class VertexLLM(_VertexCommon, LLM):
 
         try:
             values["client"] = TextGenerationModel.from_pretrained(values["model_name"])
+            if 'tuned_model_name' in values and values["tuned_model_name"] != '':
+                values["client"] = values["client"].get_tuned_model(values["tuned_model_name"])
         except AttributeError:
             raise ValueError(
                 "Could not set Vertex Text Model client."

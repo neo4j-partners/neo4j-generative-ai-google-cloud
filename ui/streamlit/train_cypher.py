@@ -7,6 +7,9 @@ examples = [{
 }, {
     "question": "I have to fill 10 Front end roles. Who are all I have based on ideal skillsets for a front end role?",
     "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) WHERE (toLower(s.name) CONTAINS 'html' OR toLower(s.name) CONTAINS 'css' OR toLower(s.name) CONTAINS 'javascript' OR toLower(s.name) CONTAINS 'react' OR toLower(s.name) CONTAINS 'angular') RETURN p LIMIT 10"""
+}, {
+    "question": "What skills do my Strategy Consultants have?",
+    "answer": """MATCH (p:Person)-[:HAS_POSITION]->(pos:Position)-[:AT_COMPANY]->(c:Company), (p)-[:HAS_SKILL]->(s:Skill) WHERE toLower(pos.title) CONTAINS 'strategy consultant' RETURN DISTINCT s.name"""
 }]
 
 instr_template = """
@@ -38,20 +41,9 @@ Relationships:
     (:Position)-[:AT_COMPANY]->(:Company)
     (:Person)-[:HAS_SKILL]->(:Skill)
     (:Person)-[:HAS_EDUCATION]->(:Education)
-Ouput Format (Strict): //Only code as output. No other text
-MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) WHERE toLower(p.name) CONTAINS 'java' AND toLower(p.level) CONTAINS 'expert' RETURN COUNT(p) 
 
-Question: How many Texas-based experts do I have on Delphi?
-Answer:
-MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) 
-MATCH (p)-[:HAS_POSITION]->(pos:Position)
-WHERE toLower(s.name) CONTAINS 'delphi' AND toLower(s.level) CONTAINS 'expert' 
-AND (toLower(pos.location) CONTAINS 'texas' OR toLower(pos.location) CONTAINS 'tx') RETURN COUNT(p)
-Reason:
-1. As per schema definition of nodes & relationships above, Person node is related to Skill node via HAS_SKILL relationship.
-2. From the schema, Skill has name and levels as properties. Expertise can be checked using `level`
-3. Since Texas can be denoted as TX, we search for the position's location as either 'texas' or 'tx'
-4. Finally, we return the number of persons who match the input criteria using COUNT function
+Output Format Cypher(Strict): //Only Cypher as output. No other text
+MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) WHERE toLower(p.name) CONTAINS 'java' AND toLower(p.level) CONTAINS 'expert' RETURN COUNT(p) 
 
 """
 

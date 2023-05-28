@@ -105,6 +105,12 @@ def generate_cypher(messages):
             response = " ".join(response.split("\n")[1:])
         if "Answer:" in response:
             response = response.split("Answer:\n")[1].strip()
+        if "answer:" in response:
+            response = response.split("answer:")[1].strip()
+        if "A: " in response:
+            response = response.split("A: ")[1].strip()
+        if "AI: " in response:
+            response = response.split("AI: ")[1].strip()
         if "Reason:" in response:
             response = response.split("Reason:\n")[0].strip()
         # Sometime the model adds quotes around Cypher when it wants to explain stuff

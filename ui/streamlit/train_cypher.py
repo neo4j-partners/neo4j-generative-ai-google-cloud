@@ -1,6 +1,12 @@
 examples = [{
-    "question": "How many people have a bachelor's degree in electrical engineering?",
-    "answer": """MATCH (p:Person)-[:HAS_EDUCATION]->(e:Education) WHERE toLower(e.degree) CONTAINS 'bachelor' AND toLower(e.degree) CONTAINS 'electrical engineering' RETURN COUNT(p)"""
+    "question": "Where are most pythonistas located?",
+    "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) MATCH (p)-[:HAS_POSITION]->(pos:Position) WHERE toLower(s.name) CONTAINS 'python' WITH pos.location AS location, COUNT(p) AS num_pythonistas ORDER BY num_pythonistas DESC RETURN location, num_pythonistas LIMIT 1"""
+}, {
+    "question": "How many Texas-based experts do I have on Java?",
+    "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) MATCH (p)-[:HAS_POSITION]->(pos:Position) WHERE toLower(s.name) CONTAINS 'java' AND toLower(s.level) CONTAINS 'expert' AND (toLower(pos.location) CONTAINS 'texas' OR toLower(pos.location) CONTAINS 'tx') RETURN COUNT(p)"""
+}, {
+    "question": "I have to fill 10 Front end roles. Who are all I have based on ideal skillsets for a front end role?",
+    "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) WHERE (toLower(s.name) CONTAINS 'html' OR toLower(s.name) CONTAINS 'css' OR toLower(s.name) CONTAINS 'javascript' OR toLower(s.name) CONTAINS 'react' OR toLower(s.name) CONTAINS 'angular') RETURN p LIMIT 10"""
 }]
 
 instr_template = """

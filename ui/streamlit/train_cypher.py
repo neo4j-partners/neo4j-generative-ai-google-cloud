@@ -106,6 +106,9 @@ examples = [{
 }, {
     "question": "How many people have worked as a Data Scientist in San Francisco?",
     "answer": """MATCH (p:Person)-[:HAS_POSITION]->(pos:Position) WHERE toLower(pos.title) CONTAINS 'data scientist' AND toLower(pos.location) CONTAINS 'san francisco' RETURN COUNT(p)"""
+}, {
+    "question": "What skills do p1685157378573414524 and p1685153569085002139 have in common?",
+    "answer": "MATCH (p1:Person)-[:HAS_SKILL]->(s:Skill)<-[:HAS_SKILL]-(p2:Person) WHERE p1.id = 'p1685157378573414524' AND p2.id = 'p1685153569085002139' RETURN DISTINCT s.name"
 }]
 
 instr_template = """

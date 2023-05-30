@@ -3,7 +3,7 @@ from retry import retry
 from timeit import default_timer as timer
 import streamlit as st
 
-from vertex_chat import VertexLLM
+from langchain.llms import VertexAI
 from langchain import LLMChain
 from langchain.prompts.prompt import PromptTemplate
 from langchain.prompts.chat import (
@@ -80,7 +80,7 @@ def getExamplePrompts():
 def generate_cypher(messages):
     start = timer()
     try:
-        chat = VertexLLM(model_name='text-bison@001',
+        chat = VertexAI(model_name='text-bison@001',
                             tuned_model_name=st.secrets["TUNED_CYPHER_MODEL"],
                             max_output_tokens=1024,
                             temperature=0,

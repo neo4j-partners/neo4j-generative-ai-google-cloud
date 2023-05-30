@@ -1,6 +1,6 @@
 from timeit import default_timer as timer
 
-from vertex_chat import VertexLLM
+from langchain.llms import VertexAI
 from langchain import LLMChain
 from langchain.prompts.prompt import PromptTemplate
 from langchain.prompts.chat import (
@@ -49,7 +49,7 @@ def createPrompt(messages):
 def generate_response(messages):
     start = timer()
     try:
-        chat = VertexLLM(model_name='text-bison@001',
+        chat = VertexAI(model_name='text-bison@001',
                             max_output_tokens=1024,
                             temperature=0,
                             top_p=0.8,

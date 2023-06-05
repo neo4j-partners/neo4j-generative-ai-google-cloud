@@ -12,14 +12,14 @@ Once that has started, open the notebook and a terminal window within that.
 
 Clone this repo with the command:
 
-git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
+    git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
 
 The notebook uses Python 3.8 for LangChain.  However the managed notebooks are currently on 3.7.  So, we'll need to install a newer version of Python.  You can do that by running these commands in the terminal.
 
-  VENV=py38
-  conda create -y -q -p $HOME/conda_env/$VENV python=3.8 ipykernel
-  source /opt/conda/bin/activate ~/conda_env/$VENV
-  python -m ipykernel install --user --name $VENV
+    VENV=py38
+    conda create -y -q -p $HOME/conda_env/$VENV python=3.8 ipykernel
+    source /opt/conda/bin/activate ~/conda_env/$VENV
+    python -m ipykernel install --user --name $VENV
 
 Then open the notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb).  Select  and run through that.
 

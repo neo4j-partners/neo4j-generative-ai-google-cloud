@@ -8,9 +8,7 @@ We then use the `text-bison` model and prompt it to convert questions in english
 ## Setup
 To get started, create a [managed notebook](https://console.cloud.google.com/vertex-ai/workbench/managed) in Google Cloud Vertex AI.  Be sure to select "single user" when starting a managed notebook to run this, otherwise the auth won't allow access to the preview.
 
-Once that has started, open the notebook and a terminal window within that.
-
-Clone this repo with the command:
+Once that has started, open the notebook and a terminal window within that.  Clone this repo with the command:
 
     git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
 
@@ -21,8 +19,11 @@ The notebook uses Python 3.8 for LangChain.  However the managed notebooks are c
     source /opt/conda/bin/activate ~/conda_env/$VENV
     python -m ipykernel install --user --name $VENV
 
-Then open the notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb).  Select  and run through that.
+## Notebook
+The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through prompts and tuning a model.  You will need to run that before the UI.
 
+## UI
+To run the UI...
 
 ## Sample questions
 1. How many experts do we have on MS Word?

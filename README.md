@@ -24,12 +24,3 @@ The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through
 
 ## UI
 To run the UI...
-
-## Sample questions
-1. How many experts do we have on MS Word?
-2. What skills does p1685120816675380030 have?
-3. What skills do p1685157378573414524 and p1685153569085002139 have in common?
-4. which are all the companies did p1685120816675380030 work?
-5. Who went to most number of universities and how many did they go?
-6. where do most candidates get educated?
-7. How many knows Delphi?

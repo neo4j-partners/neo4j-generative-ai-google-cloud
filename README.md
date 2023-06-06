@@ -24,7 +24,12 @@ The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through
 The notebook has an embeeded Gradio widget that can be run for quick testing.
 
 ## UI
-The UI app is based on Streamlit. 
+The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM.  Then you'll need to install git and clone this repo:
+
+    sudo apt install git -y
+    git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
+    cd intelligent-app-google-generativeai-neo4j
+
 Before running it you have to login using GCP credentials via the `gcloud` cli.
 
     gcloud auth application-default login
@@ -32,12 +37,19 @@ Before running it you have to login using GCP credentials via the `gcloud` cli.
 To install Streamlit and other dependencies:
 
     cd ui
+    sudo apt install python -y
+    sudo apt install pip -y
     pip install -r requirements.txt
 
-To run the app at a port number, say 8000:
+To do --- fix path issues with this install
+
+To run the app at a port number, say 7474:
 
     cd streamlit
-    streamlit run main.py --server.port=8000
+    streamlit run main.py --server.port=7474
+
+To do --- show how to run on 80 so a user will not have to open a custom port.
+To do --- note on secrets file
 
 From the UI, you can ask questions like:
 1. How many experts do we have on MS Word?
@@ -45,4 +57,3 @@ From the UI, you can ask questions like:
 3. What skills do p1685157378573414524 and p1685153569085002139 have in common?
 4. which are all the companies did p1685120816675380030 work?
 5. Who went to most number of universities and how many did they go?
-    

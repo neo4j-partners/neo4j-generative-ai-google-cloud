@@ -30,33 +30,37 @@ The UI application is based on Streamlit. In this example we're going to show ho
     git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
     cd intelligent-app-google-generativeai-neo4j
 
-Before running it you have to login using GCP credentials via the `gcloud` cli.
+We're going to be running the application on port 80.  That requires root access, so first:
+
+    sudo su
+
+Login using GCP credentials via the `gcloud` cli.
 
     gcloud auth application-default login
 
 To install Streamlit and other dependencies:
 
     cd ui
-    sudo apt install python -y
-    sudo apt install pip -y
+    apt install python -y
+    apt install pip -y
     pip install -r requirements.txt
 
 You might need to ensure streamlit command is in the PATH. To do that (replace `MY_USER_NAME` in the command below):
 
     export PATH="/home/MY_USER_NAME/.local/bin/streamlit:$PATH"
 
-
-Next up you'll need to create a secrets file for the app to use.  Edit the following command to generate that:
+Next up you'll need to create a secrets file for the app to use.  Open the file and edit it:
 
     cd streamlit
     cd .streamlit
     cp secrets.toml.example secrets.toml
-    cd ..
+    vi secrets.toml
 
 You will now need to edit that file to reflect your credentials.
 
 To run the app at a port number, say 80:
 
+    cd ..
     streamlit run main.py --server.port=80
 
 On a GCP VM to run on port 80:
@@ -71,6 +75,8 @@ On a GCP VM to run on port 80:
 From the UI, you can ask questions like:
 1. How many experts do we have on MS Word?
 2. What skills does p1685120816675380030 have?
-3. What skills do p1685157378573414524 and p1685153569085002139 have in common?
-4. which are all the companies did p1685120816675380030 work?
-5. Who went to most number of universities and how many did they go?
+3. What companies did p1685120816675380030 work at?
+4. What skills do p1685157378573414524 and p1685153569085002139 have in common?
+5. Who went to most number of universities and how many did they go to?
+6. Where do most candidates get educated?
+7. How many people know Delphi?

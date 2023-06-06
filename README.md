@@ -24,15 +24,17 @@ The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through
 The notebook has an embeeded Gradio widget that can be run for quick testing.
 
 ## UI
-The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM.  Then you'll need to install git and clone this repo:
-
-    sudo apt install git -y
-    git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
-    cd intelligent-app-google-generativeai-neo4j
+The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM.  
 
 We're going to be running the application on port 80.  That requires root access, so first:
 
     sudo su
+
+Then you'll need to install git and clone this repo:
+
+    apt install -y git
+    git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
+    cd intelligent-app-google-generativeai-neo4j
 
 Login using GCP credentials via the `gcloud` cli.
 
@@ -41,8 +43,8 @@ Login using GCP credentials via the `gcloud` cli.
 To install Streamlit and other dependencies:
 
     cd ui
-    apt install python -y
-    apt install pip -y
+    apt install -y python
+    apt install -y pip
     pip install -r requirements.txt
 
 You might need to ensure streamlit command is in the PATH. To do that (replace `MY_USER_NAME` in the command below):

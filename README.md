@@ -58,7 +58,7 @@ Next up you'll need to create a secrets file for the app to use.  Open the file 
 
 You will now need to edit that file to reflect your credentials.
 
-To run the app at a port number, say 80:
+Now we can run the app with the commands:
 
     cd ..
     streamlit run main.py --server.port=80

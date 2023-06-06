@@ -85,7 +85,7 @@ def generate_cypher(messages):
                             max_output_tokens=1024,
                             temperature=0,
                             top_p=0.95,
-                            top_k=40,
+                            top_k=0.40,
                             # allow_reuse=True,
                             verbose=True)
         if messages:

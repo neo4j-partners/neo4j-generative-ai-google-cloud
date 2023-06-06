@@ -97,7 +97,7 @@ examples = [{
 }, {
     "question": "How many people have worked as a Data Scientist in San Francisco?",
     "answer": """MATCH (p:Person)-[:HAS_POSITION]->(pos:Position) WHERE toLower(pos.title) CONTAINS 'data scientist' AND toLower(pos.location) CONTAINS 'san francisco' RETURN COUNT(p)"""
-},, {
+}, {
     "question": "How many knows Delphi?",
     "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) WHERE toLower(s.name) CONTAINS 'delphi' RETURN COUNT(p)"""
 }, {

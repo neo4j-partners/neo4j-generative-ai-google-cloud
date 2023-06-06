@@ -38,4 +38,11 @@ To run the app at a port number, say 8000:
 
     cd streamlit
     streamlit run main.py --server.port=8000
+
+From the UI, you can ask questions like:
+1. How many experts do we have on MS Word?
+2. What skills does p1685120816675380030 have?
+3. What skills do p1685157378573414524 and p1685153569085002139 have in common?
+4. which are all the companies did p1685120816675380030 work?
+5. Who went to most number of universities and how many did they go?
     

@@ -23,4 +23,8 @@ The notebook uses Python 3.8 for LangChain.  However the managed notebooks are c
 The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through prompts and tuning a model.  You will need to run that before the UI.
 
 ## UI
-To run the UI...
+To run the UI you first need to install Streamlit.  Do that by running:
+
+    pip install streamlit
+    
+To do...

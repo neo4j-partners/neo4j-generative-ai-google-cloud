@@ -21,10 +21,21 @@ The notebook uses Python 3.8 for LangChain.  However the managed notebooks are c
 
 ## Notebook
 The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through prompts and tuning a model.  You will need to run that before the UI.
+The notebook has an embeeded Gradio widget that can be run for quick testing.
 
 ## UI
-To run the UI you first need to install Streamlit.  Do that by running:
+The UI app is based on Streamlit. 
+Before running it you have to login using GCP credentials via the `gcloud` cli.
 
-    pip install streamlit
+    gcloud auth application-default login
+
+To install Streamlit and other dependencies:
+
+    cd ui
+    pip install -r requirements.txt
+
+To run the app at a port number, say 8000:
+
+    cd streamlit
+    streamlit run main.py --server.port=8000
     
-To do...

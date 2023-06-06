@@ -14,9 +14,6 @@ examples = [{
     "question": "How many java developers attend more than one universities?",
     "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill), (p)-[:HAS_EDUCATION]->(e1:Education), (p)-[:HAS_EDUCATION]->(e2:Education) WHERE toLower(s.name) CONTAINS 'java' AND e1.university <> e2.university RETURN COUNT(DISTINCT p)"""
 }, {
-    "question": "Where are most of pythonistas located?",
-    "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) MATCH (p)-[:HAS_POSITION]->(pos:Position) WHERE toLower(s.name) CONTAINS 'python' WITH pos.location as location, COUNT(p) as num_pythonistas ORDER BY num_pythonistas DESC LIMIT 1 RETURN location, num_pythonistas"""
-}, {
     "question": "Who went to most number of universities?",
     "answer": """MATCH (p:Person)-[:HAS_EDUCATION]->(e:Education) WITH p, COUNT(e.university) as num_universities ORDER BY num_universities DESC LIMIT 1 RETURN p, num_universities"""
 }, {
@@ -38,17 +35,11 @@ examples = [{
     "question": "Do I have anyone with expertise on Java and Cyber security?",
     "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s1:Skill), (p)-[:HAS_SKILL]->(s2:Skill) WHERE toLower(s1.name) CONTAINS 'java' AND toLower(s2.name) CONTAINS 'cyber security' RETURN p"""
 }, {
-    "question": "How many Texas-based experts do I have on Java?",
-    "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) MATCH (p)-[:HAS_POSITION]->(pos:Position) WHERE toLower(s.name) CONTAINS 'java' AND toLower(s.level) CONTAINS 'expert' AND (toLower(pos.location) CONTAINS 'texas' OR toLower(pos.location) CONTAINS 'tx') RETURN COUNT(p)"""
-}, {
     "question": "Which data scientist is based out of Texas?",
     "answer": """MATCH (p:Person)-[:HAS_POSITION]->(pos:Position) WHERE toLower(pos.title) CONTAINS 'data scientist' AND (toLower(pos.location) CONTAINS 'texas' OR toLower(pos.location) CONTAINS 'tx') RETURN p"""
 }, {
     "question": "Which skill is popular among people with bachelor degrees?",
     "answer": """MATCH (p:Person)-[:HAS_EDUCATION]->(e:Education), (p)-[:HAS_SKILL]->(s:Skill) WHERE toLower(e.degree) CONTAINS 'bachelor' WITH s, COUNT(p) AS person_count ORDER BY person_count DESC LIMIT 1 RETURN s.name, person_count"""
-}, {
-    "question": "How many people have a degree in computer science from Stanford University?",
-    "answer": """MATCH (p:Person)-[:HAS_EDUCATION]->(e:Education) WHERE toLower(e.degree) CONTAINS 'computer science' AND toLower(e.university) CONTAINS 'stanford' RETURN COUNT(p)"""
 }, {
     "question": "How many people have worked as a software engineer at Google?",
     "answer": """MATCH (p:Person)-[:HAS_POSITION]->(pos:Position)-[:AT_COMPANY]->(c:Company) WHERE toLower(pos.title) CONTAINS 'software engineer' AND toLower(c.name) CONTAINS 'google' RETURN COUNT(p)"""
@@ -106,9 +97,24 @@ examples = [{
 }, {
     "question": "How many people have worked as a Data Scientist in San Francisco?",
     "answer": """MATCH (p:Person)-[:HAS_POSITION]->(pos:Position) WHERE toLower(pos.title) CONTAINS 'data scientist' AND toLower(pos.location) CONTAINS 'san francisco' RETURN COUNT(p)"""
+},, {
+    "question": "How many knows Delphi?",
+    "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) WHERE toLower(s.name) CONTAINS 'delphi' RETURN COUNT(p)"""
+}, {
+    "question": "How many experts do we have on MS Word?",
+    "answer": """MATCH (p:Person)-[:HAS_SKILL]->(s:Skill) WHERE toLower(s.name) CONTAINS 'ms word' AND toLower(s.level) CONTAINS 'expert' RETURN COUNT(p)"""
+}, {
+    "question": "What skills does p1685120816675380030 have?",
+    "answer": """MATCH (p:Person {id: 'p1685120816675380030'})-[:HAS_SKILL]->(s:Skill) RETURN s.name"""
+}, {
+    "question": "Who went to most number of universities and how many did they go?",
+    "answer": """MATCH (p:Person)-[:HAS_EDUCATION]->(e:Education) WITH p, count(e) AS num_educations ORDER BY num_educations DESC LIMIT 1 RETURN p.id, num_educations"""
+}, {
+    "question": "which are all the companies did p1685120816675380030 work?",
+    "answer": "MATCH (p:Person {id: 'p1685120816675380030'})-[:HAS_POSITION]->(pos:Position)-[:AT_COMPANY]->(c:Company) RETURN c.name"
 }, {
     "question": "What skills do p1685157378573414524 and p1685153569085002139 have in common?",
-    "answer": "MATCH (p1:Person)-[:HAS_SKILL]->(s:Skill)<-[:HAS_SKILL]-(p2:Person) WHERE p1.id = 'p1685157378573414524' AND p2.id = 'p1685153569085002139' RETURN DISTINCT s.name"
+    "answer": """MATCH (p1:Person)-[:HAS_SKILL]->(s:Skill)<-[:HAS_SKILL]-(p2:Person) WHERE p1.id = 'p1685157378573414524' AND p2.id = 'p1685153569085002139' RETURN DISTINCT s.name"""
 }]
 
 instr_template = """

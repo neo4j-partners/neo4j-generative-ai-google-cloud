@@ -41,7 +41,10 @@ To install Streamlit and other dependencies:
     sudo apt install pip -y
     pip install -r requirements.txt
 
-To do --- fix path issues with this install
+You might need to ensure streamlit command is in the PATH. To do that (replace `MY_USER_NAME` in the command below):
+
+    export PATH="/home/MY_USER_NAME/.local/bin/streamlit:$PATH"
+
 
 Next up you'll need to create a secrets file for the app to use.  Edit the following command to generate that:
 
@@ -56,7 +59,13 @@ To run the app at a port number, say 80:
 
     streamlit run main.py --server.port=80
 
-To do --- show how to run on 80 so a user will not have to open a custom port.  Fixing the path issue above probably resolves this.
+On a GCP VM to run on port 80:
+- Ensure you are a root or has access to run on port 80
+- If you are running `sudo`, you also need to run the `gcloud auth` command above as a sudoer. And ensure that `streamlit` is accessible from the PATH.
+- Ensure that the VM has port 80 open for HTTP access. You might need to open that port or any other via firewall-rules. You can use the [following gcloud command](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/create) to open the port. Make sure you replace with relevant values. You also need to add network tags to your VM before executing this command:
+
+    gcloud compute firewall-rules create <rule-name> --allow tcp:80 --source-tags=<list-of-your-instances-name-tags> --source-ranges=0.0.0.0/0 --description="<your-description-here>"
+
 
 From the UI, you can ask questions like:
 1. How many experts do we have on MS Word?

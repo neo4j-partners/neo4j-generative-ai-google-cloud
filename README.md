@@ -64,9 +64,10 @@ On a GCP VM to run on port 80:
 - If you are running `sudo`, you also need to run the `gcloud auth` command above as a sudoer. And ensure that `streamlit` is accessible from the PATH.
 - Ensure that the VM has port 80 open for HTTP access. You might need to open that port or any other via firewall-rules. You can use the [following gcloud command](https://cloud.google.com/sdk/gcloud/reference/compute/firewall-rules/create) to open the port. Make sure you replace with relevant values. You also need to add network tags to your VM before executing this command:
 
+    ```bash
     gcloud compute firewall-rules create <rule-name> --allow tcp:80 --source-tags=<list-of-your-instances-name-tags> --source-ranges=0.0.0.0/0 --description="<your-description-here>"
-
-
+    ```
+    
 From the UI, you can ask questions like:
 1. How many experts do we have on MS Word?
 2. What skills does p1685120816675380030 have?

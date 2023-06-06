@@ -43,13 +43,20 @@ To install Streamlit and other dependencies:
 
 To do --- fix path issues with this install
 
-To run the app at a port number, say 7474:
+Next up you'll need to create a secrets file for the app to use.  Edit the following command to generate that:
 
     cd streamlit
-    streamlit run main.py --server.port=7474
+    cd .streamlit
+    cp secrets.toml.example secrets.toml
+    cd ..
 
-To do --- show how to run on 80 so a user will not have to open a custom port.
-To do --- note on secrets file
+You will now need to edit that file to reflect your credentials.
+
+To run the app at a port number, say 80:
+
+    streamlit run main.py --server.port=80
+
+To do --- show how to run on 80 so a user will not have to open a custom port.  Fixing the path issue above probably resolves this.
 
 From the UI, you can ask questions like:
 1. How many experts do we have on MS Word?

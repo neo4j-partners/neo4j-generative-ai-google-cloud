@@ -24,7 +24,28 @@ The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through
 The notebook has an embeeded Gradio widget that can be run for quick testing.
 
 ## UI
-The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM.  
+The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM. You need to replace your environment specific values int he command below:
+
+    ```bash
+    export VM_INSTANCE_NAME='neo4j-gcp-genai-demo'
+    export GCP_PROJECT_NAME=$(gcloud config get-value project)
+    gcloud compute instances create $VM_INSTANCE_NAME \
+        --project=$GCP_PROJECT_NAME \
+        --zone=us-central1-c \
+        --machine-type=e2-medium \
+        --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
+        --maintenance-policy=MIGRATE --provisioning-model=STANDARD \
+        --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/trace.append \
+        --tags=allow-http,http-server \
+        --create-disk=auto-delete=yes,boot=yes,device-name=$VM_INSTANCE_NAME,image=projects/debian-cloud/global/images/debian-11-bullseye-v20230509,mode=rw,size=10,type=projects/$GCP_PROJECT_NAME/zones/us-central1-c/diskTypes/pd-balanced \
+        --no-shielded-secure-boot \
+        --shielded-vtpm --shielded-integrity-monitoring \
+        --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
+    ```
+
+Next, login to the new VM instance:
+
+    gcloud compute ssh --zone "us-central1-c" $VM_INSTANCE_NAME --project $GCP_PROJECT_NAME
 
 We're going to be running the application on port 80.  That requires root access, so first:
 
@@ -33,6 +54,8 @@ We're going to be running the application on port 80.  That requires root access
 Then you'll need to install git and clone this repo:
 
     apt install -y git
+    mkdir -p /app
+    cd /app
     git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
     cd intelligent-app-google-generativeai-neo4j
 
@@ -40,16 +63,29 @@ Login using GCP credentials via the `gcloud` cli.
 
     gcloud auth application-default login
 
+Let's install python & pip first:
+
+    apt install -y python
+    apt install -y pip
+
+Now, let's create a Virtual Environment to isolate our Python environment and activate it
+
+    apt-get install -y python3-venv
+    python3 -m venv /app/venv/genai
+    source /app/venv/genai/bin/activate
+
 To install Streamlit and other dependencies:
 
     cd ui
-    apt install -y python
-    apt install -y pip
     pip install -r requirements.txt
 
-You might need to ensure streamlit command is in the PATH. To do that (replace `MY_USER_NAME` in the command below):
+Check if `streamlit` command is accessible from PATH by running this command:
 
-    export PATH="/home/MY_USER_NAME/.local/bin/streamlit:$PATH"
+    streamlit --version
+
+If not, you need to add the `streamlit` binary to PATH variable like below:
+
+    export PATH="/app/venv/genai/bin:$PATH"
 
 Next up you'll need to create a secrets file for the app to use.  Open the file and edit it:
 

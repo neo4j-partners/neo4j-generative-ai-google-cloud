@@ -26,7 +26,6 @@ The notebook has an embeeded Gradio widget that can be run for quick testing.
 ## UI
 The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM. You need to replace your environment specific values int he command below:
 
-    ```bash
     export VM_INSTANCE_NAME='neo4j-gcp-genai-demo'
     export GCP_PROJECT_NAME=$(gcloud config get-value project)
     gcloud compute instances create $VM_INSTANCE_NAME \
@@ -41,7 +40,7 @@ The UI application is based on Streamlit. In this example we're going to show ho
         --no-shielded-secure-boot \
         --shielded-vtpm --shielded-integrity-monitoring \
         --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
-    ```
+        
 
 Next, login to the new VM instance:
 

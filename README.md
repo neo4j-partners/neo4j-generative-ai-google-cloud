@@ -18,9 +18,10 @@ The notebook uses Python 3.8 for LangChain.  However the managed notebooks are c
     conda create -y -q -p $HOME/conda_env/$VENV python=3.8 ipykernel
     source /opt/conda/bin/activate ~/conda_env/$VENV
     python -m ipykernel install --user --name $VENV
+    conda install -c conda-forge ipywidgets
 
 ## Notebook
-The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through prompts and tuning a model.  You will need to run that before the UI.
+The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through prompts and tuning a model.  You will need to run that before the UI. While running the notebook, make sure you select the `py38` kernel you just created above.
 The notebook has an embeeded Gradio widget that can be run for quick testing.
 
 ## UI

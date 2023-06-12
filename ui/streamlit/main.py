@@ -2,9 +2,7 @@ import streamlit as st
 import vertexai
 from streamlit_chat import message
 
-from neo4j_driver import run_query
-from english2cypher import generate_cypher
-from graph2text import generate_response
+from english2results import get_results
 from timeit import default_timer as timer
 
 vertexai.init(project=st.secrets["GCP_PROJECT"], 
@@ -12,9 +10,6 @@ vertexai.init(project=st.secrets["GCP_PROJECT"],
 
 # Hardcoded UserID
 USER_ID = "bot"
-
-# On the first execution, we have to create a user node in the database.
-run_query("""MERGE (u:User {id: $userId})""", {'userId': USER_ID})
 
 st.set_page_config(layout="wide")
 st.markdown("""
@@ -37,7 +32,8 @@ def generate_context(prompt, context_data='generated'):
         size = len(st.session_state['generated'])
         for i in range(max(size-3, 0), size):
             context.append(st.session_state['user_input'][i])
-            context.append(st.session_state[context_data][i])
+            if len(st.session_state[context_data]) > i:
+                context.append(st.session_state[context_data][i])
     # Add the latest user prompt
     context.append(str(prompt))
     return context
@@ -75,30 +71,26 @@ user_input = get_text()
 
 if user_input:
     start = timer()
-    cypher = generate_cypher(generate_context(user_input, 'database_results'))
-    # If not a valid Cypher statement
-    if not "MATCH" in cypher:
-        print('No Cypher was returned')
+    results = get_results(generate_context(user_input, 'database_results'))
+    try:
+        cypher_step = results['intermediate_steps']
         print('Total Time : {}'.format(timer() - start))
+        if len(cypher_step) > 0 and 'query' in cypher_step[0]:
+            st.session_state.cypher.append(cypher_step[0]['query'])
+        else :
+            st.session_state.cypher.append('')
+        if len(cypher_step) > 1 and 'context' in cypher_step[1] and len(cypher_step[1]['context']) > 0:
+            st.session_state.database_results.append(cypher_step[1]['context'][0])
+        else:
+            st.session_state.database_results.append('')
         st.session_state.user_input.append(user_input)
-        st.session_state.generated.append(
-            cypher)
-        st.session_state.cypher.append(
-            "No Cypher statement was generated")
-        st.session_state.database_results.append("")
-    else:
-        # Query the database, user ID is hardcoded
-        results = run_query(cypher, {'userId': USER_ID})
-        # Harcode result limit to 10
-        results = results[:10]
-        # Graph2text
-        answer = generate_response(generate_context(
-            f"Question was {user_input} and the response should include only information that is given here: {str(results)}"))
-        print('Total Time : {}'.format(timer() - start))
-        st.session_state.database_results.append(str(results))
+        st.session_state.generated.append(results['result'])
+    except Exception as ex:
+        print(ex)
         st.session_state.user_input.append(user_input)
-        st.session_state.generated.append(answer),
-        st.session_state.cypher.append(cypher)
+        st.session_state.generated.append("Could not generate result due to an error or LLM Quota exceeded")
+        st.session_state.cypher.append("")
+        st.session_state.database_results.append('{}')
 
 
 # Message placeholder

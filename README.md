@@ -112,9 +112,9 @@ On a GCP VM to run on port 80:
     
 From the UI, you can ask questions like:
 1. How many experts do we have on MS Word?
-2. What skills does p1685120816675380030 have?
-3. What companies did p1685120816675380030 work at?
-4. What skills do p1685157378573414524 and p1685153569085002139 have in common?
+2. What skills does <INSERT_PERSON_ID> have?
+3. What companies did <INSERT_PERSON_ID> work at?
+4. What skills do <INSERT_PERSON_ID_1> and <INSERT_PERSON_ID_2> have in common?
 5. Who went to most number of universities and how many did they go to?
 6. Where do most candidates get educated?
-7. How many people know Delphi?
+7. How many pythonistas are there?

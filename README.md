@@ -3,7 +3,7 @@ This is a sample notebook and web application which shows how Google Vertex AI G
 
 This notebook parses data from a public corpus of Resumes / Curriculum Vitae using Google Vertex AI Generative AI's `text-bison` model. The model is prompted to recognise and extract entities and relationships. 
 
-We then use the `text-bison` model and prompt it to convert questions in English to Cypher - Neo4j's query language for data retrieval.
+We then use the `code-bison` model from the Codey family and prompt it to convert questions in English to Cypher - Neo4j's query language for data retrieval.
 
 ## Setup
 To get started, create a [managed notebook](https://console.cloud.google.com/vertex-ai/workbench/managed) in Google Cloud Vertex AI.  Be sure to select "single user" when starting a managed notebook to run this, otherwise the auth won't allow access to the preview.

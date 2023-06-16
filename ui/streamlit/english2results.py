@@ -30,8 +30,8 @@ Schema:
 Samples:
 Question: How many expert java developers attend more than one universities?
 Answer: MATCH (p:Person)-[:HAS_SKILL]->(s:Skill), (p)-[:HAS_EDUCATION]->(e1:Education), (p)-[:HAS_EDUCATION]->(e2:Education) WHERE toLower(s.name) CONTAINS 'java' AND toLower(s.level) CONTAINS 'expert' AND e1.university <> e2.university RETURN COUNT(DISTINCT p)
-Question: Where do most candidates get educated?
-Answer: MATCH (p:Person)-[:HAS_EDUCATION]->(e:Education) RETURN e.university, count(e.university) as alumni ORDER BY alumni DESC LIMIT 1
+Question: What skills do p1234 and p5678 have in common?
+Answer: MATCH (p1:Person)-[:HAS_SKILL]->(s1:Skill), (p2:Person)-[:HAS_SKILL]->(s2:Skill) WHERE p1.id = "p1234" AND p2.id = "p5678" AND s1.name = s2.name RETURN s1.name, s2.name
 Question: How many people have worked as a Data Scientist in San Francisco?
 Answer: MATCH (p:Person)-[:HAS_POSITION]->(pos:Position) WHERE toLower(pos.title) CONTAINS 'data scientist' AND toLower(pos.location) CONTAINS 'san francisco' RETURN COUNT(p)
 Question: {question}

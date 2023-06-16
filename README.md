@@ -18,7 +18,7 @@ The notebook uses Python 3.8 for LangChain.  However the managed notebooks are c
     conda create -y -q -p $HOME/conda_env/$VENV python=3.8 ipykernel
     source /opt/conda/bin/activate ~/conda_env/$VENV
     python -m ipykernel install --user --name $VENV
-    conda install -c conda-forge ipywidgets
+    conda install -y -c conda-forge ipywidgets
 
 ## Notebook
 The notebook at [notebook/notebook.ipynb](notebook/notebook.ipynb) walks through prompts and tuning a model.  You will need to run that before the UI. While running the notebook, make sure you select the `py38` kernel you just created above.
@@ -94,7 +94,16 @@ Next up you'll need to create a secrets file for the app to use.  Open the file 
     cp secrets.toml.example secrets.toml
     vi secrets.toml
 
-You will now need to edit that file to reflect your credentials.
+You will now need to edit that file to reflect your credentials. The file has the following variables:
+
+    GCP_PROJECT = "" # Your GCP project ID
+    GCP_LOCATION = "us-central1" # Location
+    TUNED_CYPHER_MODEL = "" # If you have a tuned Codey Model, provide here. Else, Leave it blank
+    NEO4J_HOST = "bolt://host.docker.internal" # Neo4j URL
+    NEO4J_PORT = "7687" # Neo4j Port
+    NEO4J_USER = "neo4j" # Neo4j User Name
+    NEO4J_PASSWORD = "Foo12345678" #Neo4j Password
+    NEO4J_DB = "neo4j" #Neo4j Database Name
 
 Now we can run the app with the commands:
 
@@ -112,9 +121,9 @@ On a GCP VM to run on port 80:
     
 From the UI, you can ask questions like:
 1. How many experts do we have on MS Word?
-2. What skills does <INSERT_PERSON_ID> have?
-3. What companies did <INSERT_PERSON_ID> work at?
-4. What skills do <INSERT_PERSON_ID_1> and <INSERT_PERSON_ID_2> have in common?
+2. What skills does p06150 have?
+3. What are all the companies did p06150 work for?
+4. What skills do p06150 and p10343 have in common?
 5. Who went to most number of universities and how many did they go to?
 6. Where do most candidates get educated?
 7. How many pythonistas are there?

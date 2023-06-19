@@ -120,7 +120,7 @@ On a GCP VM to run on port 80:
     ```
     
 From the UI, you can ask questions like:
-1. How many experts do we have on MS Word?
+1. How many experts do we have on Google Docs?
 2. What skills does p06150 have?
 3. What are all the companies did p06150 work for?
 4. What skills do p06150 and p10343 have in common?

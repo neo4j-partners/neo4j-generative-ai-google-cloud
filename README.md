@@ -125,5 +125,4 @@ From the UI, you can ask questions like:
 3. What are all the companies did p06150 work for?
 4. What skills do p06150 and p10343 have in common?
 5. Who went to most number of universities and how many did they go to?
-6. Where do most candidates get educated?
-7. How many pythonistas are there?
+6. How many pythonistas are there?

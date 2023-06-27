@@ -1,10 +1,10 @@
 from langchain.chains import GraphCypherQAChain
 from langchain.graphs import Neo4jGraph
+from langchain.llms import VertexAI
 from langchain.prompts.prompt import PromptTemplate
 from retry import retry
 from timeit import default_timer as timer
 import streamlit as st
-from vertexaicode import VertexAICode
 
 host = st.secrets["NEO4J_HOST"]+":"+st.secrets["NEO4J_PORT"]
 user = st.secrets["NEO4J_USER"]
@@ -13,7 +13,7 @@ db = st.secrets["NEO4J_DB"]
 
 codey_model_name = st.secrets["TUNED_CYPHER_MODEL"]
 if codey_model_name == '':
-    codey_model_name = 'projects/neo4jbusinessdev/locations/us-central1/publishers/google/models/code-bison@001'
+    codey_model_name = 'code-bison'
     
 
 CYPHER_GENERATION_TEMPLATE = """You are an expert Neo4j Cypher translator who understands the question in english and convert to Cypher strictly based on the Neo4j Schema provided and following the instructions below:
@@ -40,7 +40,7 @@ CYPHER_GENERATION_PROMPT = PromptTemplate(
     input_variables=["schema", "question"], template=CYPHER_GENERATION_TEMPLATE
 )
 
-@retry(tries=1, delay=5)
+@retry(tries=5, delay=5)
 def get_results(messages):
     start = timer()
     try:
@@ -50,7 +50,7 @@ def get_results(messages):
             password=password
         )
         chain = GraphCypherQAChain.from_llm(
-            VertexAICode(
+            VertexAI(
                     model_name=codey_model_name,
                     max_output_tokens=2048,
                     temperature=0,
@@ -65,9 +65,9 @@ def get_results(messages):
         else: 
             question = 'How many cases are there?'
         return chain(question)
-    except Exception as ex:
-        print(ex)
-        return "LLM Quota Exceeded. Please try again"
+    # except Exception as ex:
+    #     print(ex)
+    #     return "LLM Quota Exceeded. Please try again"
     finally:
         print('Cypher Generation Time : {}'.format(timer() - start))
 

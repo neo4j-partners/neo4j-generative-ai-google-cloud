@@ -94,16 +94,14 @@ Next up you'll need to create a secrets file for the app to use.  Open the file 
     cp secrets.toml.example secrets.toml
     vi secrets.toml
 
-You will now need to edit that file to reflect your credentials. The file has the following variables:
+You will now need to edit that file to reflect your GCP and Neo4j credentials. The file has the following variables:
 
-    GCP_PROJECT = "" # Your GCP project ID
+    GCP_PROJECT = "myprojectname" # Your GCP project ID
     GCP_LOCATION = "us-central1" # Location
     TUNED_CYPHER_MODEL = "" # If you have a tuned Codey Model, provide here. Else, Leave it blank
-    NEO4J_HOST = "bolt://host.docker.internal" # Neo4j URL
-    NEO4J_PORT = "7687" # Neo4j Port
+    NEO4J_URI = "neo4j+s://xxxxx.databases.neo4j.io" # Neo4j URL. Include port if applicable
     NEO4J_USER = "neo4j" # Neo4j User Name
     NEO4J_PASSWORD = "Foo12345678" #Neo4j Password
-    NEO4J_DB = "neo4j" #Neo4j Database Name
 
 Now we can run the app with the commands:
 

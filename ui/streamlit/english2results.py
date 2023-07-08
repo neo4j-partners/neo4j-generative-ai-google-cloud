@@ -6,10 +6,9 @@ from retry import retry
 from timeit import default_timer as timer
 import streamlit as st
 
-host = st.secrets["NEO4J_HOST"]+":"+st.secrets["NEO4J_PORT"]
+host = st.secrets["NEO4J_URI"]
 user = st.secrets["NEO4J_USER"]
 password = st.secrets["NEO4J_PASSWORD"]
-db = st.secrets["NEO4J_DB"]
 
 codey_model_name = st.secrets["TUNED_CYPHER_MODEL"]
 if codey_model_name == '':

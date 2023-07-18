@@ -10,7 +10,7 @@ To get started, create a [managed notebook](https://console.cloud.google.com/ver
 
 Once that has started, open the notebook and a terminal window within that.  Clone this repo with the command:
 
-    git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
+    git clone https://github.com/neo4j-partners/neo4j-generative-ai-google-cloud.git
 
 The notebook uses Python 3.8 for LangChain.  However the managed notebooks are currently on 3.7.  So, we'll need to install a newer version of Python.  You can do that by running these commands in the terminal.
 

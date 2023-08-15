@@ -6,7 +6,7 @@ This notebook parses data from a public corpus of Resumes / Curriculum Vitae usi
 We then use the `code-bison` model from the Codey family and prompt it to convert questions in English to Cypher - Neo4j's query language for data retrieval.
 
 ## Setup
-To get started, create a [managed notebook](https://console.cloud.google.com/vertex-ai/workbench/managed) in Google Cloud Vertex AI.  Be sure to select "single user" when starting a managed notebook to run this, otherwise the auth won't allow access to the preview.
+To get started, create a [managed notebook](https://console.cloud.google.com/vertex-ai/workbench/managed) in Google Cloud Vertex AI.
 
 Once that has started, open the notebook and a terminal window within that.  Clone this repo with the command:
 

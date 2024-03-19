@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5879.97 673.79">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        fill: #014063;
+        font-family: PTSans-Bold, 'PT Sans';
+        font-size: 600px;
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 509.99)"><tspan class="cls-3" x="0" y="0">R</tspan><tspan class="cls-1" x="339" y="0">A</tspan><tspan x="683.4" y="0">G</tspan><tspan class="cls-7" x="1048.8" y="0"> </tspan><tspan x="1192.8" y="0">with N</tspan><tspan class="cls-4" x="2869.19" y="0">L</tspan><tspan x="3146.99" y="0"> </tspan><tspan class="cls-5" x="3298.78" y="0">t</tspan><tspan x="3505.19" y="0">o</tspan><tspan class="cls-7" x="3827.38" y="0"> </tspan><tspan class="cls-6" x="3971.38" y="0">C</tspan><tspan x="4274.98" y="0">ypher </tspan></text>
+</svg>

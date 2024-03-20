@@ -62,6 +62,8 @@ with placeholder.container():
                    o.reportCalendarOrQuarter as label, '#fdbf6f' as color ORDER BY value DESC LIMIT 15""")
         df_123 = pd.concat([df_1, df_2], ignore_index=True)
         df_123 = pd.concat([df_123, df_3], ignore_index=True)
+        df_123['id'] = df_123['id'].astype(str)
+        df_123['label'] = df_123['label'].astype(str)
         df_mgr_co = run_query("""
             MATCH (e:Manager)-[o:OWNS]->(c:Company)
             return e.managerName as source, c.cusip as target, SUM(o.value)/1_000_000_000_000 as value, 
@@ -72,6 +74,7 @@ with placeholder.container():
                 '#fdbf6f' as link_color ORDER BY source DESC LIMIT 15""")
         df_mgr_co_date = pd.concat([df_mgr_co, df_co_date], ignore_index=True)
         label_mapping = dict(zip(df_123['id'], df_123.index))
+        df_mgr_co_date['target'] = df_mgr_co_date['target'].astype(str)
         df_mgr_co_date['src_id'] = df_mgr_co_date['source'].map(label_mapping)
         df_mgr_co_date['target_id'] = df_mgr_co_date['target'].map(label_mapping)
         

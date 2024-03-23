@@ -25,15 +25,11 @@ gds = GraphDataScience(
 
 gds.set_database(db)
 
-emb_model_name = st.secrets["EMBEDDING_MODEL"]
-if emb_model_name == '':
-    emb_model_name = 'textembedding-gecko@002'
-
 llm_util.init()
+
+emb_model_name = st.secrets["EMBEDDING_MODEL"]
 EMBEDDING_MODEL = TextEmbeddingModel.from_pretrained(emb_model_name)
 model_name = st.secrets["MULTIMODAL_MODEL"]
-if model_name == '':
-    model_name = 'gemini-1.0-pro-vision'
 
 process_flow_prompt = """From the process image provided, extract the flow as a Graph of nodes and edges in json format. Do not miss any of these information.
 * Any text at the start of the image and outside the flow chart box are the title and subtitle. Add them inside the first flow chart box JSON object. 
@@ -210,6 +206,8 @@ def generate_cypher_with_vector_emb(in_json):
             text = j['label']
           rel = toSnakeCase(text)
           tgt_id = get_cypher_compliant_var(j['to'])
+          if src_id not in e_map or tgt_id not in e_map:
+              continue
           stmt = r_stmt_tpl.substitute(
               src_id=src_id, tgt_id=tgt_id, src=e_map[src_id], tgt=e_map[tgt_id], rel=rel, text=text)
 

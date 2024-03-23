@@ -14,12 +14,7 @@ user = st.secrets["NEO4J_USER"]
 password = st.secrets["NEO4J_PASSWORD"]
 db = st.secrets["NEO4J_DB"]
 
-text_model_name = st.secrets["SUMMARY_MODEL"]
-if text_model_name == '':
-    text_model_name = 'text-bison@002'
 code_model_name = st.secrets["CYPHER_MODEL"]
-if code_model_name == '':
-    code_model_name = 'code-bison@002'
     
 
 CYPHER_GENERATION_TEMPLATE = """You are an expert Neo4j Cypher translator who understands the question in english and convert to Cypher strictly based on the Neo4j Schema provided and following the instructions below:
@@ -78,11 +73,17 @@ Answer: MATCH (m:Manager) -[o:OWNS]-> (c:Company) WHERE toLower(m.managerName) C
 Question: What are Vanguard's top investments by value for 2023?
 Answer: MATCH (m:Manager) -[o:OWNS]-> (c:Company) WHERE toLower(m.managerName) CONTAINS "vanguard" AND date({{year:2023}}) = date.truncate('year',o.reportCalendarOrQuarter) RETURN c.companyName AS investment, sum(o.shares) AS totalShares ORDER BY totalShares DESC LIMIT 10
 
+Question: What is the shortest path between Amazon and Pubmatic? Go until 2 hops
+Answer: MATCH p=shortestPath((a:Company)-[*1..2]-(b:Company)) WHERE toLower(a.companyName) CONTAINS 'amazon' AND toLower(b.companyName) CONTAINS 'pubmatic' RETURN p
+
 Question: {question}
 Answer:"""
 CYPHER_GENERATION_PROMPT = PromptTemplate(
     input_variables=["schema","question"], template=CYPHER_GENERATION_TEMPLATE
 )
+
+SYSTEM_PROMPT = """You are a Financial expert with SEC filings who can answer questions only based on the context below.
+"""
 
 @retry(tries=5, delay=5)
 def get_results(messages):
@@ -94,8 +95,9 @@ def get_results(messages):
             password=password
         )
         code_llm = VertexAI(
-            model_name=code_model_name, 
-            max_output_tokens=2048, temperature=0.0)
+            model_name=code_model_name, cache=False, 
+            max_output_tokens=2048, temperature=0.0,
+            top_k=1, top_p=0.1)
         chain = GraphCypherQAChain.from_llm(
             code_llm, 
             graph=graph, verbose=True,
@@ -106,12 +108,9 @@ def get_results(messages):
         if messages:
             question = messages.pop()
         else: 
-            question = 'Which of the managers own Amazon?'
+            question = ''
         r = chain(question)
-        summary_llm = VertexAI(
-            model_name=text_model_name, 
-            max_output_tokens=2048, temperature=0.0)
-        result = summary_llm(f"""Human: 
+        prompt = f"""Human: 
             Fact: {r['result']}
 
             * Summarise the above fact as if you are answering this question "{r['query']}"
@@ -121,7 +120,8 @@ def get_results(messages):
             * List the results in rich text format if there are more than one results
             * If the facts are empty, just respond None
             Assistant:
-            """)
+        """
+        result = llm_util.call_text_model(prompt)
         r['context'] = r['result']
         r['result'] = result
         return r

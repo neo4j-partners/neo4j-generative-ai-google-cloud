@@ -47,7 +47,7 @@ with st.expander("Process Ingestion:"):
 with st.expander("Chat"):
    def rag(question):
       res = rag_over_media.get_results(question)
-      st.markdown(res['result'].content)
+      st.markdown(res['result'])
 
    question = st.text_input("Ask a question on the Uploaded Process Flow", value="")
    if question:

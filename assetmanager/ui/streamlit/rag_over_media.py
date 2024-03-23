@@ -1,7 +1,4 @@
 from langchain.prompts.prompt import PromptTemplate
-from langchain_core.messages import SystemMessage
-from langchain_core.messages import HumanMessage
-from langchain_google_vertexai import ChatVertexAI
 from vertexai.language_models import TextEmbeddingModel
 from retry import retry
 from timeit import default_timer as timer
@@ -24,14 +21,7 @@ gds = GraphDataScience(
 
 gds.set_database(db)
 
-model_name = st.secrets["SUMMARY_MODEL"]
-if model_name == '':
-    model_name = 'gemini-1.0-pro-001'
-
 emb_model_name = st.secrets["EMBEDDING_MODEL"]
-if emb_model_name == '':
-    emb_model_name = 'textembedding-gecko@002'
-    
 
 SYSTEM_PROMPT = """You are an expert with Aviation Industry who can answer questions only based on the context below.
 * Answer the question STRICTLY based on the context provided in JSON below.
@@ -80,35 +70,20 @@ def df_to_context(df):
     parsed = json.loads(result)
     return json.dumps(parsed)
 
-@retry(tries=5, delay=5)
+@retry(tries=2, delay=2)
 def get_results(question):
     start = timer()
     try:
-        llm = ChatVertexAI(
-            model_name=model_name,
-            model_kwargs = {
-                "temperature":0,
-                "top_k":1, "top_p":0.1,
-                "max_tokens": 50000
-            },
-            convert_system_message_to_human = True
-        )
         df = vector_graph_qa(question)
         ctx = df_to_context(df)
         ans = PROMPT.format(input=question, context=ctx)
-        messages = [
-            SystemMessage(content=SYSTEM_PROMPT),
-            HumanMessage(
-                content=ans
-            )
-        ]
-        result = llm.invoke(messages)
+        result = llm_util.call_text_model(ans, SYSTEM_PROMPT)
         r = {}
         r['context'] = ans
         r['result'] = result
         return r
     finally:
-        print('Cypher Generation Time : {}'.format(timer() - start))
+        print('Generation Time : {}'.format(timer() - start))
 
 def reset_db():
     try:

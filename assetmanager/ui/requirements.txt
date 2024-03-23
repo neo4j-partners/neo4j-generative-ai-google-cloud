@@ -3,6 +3,7 @@ google-api-python-client>=2.122.0
 google-cloud-core>=2.4.1
 graphdatascience
 retry==0.9.2
+anthropic
 langchain>=0.1.11
 langchain-google-vertexai>=0.1.1
 langchain-community>=0.0.27

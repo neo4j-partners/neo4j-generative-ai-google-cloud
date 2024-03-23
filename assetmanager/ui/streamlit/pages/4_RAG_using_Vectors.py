@@ -31,7 +31,7 @@ question = st.text_input("Ask question on the SEC Filings", value="")
 
 col1, col2 = st.columns(2)
 with col1:
-  st.markdown("### Vector Only approach")
+  st.markdown("### Baseline RAG (vector only)")
   with st.expander("Vector Only Search does not have context and it is something like this:"):
     vec_only = Image.open('./images/vector-only.png')
     st.markdown("#### Relationships are ignored. So, lesser context")
@@ -40,7 +40,7 @@ with col1:
     st.markdown("#### Sample Doc Chunk")
     st.image(v)
 with col2:
-  st.markdown("### Vector + Graph approach")
+  st.markdown("### GraphRAG (vector + graph)")
   with st.expander("Vector+Graph has full context like this:"):
     schema = Image.open('./images/schema.png')
     st.markdown("#### Relationships make this context-rich")
@@ -94,14 +94,14 @@ st.markdown("""
     <th colspan="3">Sample Questions to try out</th>
   </tr>
   <tr>
-    <td>Name the asset managers exposed to investments in regulated companies?</td>
-    <td>Which companies and asset managers are vulnerable to lithium shortage?</td>
-    <td>Which asset managers are exposed to semi-conductor companies?</td>
+    <td>Which asset managers have investments in outside USA? Explain with evidence</td>
+    <td>Which companies and asset managers are vulnerable to chip shortage?</td>
+    <td>Which asset managers are exposed to defence industries?</td>
   </tr>
   <tr>
-    <td>Which asset managers have investments in Ohio?</td>
-    <td>Which company sells bicycle?</td>
-    <td>If I have to invest in rubber, which company should I look into?</td>
+    <td>Which asset managers have investments in regulated industries?</td>
+    <td>Which company sells analytics solutions?</td>
+    <td>If I have to invest in commodities, what are the list of asset managers to look into?</td>
   </tr>
   <tr>
     <td></td>

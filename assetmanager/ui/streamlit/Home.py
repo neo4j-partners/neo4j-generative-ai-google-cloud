@@ -30,7 +30,7 @@ placeholder = st.empty()
 
 with placeholder.container():
         df_companies = run_query("""MATCH (n:Company) return n.companyName as name""")
-        assets_in_billions = math.floor(run_query("""MATCH (m:Manager)-[o:OWNS]->(c:Company) RETURN SUM(o.value)/1_000_000_000_000 as assetsInBillions""")['assetsInBillions'][0])
+        assets_in_billions = math.floor(run_query("""MATCH (m:Manager)-[o:OWNS]->(c:Company) RETURN SUM(o.value)/1_000_000_000 as assetsInBillions""")['assetsInBillions'][0])
 
         kpi1, kpi2, kpi3 = st.columns(3)
         kpi1.metric(
@@ -42,7 +42,7 @@ with placeholder.container():
             value=len(df_companies)
         )
         kpi3.metric(
-            label="Total Assets Managed (In Trillions)",
+            label="Total Assets Managed (In Billions)",
             value=assets_in_billions
         )
     
@@ -50,7 +50,7 @@ with placeholder.container():
         st.markdown("### Managers & Assets")
         df_1 = run_query("""
             MATCH (e:Manager)-[o:OWNS]->(c:Company)
-            return e.managerName as id, c.cusip as target, SUM(o.value)/1_000_000_000_000 as value, 
+            return e.managerName as id, c.cusip as target, SUM(o.value)/1_000_000 as value, 
                    e.managerName as label, '#33a02c' as color ORDER BY target DESC LIMIT 15""")
         df_2 = run_query("""
             MATCH (e:Manager)-[o:OWNS]->(c:Company)
@@ -58,23 +58,20 @@ with placeholder.container():
                    c.companyName as label, '#1f78b4' as color ORDER BY c.cusip DESC LIMIT 15""")
         df_3 = run_query("""
             MATCH (e:Manager)-[o:OWNS]->(c:Company)
-            return o.reportCalendarOrQuarter as id, SUM(o.value)/1_000_000_000_000 as value,
+            return o.reportCalendarOrQuarter as id, SUM(o.value)/1_000_000 as value,
                    o.reportCalendarOrQuarter as label, '#fdbf6f' as color ORDER BY value DESC LIMIT 15""")
         df_123 = pd.concat([df_1, df_2], ignore_index=True)
         df_123 = pd.concat([df_123, df_3], ignore_index=True)
-        df_123['id'] = df_123['id'].astype(str)
-        df_123['label'] = df_123['label'].astype(str)
         df_mgr_co = run_query("""
             MATCH (e:Manager)-[o:OWNS]->(c:Company)
-            return e.managerName as source, c.cusip as target, SUM(o.value)/1_000_000_000_000 as value, 
+            return e.managerName as source, c.cusip as target, SUM(o.value)/1_000_000 as value, 
                 '#a6cee3' as link_color ORDER BY target DESC LIMIT 15""")
         df_co_date = run_query("""
             MATCH (e:Manager)-[o:OWNS]->(c:Company)
-            return c.cusip as source, o.reportCalendarOrQuarter as target, SUM(o.value)/1_000_000_000_000 as value, 
+            return c.cusip as source, o.reportCalendarOrQuarter as target, SUM(o.value)/1_000_000 as value, 
                 '#fdbf6f' as link_color ORDER BY source DESC LIMIT 15""")
         df_mgr_co_date = pd.concat([df_mgr_co, df_co_date], ignore_index=True)
         label_mapping = dict(zip(df_123['id'], df_123.index))
-        df_mgr_co_date['target'] = df_mgr_co_date['target'].astype(str)
         df_mgr_co_date['src_id'] = df_mgr_co_date['source'].map(label_mapping)
         df_mgr_co_date['target_id'] = df_mgr_co_date['target'].map(label_mapping)
         
@@ -100,11 +97,11 @@ with placeholder.container():
         st.plotly_chart(sankey, use_container_width=True)
 
         assets_col = st.columns(1)
-        st.markdown("### Popular Companies by Assets (In Billions)")
+        st.markdown("### Popular Companies by Assets (In Millions)")
         df_assets = run_query("""
             MATCH (m:Manager)-[o:OWNS]->(c:Company) 
             RETURN c.companyName as company, 
-                SUM(o.value)/1_000_000_000 as assets 
+                SUM(o.value)/1_000_000 as assets 
             ORDER BY assets DESC limit 10""")
         size_max_default = 7
         scaling_factor = 5

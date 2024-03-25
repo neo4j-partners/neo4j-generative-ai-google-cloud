@@ -13,7 +13,7 @@ streamlit-chat-media>=0.0.4
 numpy
 pandas
 requests
-plotly==5.15.0
+plotly>=5.20.0
 tqdm
 pillow
 altair<5

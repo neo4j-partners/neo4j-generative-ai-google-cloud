@@ -8,7 +8,7 @@ The dataflow in this demo consists of two parts:
 2. Consumption - A user inputs natural language into a chat UI.  Vertex AI GenAI converts that to Neo4j Cypher which is run against the database.  This flow allows non technical users to query the database.
 
 ## Setup VertexAI Workbench
-To get started setting up the demo, clone this repo into a VertexAI Workbench environment and then run through the notebooks numbered 0 through 4.
+To get started setting up the demo, clone this repo into a VertexAI Workbench environment and then run through the notebooks numbered 1 and 2.
 Create a [managed notebook](https://console.cloud.google.com/vertex-ai/workbench/managed) in Google Cloud Vertex AI.  Be sure to select "single user" when starting a managed notebook to run this, otherwise the auth won't allow access to the preview.
 
 Once that has started, open the notebook and a terminal window within that.  Clone this repo with the command:
@@ -102,7 +102,7 @@ You will now need to edit that file to reflect your credentials. The file has th
     GCP_LOCATION = "us-central1" #e.g. us-central1
     SUMMARY_MODEL = "" #e.g. claude-3-sonnet@20240229
     CYPHER_MODEL = "" #e.g. code-bison@002
-    EMBEDDING_MODEL  = "" #e.g. textembedding-gecko@002
+    EMBEDDING_MODEL  = "" #e.g. textembedding-gecko@003. Ensure that the same model is provided during the ingestion phases in the `2-text-embedding.ipynb` notebook
     MULTIMODAL_MODEL = "" #e.g. gemini-1.0-pro-vision
     # NEO4J
     NEO4J_HOST = "neo4j+s://URL"

@@ -5,7 +5,8 @@ import streamlit as st
 import ingestion.llm_util as llm_util
 from vertexai.language_models import TextEmbeddingModel
 from neo4j_driver import run_query
-from json import loads, dumps
+from json import loads
+import yaml
 
 llm_util.init()
 
@@ -23,7 +24,7 @@ PROMPT_TEMPLATE = """
 {input}
 </question>
 
-Here is the context:
+Here is the context in YAML format:
 <context>
 {context}
 </context>
@@ -41,15 +42,19 @@ def vector_graph_qa(query):
     YIELD node AS doc, score
     OPTIONAL MATCH (doc)<-[:HAS]-(company:Company), (company)<-[:OWNS]-(manager:Manager)
     RETURN company.companyName AS company, 
-        manager.managerName as asset_manager, 
-        doc.text as quote, avg(score) AS score
-    ORDER BY score DESC LIMIT 50
+        manager.managerName as `asset manager`, 
+        doc.text as text, avg(score) AS score
+    ORDER BY score DESC LIMIT 10
     """, params =  {'queryVector': query_vector[0].values})
 
 def df_to_context(df):
     result = df.to_json(orient="records")
     parsed = loads(result)
-    return dumps(parsed)
+    text = yaml.dump(
+    parsed,
+    sort_keys=False, indent=1,
+    default_flow_style=None)
+    return text
 
 @retry(tries=1)
 def get_results(question):

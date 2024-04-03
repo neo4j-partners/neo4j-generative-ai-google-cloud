@@ -5,7 +5,8 @@ import streamlit as st
 import ingestion.llm_util as llm_util
 from vertexai.language_models import TextEmbeddingModel
 from neo4j_driver import run_query
-from json import loads, dumps
+from json import loads
+import yaml
 
 llm_util.init()
 
@@ -23,7 +24,7 @@ PROMPT_TEMPLATE = """
 {input}
 </question>
 
-Here is the context:
+Here is the context in YAML format:
 <context>
 {context}
 </context>
@@ -40,13 +41,17 @@ def vector_only_qa(query):
     CALL db.index.vector.queryNodes('document-embeddings', 50, $queryVector)
     YIELD node AS doc, score
     RETURN doc.text as text
-    ORDER BY score DESC LIMIT 50
+    ORDER BY score DESC LIMIT 10
     """, params =  {'queryVector': query_vector[0].values})
 
 def df_to_context(df):
     result = df.to_json(orient="records")
     parsed = loads(result)
-    return dumps(parsed)
+    text = yaml.dump(
+    parsed,
+    sort_keys=False, indent=1,
+    default_flow_style=None)
+    return text
 
 @retry(tries=1)
 def get_results(question):

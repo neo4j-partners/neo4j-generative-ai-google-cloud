@@ -21,11 +21,15 @@ render_header_svg("images/bottom-header.svg", 200)
 def rag_v(question):
   res = rag_vector_only.get_results(question)
   st.markdown(res['result'])
+  with st.expander("Context:"):
+    st.markdown(res['context'])
 
 
 def rag_vg(question):
   res = rag_vector_graph.get_results(question)
   st.markdown(res['result'])
+  with st.expander("Context:"):
+    st.markdown(res['context'])
 
 question = st.text_input("Ask question on the SEC Filings", value="")
 

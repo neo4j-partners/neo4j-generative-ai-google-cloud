@@ -100,10 +100,10 @@ st.markdown("""
   <tr>
     <td>Which asset managers have investments in outside USA? Explain with evidence</td>
     <td>Which companies and asset managers are vulnerable to chip shortage?</td>
-    <td>Which asset managers are exposed to defence industries?</td>
+    <td>Which companies and asset managers are most affected during covid?</td>
   </tr>
   <tr>
-    <td>Which asset managers have investments in regulated industries?</td>
+    <td>Which asset managers are exposed to defence industries?</td>
     <td>Which company sells analytics solutions?</td>
     <td>If I have to invest in commodities, what are the list of asset managers to look into?</td>
   </tr>

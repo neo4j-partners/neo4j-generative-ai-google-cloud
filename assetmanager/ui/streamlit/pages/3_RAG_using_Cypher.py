@@ -146,7 +146,7 @@ st.markdown("""
   </tr>
   <tr>
     <td>Which manager own any FAANG stocks?</td>
-    <td>What is the shortest path between Nvidia and Lockheed Martin?</td>
+    <td>What is the shortest path between Amazon and Pubmatic?</td>
     <td>What is the shortest path between Apple and Boeing? Go until 2 hops</td>
   </tr>
   <tr>

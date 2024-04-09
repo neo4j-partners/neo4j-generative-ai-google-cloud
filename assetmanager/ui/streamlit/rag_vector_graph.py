@@ -24,37 +24,44 @@ PROMPT_TEMPLATE = """
 {input}
 </question>
 
-Here is the context in YAML format:
+Here is the context in YAML format. Note that company's should not asset managers in this dataset,
+and form10ks don't include asset manager information.
 <context>
 {context}
 </context>
 """
 
 PROMPT = PromptTemplate(
-    input_variables=["input","context"], template=PROMPT_TEMPLATE
+    input_variables=["input", "context"], template=PROMPT_TEMPLATE
 )
 
 EMBEDDING_MODEL = TextEmbeddingModel.from_pretrained(emb_model_name)
+
+
 def vector_graph_qa(query):
     query_vector = EMBEDDING_MODEL.get_embeddings([query])
     return run_query("""
     CALL db.index.vector.queryNodes('document-embeddings', 50, $queryVector)
     YIELD node AS doc, score
-    OPTIONAL MATCH (doc)<-[:HAS]-(company:Company), (company)<-[:OWNS]-(manager:Manager)
-    RETURN company.companyName AS company, 
-        manager.managerName as `asset manager`, 
-        doc.text as text, avg(score) AS score
-    ORDER BY score DESC LIMIT 10
-    """, params =  {'queryVector': query_vector[0].values})
+OPTIONAL MATCH (doc)<-[:HAS]-(c:Company)
+WITH c, collect(doc.text) AS textChunksFrom10k, sum(score) AS score
+MATCH (c)<-[o:OWNS]-(manager:Manager)
+RETURN c.companyName AS company, 
+    collect('The asset manager ' + manager.managerName + ' ownes ' + toString(o.shares) + 
+    ' shares of ' + c.companyName + ' as of ' + toString(o.reportCalendarOrQuarter)) AS assetManagerInfo, 
+    textChunksFrom10k, score
+    """, params={'queryVector': query_vector[0].values})
+
 
 def df_to_context(df):
     result = df.to_json(orient="records")
     parsed = loads(result)
     text = yaml.dump(
-    parsed,
-    sort_keys=False, indent=1,
-    default_flow_style=None)
+        parsed,
+        sort_keys=False, indent=1,
+        default_flow_style=None)
     return text
+
 
 @retry(tries=1)
 def get_results(question):
@@ -64,9 +71,7 @@ def get_results(question):
         ctx = df_to_context(df)
         ans = PROMPT.format(input=question, context=ctx)
         result = llm_util.call_text_model(ans, SYSTEM_PROMPT)
-        r = {}
-        r['context'] = ans
-        r['result'] = result
+        r = {'context': ans, 'result': result}
         return r
     finally:
         print('Generation Time : {}'.format(timer() - start))

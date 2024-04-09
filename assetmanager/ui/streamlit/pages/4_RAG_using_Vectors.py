@@ -22,14 +22,14 @@ def rag_v(question):
   res = rag_vector_only.get_results(question)
   st.markdown(res['result'])
   with st.expander("Context:"):
-    st.markdown(res['context'])
+    st.code(res['context'], language='yaml')
 
 
 def rag_vg(question):
   res = rag_vector_graph.get_results(question)
   st.markdown(res['result'])
   with st.expander("Context:"):
-    st.markdown(res['context'])
+    st.code(res['context'], language='yaml')
 
 question = st.text_input("Ask question on the SEC Filings", value="")
 

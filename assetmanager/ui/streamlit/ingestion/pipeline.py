@@ -110,14 +110,14 @@ def generate_cypher(manager, filings):
         
         on_create_set = f"""o.reportCalendarOrQuarter = "{manager['reportCalendarOrQuarter']}",
                o.value = {float(f.get('value', 0))},
-               o.sshPrnamt = {float(f.get('sshPrnamt', 0))},
+               o.shares = {float(f.get('sshPrnamt', 0))},
                o.sshPrnamtType = "{f.get('sshPrnamtType', '')}",
                o.investmentDiscretion = "{f.get('investmentDiscretion', '')}",
                o.votingSole = {int(f.get('votingSole', '0'))},
                o.votingShared = {int(f.get('votingShared', '0'))},
                o.votingNone = {int(f.get('votingNone', '0'))}"""
         on_merge_set = f"""o.value = o.value + {float(f.get('value', 0))},
-               o.sshPrnamt = o.sshPrnamt + {float(f.get('sshPrnamt', 0))},
+               o.shares = o.shares + {float(f.get('sshPrnamt', 0))},
                o.votingSole = o.votingSole + {int(f.get('votingSole', '0'))},
                o.votingShared = o.votingShared + {int(f.get('votingShared', '0'))},
                o.votingNone = o.votingNone + {int(f.get('votingNone', '0'))}"""

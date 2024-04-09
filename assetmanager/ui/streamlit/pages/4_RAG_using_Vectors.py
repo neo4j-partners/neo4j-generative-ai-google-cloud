@@ -22,14 +22,14 @@ def rag_v(question):
   res = rag_vector_only.get_results(question)
   st.markdown(res['result'])
   with st.expander("Context:"):
-    st.markdown(res['context'])
+    st.json(res['context'])
 
 
 def rag_vg(question):
   res = rag_vector_graph.get_results(question)
   st.markdown(res['result'])
   with st.expander("Context:"):
-    st.markdown(res['context'])
+    st.json(res['context'])
 
 question = st.text_input("Ask question on the SEC Filings", value="")
 
@@ -103,7 +103,7 @@ st.markdown("""
     <td>Which asset managers have investments in outside USA? Explain with evidence</td>
   </tr>
   <tr>
-    <td>Which asset managers are exposed to defence industries?</td>
+    <td>Which asset managers are exposed to defense industries based on the companies they own shares in?</td>
     <td>Which company sells analytics solutions?</td>
     <td>If I have to invest in commodities, what are the list of asset managers to look into?</td>
   </tr>

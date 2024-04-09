@@ -48,7 +48,7 @@ def vector_graph_qa(query):
     YIELD node AS doc, score
 OPTIONAL MATCH (doc)<-[:HAS]-(c:Company)<-[o:OWNS]-(manager:Manager)
 RETURN c.companyName AS company, 
-    collect('The asset manager ' + manager.managerName + ' owns ' + toString(o.shares) + 
+    collect('The asset manager ' + manager.managerName + ' owns ' + toString(o.sshPrnamt) + 
     ' shares of ' + c.companyName + ' as of ' + toString(o.reportCalendarOrQuarter)) AS assetManagerInfo, 
     doc.text AS company10kInfo, 
     score

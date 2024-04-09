@@ -1,3 +1,5 @@
+import json
+
 from langchain.prompts.prompt import PromptTemplate
 from retry import retry
 from timeit import default_timer as timer
@@ -24,10 +26,11 @@ PROMPT_TEMPLATE = """
 {input}
 </question>
 
-Here is the context in YAML format. Note that company's should not asset managers in this dataset,
-and form10ks don't include asset manager information.
-<context>
-{context}
+Here is the context in JSON format. Note that company's are not considered asset managers in this dataset, 
+and form10ks don't include asset manager information. Where asset manager info is mode explicitly available, 
+you can assume the mentioned asset managers are impacted by the same things as the companies. 
+<context> 
+{context} 
 </context>
 """
 
@@ -44,7 +47,7 @@ def vector_only_qa(query):
     CALL db.index.vector.queryNodes('document-embeddings', 50, $queryVector)
     YIELD node AS doc, score
     MATCH(doc)<-[:HAS]-(c:Company)
-    RETURN c.companyName AS companyName, doc.text AS textChunksFrom10k, score
+    RETURN c.companyName AS companyName, doc.text AS company10kInfo, score
     ORDER BY score DESC LIMIT 10
     """, params={'queryVector': query_vector[0].values})
 
@@ -52,10 +55,7 @@ def vector_only_qa(query):
 def df_to_context(df):
     result = df.to_json(orient="records")
     parsed = loads(result)
-    text = yaml.dump(
-        parsed,
-        sort_keys=False, indent=1,
-        default_flow_style=None)
+    text = json.dumps(parsed, indent=1)
     return text
 
 
@@ -67,7 +67,7 @@ def get_results(question):
         ctx = df_to_context(df)
         ans = PROMPT.format(input=question, context=ctx)
         result = llm_util.call_text_model(ans, SYSTEM_PROMPT)
-        r = {'context': ans, 'result': result}
+        r = {'context': ctx, 'result': result}
         return r
     finally:
         print('Generation Time : {}'.format(timer() - start))

@@ -100,10 +100,10 @@ You will now need to edit that file to reflect your credentials. The file has th
     # GCP
     GCP_PROJECT = "myprojectname" #e.g. neo4jbd
     GCP_LOCATION = "us-central1" #e.g. us-central1
-    SUMMARY_MODEL = "" #e.g. claude-3-sonnet@20240229
-    CYPHER_MODEL = "" #e.g. code-bison@002
+    SUMMARY_MODEL = "" #e.g. gemini-1.5-pro-preview-0409
+    CYPHER_MODEL = "" #e.g. gemini-1.5-pro-preview-0409
     EMBEDDING_MODEL  = "" #e.g. textembedding-gecko@003. Ensure that the same model is provided during the ingestion phases in the `2-text-embedding.ipynb` notebook
-    MULTIMODAL_MODEL = "" #e.g. gemini-1.0-pro-vision
+    MULTIMODAL_MODEL = "" #e.g. claude-3-sonnet@20240229
     # NEO4J
     NEO4J_HOST = "neo4j+s://URL"
     NEO4J_PORT = "7687"

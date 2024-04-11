@@ -14,24 +14,23 @@ llm_util.init()
 
 emb_model_name = st.secrets["EMBEDDING_MODEL"]
 
-SYSTEM_PROMPT = """You are a Financial expert with SEC filings who can answer questions only based on the context below.
-* Answer the question based on the context provided in JSON below.
-* Do not assume or retrieve any information outside of the context 
-* List the results in rich text format if there are more than one results
-* If the context is empty, just respond None
-
-"""
-PROMPT_TEMPLATE = """
-<question>
+SYSTEM_PROMPT = """You are a Financial expert with SEC filings who can answer questions only based on the context below."""
+PROMPT_TEMPLATE = """< Instructions >
+< Question >
 {input}
-</question>
+
+< Constraints >
+1. Answer the question based on the context provided in JSON below.
+2. Do not assume or retrieve any information outside of the context 
+3. List the results in rich text format if there are more than one results
+4. If the context is empty, just respond None
 
 Here is the context in JSON format. Note that company's are not considered asset managers in this dataset, 
-and form10ks don't include asset manager information. Where asset manager info is mode explicitly available, 
+and form10ks don't include asset manager information. Where asset manager info is made explicitly available, 
 you can assume the mentioned asset managers are impacted by the same things as the companies. 
-<context> 
+
+< Context >
 {context} 
-</context>
 """
 
 PROMPT = PromptTemplate(
@@ -48,8 +47,8 @@ def vector_graph_qa(query):
     YIELD node AS doc, score
 OPTIONAL MATCH (doc)<-[:HAS]-(c:Company)<-[o:OWNS]-(manager:Manager)
 RETURN c.companyName AS company, 
-    collect('The asset manager ' + manager.managerName + ' owns ' + toString(o.shares) + 
-    ' shares of ' + c.companyName + ' as of ' + toString(o.reportCalendarOrQuarter)) AS assetManagerInfo, 
+    collect('Asset Manager: ' + manager.managerName + '\nNo. of Shares: ' + toString(o.shares) 
+                     + '\nReport Date: ' + toString(o.reportCalendarOrQuarter)) AS assetManagerInfo, 
     doc.text AS company10kInfo, 
     score
 ORDER BY score DESC LIMIT 10

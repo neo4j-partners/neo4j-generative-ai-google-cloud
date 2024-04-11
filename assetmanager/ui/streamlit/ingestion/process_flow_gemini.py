@@ -1,6 +1,5 @@
-from langchain.schema import HumanMessage
-from langchain.schema import SystemMessage
-from anthropic import AnthropicVertex
+from vertexai.preview.generative_models import GenerativeModel, GenerationConfig, Image
+import base64
 from vertexai.language_models import TextEmbeddingModel
 import re
 from string import Template
@@ -11,9 +10,6 @@ from graphdatascience import GraphDataScience
 import traceback
 import ingestion.llm_util as llm_util
 from timeit import default_timer as timer
-
-project_id = st.secrets["GCP_PROJECT"]
-location = st.secrets["GCP_LOCATION"]
 
 host = st.secrets["NEO4J_HOST"]+":"+st.secrets["NEO4J_PORT"]
 user = st.secrets["NEO4J_USER"]
@@ -33,27 +29,35 @@ emb_model_name = st.secrets["EMBEDDING_MODEL"]
 EMBEDDING_MODEL = TextEmbeddingModel.from_pretrained(emb_model_name)
 model_name = st.secrets["MULTIMODAL_MODEL"]
 
-process_flow_prompt = """From the process image provided, extract the flow as a Graph of nodes and edges in json format. Do not miss any of these information.
-* Any text at the start of the image and outside the flow chart box are the title and subtitle. Add them inside the first flow chart box JSON object. 
-* Treat each box as separate nodes even if they contain same text inside
-* Restrict to the following keys for nodes object:
+process_flow_prompt = """< Objective and persona (optional) >
+You are a Process Flow Image to Graph converter who can take a flow chart image and convert the flow to a graph.
+
+< Instructions >
+From the process image provided, extract the flow as a Graph of nodes and edges in json format. Do not miss any of these information.
+
+< Constraints >
+1. Any text at the start of the image and outside the flow chart box are the title and subtitle. Add them inside the first flow chart box JSON object. 
+2. Treat each box as separate nodes even if they contain same text inside
+3. Restrict to the following keys for nodes object:
     - id //lower-case alphanumeric id to refer in the edges object
     - label //any free text inside the box
     - type //If the label is a question, then it's a decision box no matter the shape of the box itself. Use `process` for other boxes that are not `start` or `end` or `decision`, 
     - terms //A box CONNECTED via DOTTED edges to the flow box are considered as terms. So, place those text inside the terms key of the connected flow box. Sometimes a single can be connected to more than one boxes. In that case, include the term to each of the boxes connected. Has to be string not list. 
     - Create relevant keys (in camelCases. ignore special characters for key names) and values for any text outside the box but refer the process. These texts will be UNCONNECTED boxes closer to the box. Eg. cost for each class of fares. Remember this and do not miss these key info. They are not to be confused with `terms`
-* Restrict to the following keys for edges object:
+4. Restrict to the following keys for edges object:
     - label //the text that refer to the edge in the flow chart
     - from //id of the source node
     - to //id of the target node. This should not be equal to `from` node
-* Text inside boxes are not unique. So do not assume if 2 boxes with same text are one and the same. So, you have to create 2 different nodes
-* REMEMBER: Create new node object every time even if the text/label inside is same with previous nodes. This is SUPER IMPORTANT.
+5. Text inside boxes are not unique. So do not assume if 2 boxes with same text are one and the same. So, you have to create 2 different nodes
+6. REMEMBER: Create new node object every time even if the text/label inside is same with previous nodes. This is SUPER IMPORTANT.
   Please be careful with this point, as decision steps can be wrongly reused
-* Ensure that you extract all the edges. Do not pass empty or invalid node references in the edge object
-* Please double-check the DAG you created above and ensure it fits the image input
-* PLEASE DO NOT confuse between edge labels and node labels.
-* REMEMBER: Boxes with dotted connecting lines are terms and not process flow themselves.
+7. Ensure that you extract all the edges. Do not pass empty or invalid node references in the edge object
+8. Please double-check the DAG you created above and ensure it fits the image input
+9. PLEASE DO NOT confuse between edge labels and node labels.
+10. REMEMBER: Boxes with dotted connecting lines are terms and not process flow themselves.
 
+< Output format >
+The output format must be a JSON. 
 """
 
 def run_pipeline(img_data, img_name, img_type):
@@ -62,7 +66,7 @@ def run_pipeline(img_data, img_name, img_type):
         f = img_name
         print(f"  {f}: Reading Image")
         print(f"    {f}: Extracting Nodes & Edges")
-        flow_json = parse(process_flow_prompt, img_data, img_type)
+        flow_json = parse(process_flow_prompt, img_data)
         st.toast("Extracted Process Nodes & Relationships ✅")
         print(f"    {f}: Generating Cypher")
         constraints, ent_cyp, rel_cyp = generate_cypher_with_vector_emb(flow_json)
@@ -92,35 +96,21 @@ def run_pipeline(img_data, img_name, img_type):
         elapsed = (end-start)
         print(f"    {f}: Took {elapsed}secs")
 
-def parse(prompt, encoded_image, file_type):
+def parse(prompt, encoded_image):
     try:
-        llm = AnthropicVertex(region=location, project_id=project_id)
-        message = llm.messages.create(
-            max_tokens=4096,
-            temperature=0,
-            top_k=1, top_p=0.1,
-            messages=[
-                {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": f"{file_type}",
-                            "data": f"{encoded_image}"
-                        }
-                    },
-                    {"type": "text", "text": prompt}
-                ],
-                }
-            ],
-            model=model_name,
-        )
-        flow_json_str = message.content[0].text
-        if "```" in flow_json_str:
-            flow_json_str = flow_json_str.split('```')[1].strip('json')
-        flow_json_str = flow_json_str.replace('/n', ' ')
+        gen_model = GenerativeModel(model_name=model_name, 
+                                generation_config=GenerationConfig(
+                temperature=0,
+                top_p=0.1,
+                top_k=1,
+                candidate_count=1,
+                max_output_tokens=8192
+            ))
+        decoded_bytes = base64.b64decode(encoded_image.replace('\\n', ''))
+        img = Image.from_bytes(decoded_bytes)
+        flow_json_str = gen_model.generate_content([prompt, img]).text
+        flow_json_str = flow_json_str.split('```')[1].strip('json').replace('/n', ' ')
+        print(flow_json_str)
         return json.loads(flow_json_str)
     except Exception as e:
         print(e)

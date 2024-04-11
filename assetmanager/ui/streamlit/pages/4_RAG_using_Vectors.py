@@ -98,9 +98,9 @@ st.markdown("""
     <th colspan="3">Sample Questions to try out</th>
   </tr>
   <tr>
-    <td>Which asset managers are most affected during covid?</td>
-    <td>Which companies and asset managers are vulnerable to chip shortage?</td>
-    <td>Which asset managers have investments in outside USA? Explain with evidence</td>
+    <td>Which asset managers were affected during covid?</td>
+    <td>Which asset managers are vulnerable to chip shortage?</td>
+    <td>Which asset managers have investments in companies that have businesses outside USA?</td>
   </tr>
   <tr>
     <td>Which asset managers are exposed to defense industries based on the companies they own shares in?</td>

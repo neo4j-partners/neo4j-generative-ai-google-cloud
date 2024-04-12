@@ -21,9 +21,8 @@ This demo requires a Neo4j instance.  You can deploy that using the GCP Marketpl
 ## Enable VertexAI API and GenAI Models
 This demo uses multiple GenAI Models inside the Vertex GenAI Model Garden. Please ensure that you have access to these Models:
 - Text Embedding Gecko
-- Gemini Pro 1.0 Vision
-- Code-bison 
-- Anthropic Claude V3
+- Gemini Pro 1.5
+- Anthropic Claude Sonnet V3
 
 ## UI
 The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM. You need to replace your environment specific values in the command below:
@@ -31,22 +30,14 @@ The UI application is based on Streamlit. In this example we're going to show ho
     export VM_INSTANCE_NAME='neo4j-generative-ai-google-cloud'
     export GCP_PROJECT_NAME=$(gcloud config get-value project)
     gcloud compute instances create $VM_INSTANCE_NAME \
-        --project=$GCP_PROJECT_NAME \
-        --zone=us-central1-c \
-        --machine-type=e2-medium \
-        --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
-        --maintenance-policy=MIGRATE --provisioning-model=STANDARD \
-        --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/trace.append \
-        --tags=allow-http,http-server \
-        --create-disk=auto-delete=yes,boot=yes,device-name=$VM_INSTANCE_NAME,image=projects/debian-cloud/global/images/debian-11-bullseye-v20230615,mode=rw,size=10,type=projects/$GCP_PROJECT_NAME/zones/us-central1-c/diskTypes/pd-balanced \
-        --no-shielded-secure-boot \
-        --shielded-vtpm --shielded-integrity-monitoring \
-        --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
+        --image-project debian-cloud \
+        --image-family debian-12 \
+        --zone="us-central1-a"
         
 
 Next, login to the new VM instance:
 
-    gcloud compute ssh --zone "us-central1-c" $VM_INSTANCE_NAME --project $GCP_PROJECT_NAME
+    gcloud compute ssh --zone "us-central1-a" $VM_INSTANCE_NAME --project $GCP_PROJECT_NAME
 
 We're going to be running the application on port 80.  That requires root access, so first:
 
@@ -58,9 +49,9 @@ Then you'll need to install git and clone this repo:
     mkdir -p /app
     cd /app
     git clone https://github.com/neo4j-partners/neo4j-generative-ai-google-cloud.git
-    cd neo4j-generative-ai-google-cloud
+    cd neo4j-generative-ai-google-cloud/assetmanager
 
-Login using GCP credentials via the `gcloud` cli.
+Login using GCP credentials via the `gcloud` cli or assign Vertex AI API access via Service Account to the Compute Engine
 
     gcloud auth application-default login
 

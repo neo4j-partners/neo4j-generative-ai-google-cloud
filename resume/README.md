@@ -30,22 +30,14 @@ The UI application is based on Streamlit. In this example we're going to show ho
     export VM_INSTANCE_NAME='neo4j-gcp-genai-demo'
     export GCP_PROJECT_NAME=$(gcloud config get-value project)
     gcloud compute instances create $VM_INSTANCE_NAME \
-        --project=$GCP_PROJECT_NAME \
-        --zone=us-central1-c \
-        --machine-type=e2-medium \
-        --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
-        --maintenance-policy=MIGRATE --provisioning-model=STANDARD \
-        --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/trace.append \
-        --tags=allow-http,http-server \
-        --create-disk=auto-delete=yes,boot=yes,device-name=$VM_INSTANCE_NAME,image=projects/debian-cloud/global/images/debian-11-bullseye-v20230629,mode=rw,size=10,type=projects/$GCP_PROJECT_NAME/zones/us-central1-c/diskTypes/pd-balanced \
-        --no-shielded-secure-boot \
-        --shielded-vtpm --shielded-integrity-monitoring \
-        --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
+        --image-project debian-cloud \
+        --image-family debian-12 \
+        --zone="us-central1-a"
         
 
 Next, login to the new VM instance:
 
-    gcloud compute ssh --zone "us-central1-c" $VM_INSTANCE_NAME --project $GCP_PROJECT_NAME
+    gcloud compute ssh --zone "us-central1-a" $VM_INSTANCE_NAME --project $GCP_PROJECT_NAME
 
 We're going to be running the application on port 80.  That requires root access, so first:
 
@@ -56,10 +48,10 @@ Then you'll need to install git and clone this repo:
     apt install -y git
     mkdir -p /app
     cd /app
-    git clone https://github.com/neo4j-partners/intelligent-app-google-generativeai-neo4j.git
-    cd intelligent-app-google-generativeai-neo4j
+    git clone https://github.com/neo4j-partners/neo4j-generative-ai-google-cloud.git
+    cd neo4j-generative-ai-google-cloud/resume
 
-Login using GCP credentials via the `gcloud` cli.
+Login using GCP credentials via the `gcloud` cli or assign Vertex AI API access via Service Account to the Compute Engine
 
     gcloud auth application-default login
 

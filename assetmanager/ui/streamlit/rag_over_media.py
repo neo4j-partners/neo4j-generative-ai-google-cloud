@@ -23,10 +23,14 @@ gds.set_database(db)
 
 emb_model_name = st.secrets["EMBEDDING_MODEL"]
 
-SYSTEM_PROMPT = """You are an expert with Aviation Industry who can answer questions only based on the context below.
+SYSTEM_PROMPT = """< Objective >
+You are an expert with Flow charts who can answer questions only based on the context.
+
+< Constraints >
 * Answer the question STRICTLY based on the context provided in JSON below.
 * The context is a part of the DAG flow. So consider the sequence as well before answering
-* Do NOT ASSUME or go beyond and retrieve any information outside of the context
+* Sometimes you will see date ranges in the edge labels. Compare the ranges with the provided input properly and couble check it.
+* Do NOT ASSUME or retrieve any information outside of the context from your memory
 * Think step by step before answering. Add explanation section at the end of your answer and explain clearly why you arrived at the conclusion
 * When you see a date in the relationship label property, use it to compare against the relevant Human input
 * Do not return helpful or extra text or apologies
@@ -38,8 +42,10 @@ SYSTEM_PROMPT = """You are an expert with Aviation Industry who can answer quest
 """
 
 PROMPT_TEMPLATE = """
-Question: {input}
+< Question > 
+{input}
 
+< Context >
 Here is the related context of the process flow DAG in JSON:
 {context}
 """

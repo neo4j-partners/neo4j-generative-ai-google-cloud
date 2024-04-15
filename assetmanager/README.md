@@ -22,7 +22,7 @@ This demo requires a Neo4j instance.  You can deploy that using the GCP Marketpl
 This demo uses multiple GenAI Models inside the Vertex GenAI Model Garden. Please ensure that you have access to these Models:
 - Text Embedding Gecko
 - Gemini Pro 1.5
-- Anthropic Claude Sonnet V3
+- Anthropic Claude Opus or Sonnet V3
 
 ## UI
 The UI application is based on Streamlit. In this example we're going to show how to run it on a [Google Compute Engine (GCE)](https://console.cloud.google.com/compute/instances) VM.  First, deploy a VM. You need to replace your environment specific values in the command below:
@@ -94,7 +94,8 @@ You will now need to edit that file to reflect your credentials. The file has th
     SUMMARY_MODEL = "" #e.g. gemini-1.5-pro-preview-0409
     CYPHER_MODEL = "" #e.g. gemini-1.5-pro-preview-0409
     EMBEDDING_MODEL  = "" #e.g. textembedding-gecko@003. Ensure that the same model is provided during the ingestion phases in the `2-text-embedding.ipynb` notebook
-    MULTIMODAL_MODEL = "" #e.g. claude-3-sonnet@20240229
+    MULTIMODAL_MODEL = "" #e.g. claude-3-opus@20240229
+    MULTIMODAL_MODEL_LOCATION = "" #e.g. us-east5
     # NEO4J
     NEO4J_HOST = "neo4j+s://URL"
     NEO4J_PORT = "7687"

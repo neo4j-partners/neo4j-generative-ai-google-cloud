@@ -90,9 +90,7 @@ with st.expander("Chat"):
       <th colspan="3">Sample Questions to try out</th>
    </tr>
    <tr>
-      <td>What should I do if my flight landed and have no connecting flight?</td>
       <td>My travel date is Aug 3, 2020. Will I get a refund if my flight was not cancelled by SQ</td>
-      <td>My travel date is Mar 14, 2020 and I used it partially. Will I get a refund if my flight was not cancelled by SQ</td>
    </tr>
    <tr>
       <td></td>

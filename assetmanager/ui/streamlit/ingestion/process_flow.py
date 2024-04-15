@@ -13,7 +13,7 @@ import ingestion.llm_util as llm_util
 from timeit import default_timer as timer
 
 project_id = st.secrets["GCP_PROJECT"]
-location = st.secrets["GCP_LOCATION"]
+location = st.secrets["MULTIMODAL_MODEL_LOCATION"]
 
 host = st.secrets["NEO4J_HOST"]+":"+st.secrets["NEO4J_PORT"]
 user = st.secrets["NEO4J_USER"]
@@ -33,8 +33,15 @@ emb_model_name = st.secrets["EMBEDDING_MODEL"]
 EMBEDDING_MODEL = TextEmbeddingModel.from_pretrained(emb_model_name)
 model_name = st.secrets["MULTIMODAL_MODEL"]
 
-process_flow_prompt = """From the process image provided, extract the flow as a Graph of nodes and edges in json format. Do not miss any of these information.
-* Any text at the start of the image and outside the flow chart box are the title and subtitle. Add them inside the first flow chart box JSON object. 
+process_flow_prompt = """<Objective>
+You are a Process Flow Image to Graph converter who can take a flow chart image and convert the flow to a graph.
+
+<Instructions>
+From the process image provided, extract the flow as a Graph of nodes and edges in json format. Do not miss any of these information.
+
+<Constraints>
+From the process image provided, extract the flow as a Graph of nodes and edges in json format. Do not miss any of these information.
+* Any text at the start of the image and outside the flow chart box are the title and subtitle. Add them inside the first flow chart box JSON object as Start node.
 * Treat each box as separate nodes even if they contain same text inside
 * Restrict to the following keys for nodes object:
     - id //lower-case alphanumeric id to refer in the edges object
@@ -42,18 +49,19 @@ process_flow_prompt = """From the process image provided, extract the flow as a 
     - type //If the label is a question, then it's a decision box no matter the shape of the box itself. Use `process` for other boxes that are not `start` or `end` or `decision`, 
     - terms //A box CONNECTED via DOTTED edges to the flow box are considered as terms. So, place those text inside the terms key of the connected flow box. Sometimes a single can be connected to more than one boxes. In that case, include the term to each of the boxes connected. Has to be string not list. 
     - Create relevant keys (in camelCases. ignore special characters for key names) and values for any text outside the box but refer the process. These texts will be UNCONNECTED boxes closer to the box. Eg. cost for each class of fares. Remember this and do not miss these key info. They are not to be confused with `terms`
-* Restrict to the following keys for edges object:
+    * PLEASE DO NOT confuse between edge labels and node labels. So, do not create a new node for an edge label. Eg: edge label `Yes` for a decision box is not a process flow step.
+* Restrict to the following keys for edges object: //Never leave any node defined earlier unconnected here
     - label //the text that refer to the edge in the flow chart
     - from //id of the source node
     - to //id of the target node. This should not be equal to `from` node
 * Text inside boxes are not unique. So do not assume if 2 boxes with same text are one and the same. So, you have to create 2 different nodes
-* REMEMBER: Create new node object every time even if the text/label inside is same with previous nodes. This is SUPER IMPORTANT.
-  Please be careful with this point, as decision steps can be wrongly reused
+* REMEMBER: Create new node object every time even if the text/label inside is same with previous nodes. This is SUPER IMPORTANT. Please be careful with this point, as decision steps can be wrongly reused
 * Ensure that you extract all the edges. Do not pass empty or invalid node references in the edge object
-* Please double-check the DAG you created above and ensure it fits the image input
-* PLEASE DO NOT confuse between edge labels and node labels.
 * REMEMBER: Boxes with dotted connecting lines are terms and not process flow themselves.
+* Please double-check the DAG you created above and ensure it fits the image input
 
+<Output format>
+The output format must be only JSON. Enclose it in a code block. No other text in the response
 """
 
 def run_pipeline(img_data, img_name, img_type):
@@ -148,7 +156,7 @@ def create_rel_map(in_json):
           if 'label' in j:
             text = j['label']
           if len(text) <= 0:
-                continue
+                text = 'NEXT'
           if src_id not in rel_map:
                 rel_map[src_id] = text
           else:
@@ -182,8 +190,9 @@ def generate_cypher_with_vector_emb(in_json):
             }
             j = json.dumps(meta)
             process_meta = f'About: {j}'
-            continue
-          props = ''
+            _type = j.get('type', 'process').lower()
+            if _type == 'start':
+                continue
           label = j.get('type', 'process').capitalize()
           types.add(label)
           i = i + 1

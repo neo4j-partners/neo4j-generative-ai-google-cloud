@@ -11,7 +11,7 @@ import streamlit as st
 import ingestion.llm_util as llm_util
 from vertexai.language_models import TextEmbeddingModel
 from json import loads
-from semantic_layer.semantic_fn import sec_tool, tpl_fn
+from semantic_layer.semantic_fn import sec_tool, tpl_fn, run_vector_search
 
 llm_util.init()
 
@@ -79,8 +79,8 @@ def get_results(question):
             r = {'context': ctx, 'result': result}
             return r
         elif df is None:
-            ans = PROMPT.format(input=question, 
-                    context='No related information in the DB')
+            df = run_vector_search(question)
+            ans = PROMPT.format(input=question, context=df)
             result = llm_util.call_text_model(ans, SYSTEM_PROMPT)
             return {'context': {}, 'result': result}
         else:

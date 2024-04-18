@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_chat import message
-from streamlit.components.v1 import html
 from english2results import get_results
 from timeit import default_timer as timer
 from ui_utils import render_header_svg

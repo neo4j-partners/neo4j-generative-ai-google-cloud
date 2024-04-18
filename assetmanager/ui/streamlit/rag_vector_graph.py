@@ -8,7 +8,6 @@ import ingestion.llm_util as llm_util
 from vertexai.language_models import TextEmbeddingModel
 from neo4j_driver import run_query
 from json import loads
-import yaml
 
 llm_util.init()
 
@@ -40,7 +39,7 @@ PROMPT = PromptTemplate(
 EMBEDDING_MODEL = TextEmbeddingModel.from_pretrained(emb_model_name)
 
 
-def vector_graph_qa(query):
+def vector_graph_qa(query): 
     query_vector = EMBEDDING_MODEL.get_embeddings([query])
     return run_query("""
     CALL db.index.vector.queryNodes('document-embeddings', 50, $queryVector)
